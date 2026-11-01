@@ -1,0 +1,98 @@
+{
+  "tarih": "2026-11-07",
+  "ay": "Kasım",
+  "gunno": "7",
+  "onaylandi": false,
+  "facebook": true,
+  "liste": [
+    [
+      "1999",
+      null,
+      "Milli sporcu Yasemin Dalkılıç, Bodrum'da 68 metreye dalarak ilk serbest dalış dünya rekorunu kırdı."
+    ],
+    [
+      "1917",
+      null,
+      "Rusya'da Bolşevikler Petrograd'da iktidarı ele geçirdi (Jülyen takvimine göre 25 Ekim)."
+    ],
+    [
+      "1867",
+      null,
+      "İki farklı bilim dalında Nobel kazanan ilk kişi olacak Marie Curie, Varşova'da doğdu."
+    ]
+  ],
+  "gonderiler": [
+    {
+      "kod": "g1-cami",
+      "tema": "normal",
+      "yil": "1414",
+      "hicri": "817",
+      "hook": "Fatih'in davet ettiği âlim: Molla Câmî",
+      "short": "Nakşibendî âlim ve şair Abdurrahman Câmî, 23 Şaban 817'de Horasan'da dünyaya geldi.",
+      "tipo_buyuk": "5.000",
+      "tipo_alt": "ALTINLIK DAVET",
+      "tipo_not": "Fatih Sultan Mehmed'den Molla Câmî'ye",
+      "kaynaklar": "Kaynak: TDV İslam Ansiklopedisi (Câmî, Abdurrahman; Ömer Okumuş)",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Horasan'dan Semerkant'a",
+          "23 Şaban 817'de (7 Kasım 1414) Horasan'daki Harcird'de doğdu. Herat'ta okudu; Semerkant'ta Uluğ Bey Medresesi'nde Kadızâde-i Rûmî'den matematik dersleri aldı."
+        ],
+        [
+          "O AN",
+          "Ali Kuşçu'nun hayranlığı",
+          "Ünlü astronom Ali Kuşçu, Herat'a geldiğinde Câmî'ye zor astronomi soruları sordu. Cevapları hemen alınca hayranlığını gizleyemedi."
+        ],
+        [
+          "SONRASI",
+          "Fatih'in daveti",
+          "Fatih Sultan Mehmed onu 5.000 altınla İstanbul'a davet etmek için elçi gönderdi; Câmî Halep'ten ayrılmış olduğu için davet gerçekleşmedi. 1492'de Herat'ta vefat etti."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Medreselerin kitabı",
+          "Oğlu için yazdığı Arapça dil bilgisi şerhi \"Molla Câmî\" adıyla anıldı ve Türk medreselerinde yakın zamana kadar ders kitabı olarak okutuldu."
+        ]
+      ],
+      "ig_metin": "23 Şaban 817'de (7 Kasım 1414) âlim ve şair Abdurrahman Câmî, Horasan'ın Câm bölgesindeki Harcird kasabasında doğdu. Daha çok Molla Câmî adıyla tanınır.\n\nHerat'ta ve Semerkant'ta okudu. Ünlü astronom Ali Kuşçu, Herat'ta ona zor astronomi soruları sordu; cevapları hemen alınca hayranlığını gizleyemedi.\n\nFatih Sultan Mehmed, onu İstanbul'a davet etmek için 5.000 altınla bir elçi gönderdi, ancak Câmî yola çıkmış olduğu için davet gerçekleşmedi. Oğlu için yazdığı Arapça dil bilgisi şerhi ise \"Molla Câmî\" adıyla Türk medreselerinde yakın zamana kadar okutuldu.\n\n#tarihtebugün #mollacâmî #islamtarihi #herat",
+      "fb_metin": "Tarihte bugün, 23 Şaban 817 (7 Kasım 1414).\n\nNakşibendî âlim ve şair Abdurrahman Câmî, Horasan'ın Câm bölgesindeki Harcird kasabasında doğdu. Daha çok Molla Câmî unvanıyla tanınır; \"Câmî\" mahlasını doğduğu yere nisbetle aldı.\n\nHerat'ta Nizâmiye Medresesi'nde okudu, ardından Semerkant'ta Uluğ Bey Medresesi'nde Kadızâde-i Rûmî'den matematik dersleri aldı. Astronom Ali Kuşçu Herat'a geldiğinde ona zor sorular sordu ve cevapları hemen alınca hayranlığını gizleyemedi.\n\nŞöhreti Osmanlı sarayına da ulaştı. Fatih Sultan Mehmed, onu İstanbul'a davet etmek için 5.000 altınla bir elçi gönderdi; ancak Câmî Halep'ten ayrılmış olduğu için davet gerçekleşmedi. II. Bayezid ile de mektuplaştı. Ali Şîr Nevâî ise yakın dostu ve müridiydi.\n\nOğlu için yazdığı Arapça dil bilgisi şerhi \"Molla Câmî\" adıyla anıldı ve Türk medreselerinde yakın zamana kadar ders kitabı olarak okutuldu. 18 Muharrem 898'de (9 Kasım 1492) Herat'ta vefat etti.\n\n#tarihtebugün #MollaCâmî #İslamTarihi"
+    },
+    {
+      "kod": "g2-gumru",
+      "tema": "huzunlu",
+      "yil": "1920",
+      "hicri": null,
+      "hook": "Doğu Cephesi: Türk birlikleri Gümrü'ye girdi",
+      "short": "Kâzım Karabekir Paşa komutasındaki birlikler, ateşkesin ardından boşaltılan Gümrü'ye girdi.",
+      "tipo_buyuk": "1920",
+      "tipo_alt": "DOĞU CEPHESİ",
+      "tipo_not": "Sarıkamış · Kars · Gümrü",
+      "kaynaklar": "Kaynaklar: Askerî Tarih Belgeleri Dergisi (MSB, sayı 106 ve 111), TDV İslam Ansiklopedisi (Kâzım Karabekir), DergiPark",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Doğu harekâtı",
+          "TBMM Hükümeti'nin onayıyla 28 Eylül 1920'de başlayan harekâtta Türk birlikleri ertesi gün Sarıkamış'ı, 30 Ekim'de Kars'ı aldı."
+        ],
+        [
+          "O AN",
+          "Ateşkes ve Gümrü",
+          "Ermeni tarafı 6 Kasım'da ateşkes istedi. 7 Kasım'da ateşkes imzalandı, Gümrü boşaltıldı ve Türk birlikleri şehre girdi."
+        ],
+        [
+          "SONRASI",
+          "İkinci ateşkes",
+          "Ankara'nın 8 Kasım'da bildirdiği şartlar kabul edilmeyince çatışmalar yeniden başladı. 18 Kasım'da yeni bir ateşkes imzalandı."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Doğudan batıya",
+          "Aralık 1920'deki Gümrü Antlaşması ile Doğu Cephesi kapandı. Cephedeki silah, cephane ve birliklerin bir kısmı Batı Cephesi'ne kaydırıldı."
+        ]
+      ],
+      "ig_metin": "7 Kasım 1920'de Doğu Cephesi Komutanı Kâzım Karabekir Paşa'nın birlikleri Gümrü'ye girdi.\n\nTBMM Hükümeti'nin onayıyla 28 Eylül 1920'de başlayan doğu harekâtında Türk birlikleri önce Sarıkamış'ı, 30 Ekim'de de Kars'ı aldı. 6 Kasım'da Ermeni tarafı ateşkes istedi; ertesi gün ateşkes imzalandı ve Gümrü boşaltıldı.\n\nÇatışmalar kısa süre sonra yeniden başladı ve ikinci bir ateşkesle sona erdi. Aralık 1920'de imzalanan Gümrü Antlaşması ile Doğu Cephesi kapandı ve buradaki silah ve cephanenin bir kısmı Batı Cephesi'ne gönderildi. Antlaşmayla Ermenistan, Sevr Antlaşması'nda kendisine tanınan haklardan vazgeçti.\n\n#tarihtebugün #millimücadele #kazımkarabekir #doğucephesi",
+      "fb_metin": "Tarihte bugün, 7 Kasım 1920.\n\nBundan 106 yıl önce bugün, Millî Mücadele'nin Doğu Cephesi'nde, Kâzım Karabekir Paşa komutasındaki Türk birlikleri Gümrü'ye girdi.\n\nTBMM Hükümeti'nin onayıyla 28 Eylül 1920'de başlayan harekâtta Türk birlikleri ertesi gün Sarıkamış'ı, 30 Ekim'de de Kars'ı aldı. Kâzım Karabekir Paşa bu başarıların ardından TBMM kararıyla ferik rütbesine yükseltildi. İlerleyişin Gümrü önlerine ulaşması üzerine Ermeni tarafı 6 Kasım'da ateşkes istedi. 7 Kasım'da ateşkes imzalandı ve Gümrü boşaltıldı.\n\nAnkara Hükümeti'nin 8 Kasım'da bildirdiği şartlar kabul edilmeyince çatışmalar yeniden başladı. Ermeni tarafının şartları kabul etmesiyle 18 Kasım'da yeni bir ateşkes imzalandı.\n\nAralık 1920'de imzalanan Gümrü Antlaşması ile Doğu Cephesi'ndeki savaş sona erdi. Antlaşmayla Ermenistan, Sevr Antlaşması'nda kendisine tanınan haklardan vazgeçti. Cephedeki silah, cephane ve birliklerin bir kısmı daha sonra Batı Cephesi'ne kaydırılarak oradaki mücadeleye destek oldu.\n\n#tarihtebugün #MillîMücadele #KâzımKarabekir"
+    }
+  ]
+}
