@@ -65,9 +65,10 @@ def ig_hikaye(ig, tarih, f, kuru):
 
 def fb_coklu(page, tarih, g, kuru):
     if kuru:
-        for f in g["gorseller"]:
-            urllib.request.urlopen(urllib.request.Request(gorsel_url(tarih, f), method="HEAD"), timeout=60)
-        log("  [KURU] FB görselleri erişilebilir:", g["kod"]); return
+        # Görünmeyen (yayınlanmamış) bir fotoğraf yükleyip hemen silerek sayfa iznini dener.
+        pid = istek(f"{page}/photos", {"url": gorsel_url(tarih, g["gorseller"][0]), "published": "false"})["id"]
+        istek(pid, {"method": "delete"})
+        log("  [KURU] FB sayfa yükleme izni çalışıyor (deneme fotoğrafı silindi):", g["kod"]); return
     ids = [istek(f"{page}/photos", {"url": gorsel_url(tarih, f), "published": "false"})["id"] for f in g["gorseller"]]
     veri = {"message": g.get("fb_metin") or g["ig_metin"]}
     for i, pid in enumerate(ids): veri[f"attached_media[{i}]"] = json.dumps({"media_fbid": pid})
@@ -92,14 +93,25 @@ def main():
     if not plan.get("onaylandi") and not a.kuru:
         print("::warning::Plan onaylı değil (onaylandi=false); yayın yapılmadı.", flush=True); return
     ig, page = os.environ["IG_USER_ID"], os.environ["FB_PAGE_ID"]
+    ben = istek("me", {"fields": "id"}, "GET")
+    log("Anahtar türü:", "SAYFA anahtarı (doğru)" if ben.get("id") == page else "KULLANICI anahtarı — Facebook yayını için sayfa anahtarı gerekir")
     hesap = istek(ig, {"fields": "username"}, "GET"); log("Hesap:", hesap.get("username"), "| tarih:", tarih, "| kuru:" if a.kuru else "")
+    hatalar = []
+    def dene(ad, fn, *args):
+        # Bir adım hata verirse kaydedip sıradakine geçer; diğer gönderiler etkilenmez.
+        try:
+            fn(*args)
+        except SystemExit as e:
+            hatalar.append(f"{ad}: {e}"); print(f"::error::{ad}: {e}", flush=True)
     for g in plan["gonderiler"]:
         log("Gönderi:", g["kod"])
-        ig_carousel(ig, tarih, g, a.kuru)
-        if plan.get("facebook", True): fb_coklu(page, tarih, g, a.kuru)
+        dene(f"Instagram {g['kod']}", ig_carousel, ig, tarih, g, a.kuru)
+        if plan.get("facebook", True): dene(f"Facebook {g['kod']}", fb_coklu, page, tarih, g, a.kuru)
         time.sleep(5)
     for f in plan.get("hikayeler", []):
-        ig_hikaye(ig, tarih, f, a.kuru); time.sleep(3)
+        dene(f"Hikâye {f}", ig_hikaye, ig, tarih, f, a.kuru); time.sleep(3)
+    if hatalar:
+        raise SystemExit(f"{len(hatalar)} adım başarısız oldu: " + " | ".join(hatalar))
     log("Bitti.")
 
 if __name__ == "__main__":
