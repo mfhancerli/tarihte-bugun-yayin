@@ -1,0 +1,101 @@
+{
+  "tarih": "2026-11-03",
+  "ay": "Kasım",
+  "gunno": "3",
+  "onaylandi": false,
+  "facebook": true,
+  "liste": [
+    [
+      "1936",
+      null,
+      "Cumhuriyet döneminin ilk betonarme barajı olan Çubuk Barajı, Ankara'da törenle hizmete açıldı."
+    ],
+    [
+      "1957",
+      null,
+      "Sovyetler Birliği, Layka adlı köpeği taşıyan Sputnik 2'yi fırlattı; Dünya yörüngesine çıkan ilk canlı Layka oldu."
+    ],
+    [
+      "1903",
+      null,
+      "Panama, Kolombiya'dan ayrıldığını ilan etti."
+    ]
+  ],
+  "gonderiler": [
+    {
+      "kod": "g1-koprulu",
+      "tema": "huzunlu",
+      "yil": "1676",
+      "hicri": "1087",
+      "hook": "Medreseden sadrazamlığa: Köprülüzâde Fâzıl Ahmed Paşa",
+      "short": "Osmanlı Devleti'ni 15 yıl sadrazam olarak yöneten Köprülüzâde Fâzıl Ahmed Paşa, 350 yıl önce bugün vefat etti.",
+      "tipo_buyuk": "350",
+      "tipo_alt": "YIL ÖNCE BUGÜN",
+      "tipo_not": "Sadrazamlık: 1661-1676",
+      "kaynaklar": "Kaynaklar: TDV İslam Ansiklopedisi (Köprülüzâde Fâzıl Ahmed Paşa), Britannica, Karadeniz Uluslararası Bilimsel Dergi",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Babasının izinden",
+          "1635'te Köprü (bugünkü Vezirköprü) kasabasında doğdu. Babası, sadrazam Köprülü Mehmed Paşa'ydı."
+        ],
+        [
+          "O AN",
+          "Önce müderris, sonra sadrazam",
+          "On altı yaşından itibaren İstanbul medreselerinde müderrislik yaptı. 1 Kasım 1661'de, babasının vefatının ardından sadrazamlığa getirildi."
+        ],
+        [
+          "SONRASI",
+          "Uyvar, Kandiye, Kamaniçe",
+          "Uyvar (1663), Kandiye (1669) ve Kamaniçe (1672) seferlerini yönetti. 3 Kasım 1676'da Çorlu yakınlarında vefat etti; babasının Çemberlitaş'taki türbesine defnedildi."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Kitap seven sadrazam",
+          "İcazetli bir hattattı. Çemberlitaş'ta bir kütüphane yaptırıp değerli kitaplar vakfetti; Hezarfen Hüseyin Efendi gibi âlim ve şairleri himaye etti."
+        ]
+      ],
+      "ig_metin": "Bundan tam 350 yıl önce, 3 Kasım 1676'da Osmanlı sadrazamı Köprülüzâde Fâzıl Ahmed Paşa vefat etti.\n\n1635'te Köprü (bugünkü Vezirköprü) kasabasında doğdu; babası sadrazam Köprülü Mehmed Paşa'ydı. On altı yaşından itibaren İstanbul medreselerinde müderrislik yaptı. 1661'de babasının vefatının ardından sadrazam oldu. Göreve geldiğinde henüz yirmili yaşlarındaydı ve bu görevi ölümüne kadar 15 yıl sürdürdü.\n\nSadrazamlığı döneminde Uyvar (1663), Kandiye (1669) ve Kamaniçe (1672) seferlerini yönetti. İcazetli bir hattattı; Çemberlitaş'ta bir kütüphane yaptırıp kitaplar vakfetti ve âlimleri himaye etti.\n\nKendisini rahmetle anıyoruz.\n\n#tarihtebugün #osmanlı #köprülü #sadrazam",
+      "fb_metin": "Tarihte bugün, 3 Kasım 1676.\n\nOsmanlı sadrazamı Köprülüzâde Fâzıl Ahmed Paşa, bundan tam 350 yıl önce bugün vefat etti.\n\n1635'te Köprü (bugünkü Vezirköprü) kasabasında doğdu. Babası, Osmanlı sadrazamı Köprülü Mehmed Paşa'ydı. On altı yaşından itibaren Ahmed Paşa, Kasım Paşa, Sahn-ı Semân ve Sultan Selim medreselerinde müderrislik yaptı. Babasının 1661'deki vefatının ardından sadrazamlığa getirildi. Göreve geldiğinde henüz yirmili yaşlarındaydı ve bu görevi ölümüne kadar 15 yıl sürdürdü.\n\nSadrazamlığı boyunca Uyvar (1663), Kandiye (1669) ve Kamaniçe (1672) seferlerini yönetti; Kandiye Kalesi'nin teslim alınması uzun süren Girit kuşatmasını sona erdirdi. Kitaba ve ilme düşkün bir devlet adamıydı: icazetli bir hattattı, Çemberlitaş'taki konağının yanına bir kütüphane yaptırıp değerli kitaplar vakfetti ve Hezarfen Hüseyin Efendi gibi âlim ve şairleri himaye etti.\n\n3 Kasım 1676'da Çorlu yakınlarında vefat etti ve babasının Çemberlitaş'taki türbesine defnedildi.\n\n#tarihtebugün #Osmanlı #Köprülü"
+    },
+    {
+      "kod": "g2-tanzimat",
+      "tema": "normal",
+      "yil": "1839",
+      "hicri": "1255",
+      "hook": "Tanzimat Fermanı Gülhane'de okundu",
+      "short": "Hariciye Nazırı Mustafa Reşid Paşa, Sultan Abdülmecid adına hazırlanan fermanı Gülhane'de, devlet erkânı ve yabancı elçilerin önünde okudu.",
+      "tipo_buyuk": "1839",
+      "tipo_alt": "GÜLHANE",
+      "tipo_not": "Gülhane Hatt-ı Hümâyunu",
+      "kaynaklar": "Kaynaklar: TDV İslam Ansiklopedisi (Tanzimat; Islahat Fermanı), Türk Tarih Kurumu (Belleten), Ankara Üniversitesi DTCF Dergisi",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Yeni padişah, yeni ilkeler",
+          "Sultan Abdülmecid'in 1839 yazında tahta çıkışıyla yayımladığı hatt-ı hümâyunda kanuna uyulması, rüşvetten kaçınılması ve bütün halkın güvenliği gibi ilkeler yer alıyordu."
+        ],
+        [
+          "O AN",
+          "Gülhane'deki tören",
+          "3 Kasım 1839'da Mustafa Reşid Paşa fermanı vükelâ, ulemâ, patrikler, hahambaşı, esnaf temsilcileri ve elçilerin önünde okudu. Sultan Abdülmecid töreni Gülhane Kasrı'ndan izledi."
+        ],
+        [
+          "SONRASI",
+          "Tanzimat dönemi",
+          "Ferman, tebaanın can, mal ve namus güvenliğini devlet güvencesine aldı. Başlattığı dönem 1876'ya kadar sürdü; 1856'da Islahat Fermanı ilan edildi."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Yapılmayan anıt",
+          "Tanzimatçılar fermanın okunduğu yere bir anıt dikmeyi düşünüp şeklini de belirlediler. Ancak yer saray sınırları içinde kaldığı için bu fikirden vazgeçildi."
+        ]
+      ],
+      "ig_metin": "3 Kasım 1839'da Tanzimat Fermanı, yani Gülhane Hatt-ı Hümâyunu, İstanbul'da Gülhane'de okundu.\n\nHariciye Nazırı Mustafa Reşid Paşa, Sultan Abdülmecid adına hazırlanan fermanı devlet erkânı, ulemâ, gayrimüslim cemaatlerin ruhani liderleri, esnaf temsilcileri ve yabancı elçilerin önünde okudu. Sultan Abdülmecid töreni Gülhane Kasrı'ndan izledi.\n\nFerman, tebaanın can, mal ve namus güvenliğini devlet güvencesine alıyordu. Başlattığı ve \"Tanzimat\" adıyla anılan dönem 1876'ya kadar sürdü.\n\nAz bilinen bir ayrıntı: Fermanın okunduğu yere bir anıt dikilmesi düşünüldü, ama yer saray sınırları içinde kaldığı için bu fikirden vazgeçildi.\n\n#tarihtebugün #tanzimat #osmanlı #gülhane",
+      "fb_metin": "Tarihte bugün, 3 Kasım 1839.\n\nTanzimat Fermanı, yani Gülhane Hatt-ı Hümâyunu, bu tarihte İstanbul'da Gülhane'de okundu.\n\nSultan Abdülmecid, 1839 yazında tahta çıktığında yayımladığı hatt-ı hümâyunda kanuna uyulması, rüşvetten kaçınılması ve bütün halkın güvenliğinin sağlanması gibi ilkelere yer vermişti. Birkaç ay sonra bu ilkeler daha kapsamlı bir fermanla ilan edildi.\n\nHariciye Nazırı Mustafa Reşid Paşa, fermanı vükelâ, ulemâ, Rum ve Ermeni patrikleri, hahambaşı, esnaf temsilcileri ve yabancı elçilerin önünde okudu. Sultan Abdülmecid töreni Gülhane Kasrı'ndan izledi.\n\nFerman, bütün tebaanın can, mal ve namus güvenliğini devlet güvencesine aldı. Başlattığı Tanzimat dönemi 1876'ya kadar sürdü; bu dönemde 1856'da Islahat Fermanı da ilan edildi.\n\nTanzimatçılar fermanın okunduğu yere bir anıt dikmeyi düşünüp şeklini bile belirlemişti. Ancak yer saray sınırları içinde kaldığı için halkın ziyareti zor olacaktı ve anıt yapılmadı.\n\n#tarihtebugün #Tanzimat #Osmanlı",
+      "gorsel_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Edict_of_G%C3%BClhane.jpg/1280px-Edict_of_G%C3%BClhane.jpg",
+      "gorsel_odak": "center",
+      "gorsel_kaynak": "Gülhane Hatt-ı Hümâyunu, Wikimedia Commons (kamu malı)"
+    }
+  ]
+}
