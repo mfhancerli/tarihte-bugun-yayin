@@ -1,0 +1,40 @@
+name: Günlük yayın
+
+on:
+  schedule:
+    - cron: "40 20 * * *"   # 23:40 İstanbul; betik 00:00'ı bekler
+  workflow_dispatch:
+    inputs:
+      tarih:
+        description: "Tarih (YYYY-AA-GG), boş = bugün"
+        required: false
+      kuru:
+        description: "Kuru çalıştırma (yayınlamadan dene)"
+        type: boolean
+        default: true
+
+concurrency: yayin
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Yayınla
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            ARGS="--bekle"
+          else
+            [ -n "${{ inputs.tarih }}" ] && ARGS="--tarih ${{ inputs.tarih }}"
+            [ "${{ inputs.kuru }}" = "true" ] && ARGS="$ARGS --kuru"
+          fi
+          python scripts/yayinla.py $ARGS
