@@ -1,0 +1,42 @@
+name: Görselleri hazırla
+
+on:
+  push:
+    branches: [main]
+    paths: ["icerik/**", "scripts/sablon.py", "scripts/hazirla.py"]
+  workflow_dispatch:
+    inputs:
+      tarih:
+        description: "Tarih (YYYY-AA-GG), boş = bugün ve sonrası"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency: hazirla
+
+jobs:
+  hazirla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Araçlar ve yazı tipleri
+        run: |
+          pip install -q playwright pillow
+          python -m playwright install --with-deps chromium
+          mkdir -p ~/.fonts
+          curl -sSfL -o ~/.fonts/PlayfairDisplay.ttf "https://github.com/google/fonts/raw/main/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf"
+          curl -sSfL -o ~/.fonts/WorkSans.ttf "https://github.com/google/fonts/raw/main/ofl/worksans/WorkSans%5Bwght%5D.ttf"
+          fc-cache -f
+      - name: Görselleri üret
+        run: python scripts/hazirla.py ${{ inputs.tarih && format('--tarih {0}', inputs.tarih) || '' }}
+      - name: Depoya kaydet
+        run: |
+          git config user.name "tarihte-bugun-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add yayin
+          git diff --cached --quiet || (git commit -m "Görseller üretildi" && git push)

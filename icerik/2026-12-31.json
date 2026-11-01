@@ -1,0 +1,105 @@
+{
+  "tarih": "2026-12-31",
+  "aciklama": "KURULUM TESTİ — 2 Kasım içeriğiyle; yayınlanmaz",
+  "ay": "Kasım",
+  "gunno": "2",
+  "onaylandi": false,
+  "facebook": true,
+  "liste": [
+    [
+      "1914",
+      null,
+      "Karadeniz'deki Rus limanlarının bombardımanının ardından Rusya, Osmanlı Devleti'ne savaş ilan etti."
+    ],
+    [
+      "1964",
+      null,
+      "Suudi Arabistan'da Kral Suud tahttan indirildi; yerine kardeşi Faysal kral ilan edildi."
+    ],
+    [
+      "1981",
+      null,
+      "Türkiye'nin ekonomi politikalarının tartışıldığı İkinci Türkiye İktisat Kongresi İzmir'de toplandı."
+    ]
+  ],
+  "gonderiler": [
+    {
+      "kod": "g1-balfour",
+      "tema": "normal",
+      "yil": "1917",
+      "hicri": null,
+      "hook": "Balfour Deklarasyonu: 67 kelimelik bir cümle",
+      "short": "İngiltere Dışişleri Bakanı Arthur Balfour, Filistin'de Yahudi halkı için bir \"ulusal yurt\" kurulmasını desteklediklerini Lord Rothschild'e yazdığı mektupla bildirdi. O sırada Filistin, Osmanlı toprağıydı.",
+      "tipo_buyuk": "67",
+      "tipo_alt": "KELİME",
+      "tipo_not": "Mektubun deklarasyon bölümü tek bir cümleden oluşuyordu.",
+      "kaynaklar": "Kaynaklar: BM (UNISPAL), Anadolu Ajansı, Milli Gazete, Arab News, Institute for Palestine Studies",
+      "gorsel_odak": "center 42%",
+      "gorsel_kaynak": "Mektubun aslı, British Library (kamu malı)",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Savaşın ortasında bir söz",
+          "Birinci Dünya Savaşı sürüyordu. Filistin, Osmanlı Devleti'nin egemenliği altındaydı ve İngiliz kuvvetleri Filistin Cephesi'nde Osmanlı ordusuyla savaşıyordu."
+        ],
+        [
+          "O AN",
+          "2 Kasım 1917",
+          "Balfour, İngiliz hükümeti adına yazdığı mektubu İngiliz Yahudi toplumunun önde gelen isimlerinden Lord Walter Rothschild'e gönderdi. Mektup bir hafta sonra, 9 Kasım'da basında yayımlandı."
+        ],
+        [
+          "SONRASI",
+          "Sözden mandaya",
+          "İngiliz kuvvetleri Aralık 1917'de Kudüs'ü ele geçirdi. Deklarasyon, Milletler Cemiyeti Konseyi'nin 24 Temmuz 1922'de onayladığı Filistin Mandası'na dahil edildi."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Adı anılmayan çoğunluk",
+          "Mektupta Filistin'deki Araplar adıyla anılmadı; \"Yahudi olmayan topluluklar\" denildi. Bu toplulukların yalnızca medeni ve dinî haklarından söz edildi, siyasi haklarına değinilmedi."
+        ]
+      ],
+      "gorsel_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Balfour_declaration_unmarked.jpg/1920px-Balfour_declaration_unmarked.jpg",
+      "ig_metin": "2 Kasım 1917'de İngiltere Dışişleri Bakanı Arthur James Balfour, Lord Walter Rothschild'e kısa bir mektup gönderdi. Mektupta İngiliz hükümetinin, Filistin'de Yahudi halkı için bir \"ulusal yurt\" kurulmasını desteklediği bildiriliyordu.\n\nO tarihte Filistin, Osmanlı Devleti'nin egemenliği altındaydı ve Birinci Dünya Savaşı sürüyordu. Mektup bir hafta sonra basında yayımlandı. İngiliz kuvvetleri Aralık 1917'de Kudüs'ü ele geçirdi; deklarasyon 1922'de Milletler Cemiyeti'nin onayladığı Filistin Mandası'na dahil edildi.\n\nDeklarasyon bölümü 67 kelimelik tek bir cümleydi. Bu metinde Filistin'in Arap halkı adıyla anılmadı; onlardan \"Yahudi olmayan topluluklar\" diye söz edildi ve yalnızca medeni ve dinî haklarına değinildi.\n\nAyrıntılar kaydırınca.\n\n#tarihtebugün #filistin #balfour #kudüs #osmanlı",
+      "fb_metin": "Tarihte bugün, 2 Kasım 1917.\n\nİngiltere Dışişleri Bakanı Arthur James Balfour, İngiliz hükümeti adına Lord Walter Rothschild'e kısa bir mektup gönderdi. Mektupta hükümetin, Filistin'de Yahudi halkı için bir \"ulusal yurt\" kurulmasını desteklediği bildiriliyordu. Bu mektup tarihe Balfour Deklarasyonu olarak geçti.\n\nO günlerde Birinci Dünya Savaşı sürüyordu ve Filistin, Osmanlı Devleti'nin egemenliği altındaydı. İngiliz kuvvetleri Filistin Cephesi'nde Osmanlı ordusuyla savaşıyordu. Mektup bir hafta sonra, 9 Kasım'da basında yayımlandı. General Allenby komutasındaki İngiliz kuvvetleri Aralık 1917'de Kudüs'ü ele geçirdi. Deklarasyon, Milletler Cemiyeti Konseyi'nin 24 Temmuz 1922'de onayladığı Filistin Mandası'na dahil edildi.\n\nDeklarasyon bölümü 67 kelimelik tek bir cümleden oluşuyordu. Metinde o dönem Filistin nüfusunun büyük çoğunluğunu oluşturan Araplar adıyla anılmadı; \"Yahudi olmayan topluluklar\" denildi ve yalnızca bu toplulukların medeni ve dinî haklarından söz edildi.\n\n#tarihtebugün #Filistin #Kudüs"
+    },
+    {
+      "kod": "g2-gazneli",
+      "tema": "normal",
+      "yil": "971",
+      "hicri": "361",
+      "hook": "Gazneli Mahmud, Aşure günü dünyaya geldi",
+      "short": "Gazneli hükümdarı Mahmud, 10 Muharrem 361'de, yani 2 Kasım 971'de doğdu. Babası, hanedanın kurucusu Sebük Tegin'di.",
+      "tipo_buyuk": "10 MUHARREM",
+      "tipo_alt": "HİCRİ 361",
+      "tipo_not": "Hicri takvimde Muharrem ayının onuncu günü Aşure Günü'dür.",
+      "kaynaklar": "Kaynaklar: TDV İslam Ansiklopedisi (Mahmûd-ı Gaznevî; Tahkîku mâ li'l-Hind), Britannica, Türk Tarih Kurumu, Ankara Üniversitesi",
+      "gorsel_odak": "center 40%",
+      "gorsel_kaynak": "Câmiu't-tevârîh minyatürü, Edinburgh Üniversitesi Kütüphanesi (kamu malı)",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Taht kavgasıyla başlayan saltanat",
+          "Babası Sebük Tegin 997'de öldüğünde tahta kardeşi İsmail çıkarıldı. Mahmud bunu tanımadı ve 998'de İsmail'in kuvvetlerini yenerek Gazneli tahtına oturdu."
+        ],
+        [
+          "O AN",
+          "Halifeden gelen unvan",
+          "Abbasi halifesi Kādir-Billâh, 999'da Mahmud'un hükümdarlığını onayladı ve ona \"Yemînüddevle\" unvanını verdi. Mahmud, Hindistan'a çok sayıda sefer düzenledi."
+        ],
+        [
+          "SONRASI",
+          "Bir kültür merkezi: Gazne",
+          "Mahmud'un döneminde devletin sınırları kuzeybatı Hindistan'a ve İran'ın büyük bölümüne uzandı; başkent Gazne bir kültür merkezine dönüştü. Mahmud, 30 Nisan 1030'da Gazne'de vefat etti."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Sarayın âlimi: Bîrûnî",
+          "Âlim Bîrûnî, Gazne sarayında uzun süre bulundu ve Mahmud'un bazı Hindistan seferlerine katıldı. Hindistan'ın dinini, dillerini ve kültürünü anlatan Tahkîku mâ li'l-Hind'i Gazne'de yazdı, 1030'da tamamladı."
+        ]
+      ],
+      "gorsel_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mahmud_in_robe_from_the_caliph.jpg/1920px-Mahmud_in_robe_from_the_caliph.jpg",
+      "ig_metin": "Gazneli hükümdarı Mahmud, 10 Muharrem 361'de, yani 2 Kasım 971'de doğdu. Hicri takvimde bu gün Aşure Günü'ne denk gelir.\n\nBabası, hanedanın kurucusu Sebük Tegin'di. 997'de babası ölünce tahta kardeşi İsmail çıkarıldı; Mahmud 998'de onu yenerek tahta geçti. Abbasi halifesi Kādir-Billâh, 999'da hükümdarlığını onaylayarak ona \"Yemînüddevle\" unvanını verdi.\n\nOnun döneminde devletin sınırları kuzeybatı Hindistan'a ve İran'ın büyük bölümüne uzandı. Başkent Gazne bir kültür merkezine dönüştü. Âlim Bîrûnî de uzun süre Gazne sarayında bulundu ve Hindistan'ı anlatan ünlü eserini Gazne'de yazdı.\n\nMahmud, 30 Nisan 1030'da Gazne'de vefat etti.\n\n#tarihtebugün #gazneliler #türkislamtarihi #bîrûnî",
+      "fb_metin": "Tarihte bugün, 2 Kasım 971.\n\nGazneli hükümdarı Mahmud, 10 Muharrem 361'de, yani 2 Kasım 971'de dünyaya geldi. Hicri takvimde Muharrem ayının onuncu günü Aşure Günü'dür. Babası, Gazneli hanedanının kurucusu Sebük Tegin'di.\n\nSebük Tegin 997'de öldüğünde tahta kardeşi İsmail çıkarıldı. Mahmud bunu tanımadı ve 998'de İsmail'in kuvvetlerini yenerek tahta oturdu. Abbasi halifesi Kādir-Billâh, 999'da onun hükümdarlığını onayladı ve ona \"Yemînüddevle ve Emînü'l-mille\" unvanını verdi.\n\nMahmud, Hindistan'a çok sayıda sefer düzenledi. Onun döneminde devletin sınırları kuzeybatı Hindistan'a ve İran'ın büyük bölümüne uzandı; başkent Gazne bir kültür merkezine dönüştü.\n\nÂlim Bîrûnî, Gazne sarayında uzun süre bulundu ve Mahmud'un bazı Hindistan seferlerine katıldı. Hindistan'ın dinini, dillerini ve kültürünü anlatan Tahkîku mâ li'l-Hind adlı eserini Gazne'de yazdı ve 1030'da tamamladı.\n\nMahmud, 30 Nisan 1030'da Gazne'de vefat etti.\n\n#tarihtebugün #Gazneliler #TürkİslamTarihi"
+    }
+  ]
+}
