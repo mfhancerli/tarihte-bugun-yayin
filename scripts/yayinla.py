@@ -93,6 +93,8 @@ def main():
     if not plan.get("onaylandi") and not a.kuru:
         print("::warning::Plan onaylı değil (onaylandi=false); yayın yapılmadı.", flush=True); return
     ig, page = os.environ["IG_USER_ID"], os.environ["FB_PAGE_ID"]
+    ben = istek("me", {"fields": "id"}, "GET")
+    log("Anahtar türü:", "SAYFA anahtarı (doğru)" if ben.get("id") == page else "KULLANICI anahtarı — Facebook yayını için sayfa anahtarı gerekir")
     hesap = istek(ig, {"fields": "username"}, "GET"); log("Hesap:", hesap.get("username"), "| tarih:", tarih, "| kuru:" if a.kuru else "")
     hatalar = []
     def dene(ad, fn, *args):
