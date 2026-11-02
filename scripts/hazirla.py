@@ -21,6 +21,8 @@ ETIKET_IG, ETIKET_FB, METIN_SINIRI = 5, 3, 2200
 def aciklama(icerik, g, platform):
     """Açıklama metnini her gün aynı kalıpla kurar: anlatım, soru, günün diğer olayları, kaynaklar, etiketler."""
     govde = (g["ig_metin"] if platform == "ig" else g.get("fb_metin") or g["ig_metin"]).strip()
+    if "ig_etiketler" not in g:  # eski biçimli içerik dosyası: metin olduğu gibi kullanılır
+        return govde
     etiketler = g["ig_etiketler"] if platform == "ig" else g.get("fb_etiketler", g["ig_etiketler"][:ETIKET_FB])
     sinir = ETIKET_IG if platform == "ig" else ETIKET_FB
     if "#" in govde: raise SystemExit(f"{g['kod']}: etiketler metnin içine değil {platform}_etiketler alanına yazılır")
