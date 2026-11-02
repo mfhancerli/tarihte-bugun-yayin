@@ -1,0 +1,148 @@
+{
+  "tarih": "2026-11-04",
+  "ay": "Kasım",
+  "gunno": "4",
+  "onaylandi": false,
+  "facebook": true,
+  "liste": [
+    [
+      "1909",
+      null,
+      "Yangının ardından onarılan Haydarpaşa Garı yeniden hizmete alındı.",
+      {
+        "hook": "Haydarpaşa Garı yeniden hizmette",
+        "tipo_buyuk": "GAR",
+        "tipo_alt": "YENİDEN HİZMETTE",
+        "tipo_not": "Haydarpaşa · İstanbul",
+        "tema": "normal"
+      }
+    ],
+    [
+      "1984",
+      null,
+      "Şair Ümit Yaşar Oğuzcan vefat etti.",
+      {
+        "hook": "Şair Ümit Yaşar Oğuzcan'ın vefatı",
+        "tipo_buyuk": "ŞAİR",
+        "tipo_alt": "ÜMİT YAŞAR OĞUZCAN",
+        "tipo_not": "Vefatının yıl dönümü",
+        "tema": "normal"
+      }
+    ],
+    [
+      "1922",
+      null,
+      "Howard Carter'ın ekibi, Mısır'da Tutankamon'un mezarına inen ilk basamağı buldu.",
+      {
+        "hook": "Tutankamon'un mezarına ilk basamak",
+        "tipo_buyuk": "İLK",
+        "tipo_alt": "BASAMAK",
+        "tipo_not": "Howard Carter'ın ekibi · Mısır",
+        "tema": "normal"
+      }
+    ]
+  ],
+  "gonderiler": [
+    {
+      "kod": "g1-aihs",
+      "tema": "normal",
+      "yil": "1950",
+      "hicri": null,
+      "hook": "Avrupa İnsan Hakları Sözleşmesi Roma'da imzalandı",
+      "short": "Türkiye, sözleşmeyi Roma'da ilk gün imzalayan 12 Avrupa Konseyi üyesi devletten biriydi.",
+      "tipo_buyuk": "12",
+      "tipo_alt": "DEVLET İLK GÜN İMZALADI",
+      "tipo_not": "Roma · Palazzo Barberini",
+      "kaynaklar": "Kaynaklar: Avrupa Konseyi (AİHS metni ve tarihçesi), Anayasa Mahkemesi (Anayasa Yargısı 29), DergiPark, Oxford University Press, CVCE",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Savaştan sonra güvence arayışı",
+          "İkinci Dünya Savaşı'nın ardından 1949'da kurulan Avrupa Konseyi, İnsan Hakları Evrensel Beyannamesi'ndeki bazı hakları bağlayıcı bir güvenceye kavuşturmak için bir sözleşme hazırladı."
+        ],
+        [
+          "O AN",
+          "Roma, Palazzo Barberini",
+          "4 Kasım 1950'de Roma'daki Palazzo Barberini'de 12 üye devlet sözleşmeyi imzaladı. Türkiye de ilk gün imzalayanlar arasındaydı. Yunanistan ve İsveç ay sonunda Paris'te katıldı."
+        ],
+        [
+          "SONRASI",
+          "Yürürlük ve Mahkeme",
+          "Sözleşme 3 Eylül 1953'te yürürlüğe girdi; Türkiye 1954'te onayladı. Sözleşmenin denetimi için 1959'da Avrupa İnsan Hakları Mahkemesi kuruldu."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Bireysel başvuru: 1987",
+          "Türkiye, imzadan 36 yıl sonra, 28 Ocak 1987'de Avrupa İnsan Hakları Komisyonu'na bireysel başvuru hakkını tanıdı. Mahkemenin zorunlu yargı yetkisini 22 Ocak 1990'da kabul etti."
+        ]
+      ],
+      "ig_metin": "4 Kasım 1950'de Avrupa İnsan Hakları Sözleşmesi Roma'da imzalandı. Türkiye de sözleşmeyi ilk gün imzalayan devletler arasındaydı.\n\nİkinci Dünya Savaşı'nın ardından kurulan Avrupa Konseyi, İnsan Hakları Evrensel Beyannamesi'ndeki bazı hakları bağlayıcı bir güvenceye kavuşturmak istiyordu. Resmî adı \"İnsan Hakları ve Temel Özgürlüklerin Korunması Sözleşmesi\" olan metin, Roma'daki Palazzo Barberini'de 12 üye devlet tarafından imzalandı.\n\nSözleşme 3 Eylül 1953'te yürürlüğe girdi. Türkiye sözleşmeyi 1954'te onayladı. Sözleşmenin denetimi için 1959'da Avrupa İnsan Hakları Mahkemesi kuruldu. Türkiye, Avrupa İnsan Hakları Komisyonu'na bireysel başvuru hakkını ise 28 Ocak 1987'de tanıdı.",
+      "fb_metin": "Tarihte bugün, 4 Kasım 1950.\n\nAvrupa İnsan Hakları Sözleşmesi, bu tarihte Roma'da imzalandı. Türkiye, sözleşmeyi ilk gün imzalayan devletlerden biriydi.\n\nİkinci Dünya Savaşı'nın ardından 1949'da kurulan Avrupa Konseyi, İnsan Hakları Evrensel Beyannamesi'nde yer alan bazı hakları üye devletler için bağlayıcı bir güvenceye kavuşturmayı amaçlıyordu. Resmî adı \"İnsan Hakları ve Temel Özgürlüklerin Korunması Sözleşmesi\" olan metin, 4 Kasım 1950'de Roma'daki Palazzo Barberini'de 12 üye devletin temsilcileri tarafından imzalandı. Yunanistan ve İsveç ise aynı ayın sonunda Paris'te imzaladı.\n\nSözleşme, yeterli sayıda onaya ulaşınca 3 Eylül 1953'te yürürlüğe girdi. Türkiye sözleşmeyi 1954'te onayladı. Sözleşmenin denetimi için 1959'da Avrupa İnsan Hakları Mahkemesi kuruldu.\n\nTürkiye, Avrupa İnsan Hakları Komisyonu'na bireysel başvuru hakkını 28 Ocak 1987'de tanıdı. Mahkemenin zorunlu yargı yetkisini ise 22 Ocak 1990'da kabul etti. Bugün Avrupa Konseyi'nin bütün üye devletleri sözleşmeye taraftır.",
+      "ig_etiketler": [
+        "#tarihtebugün",
+        "#insanhakları",
+        "#aihs",
+        "#avrupakonseyi",
+        "#hukuk"
+      ],
+      "fb_etiketler": [
+        "#tarihtebugün",
+        "#İnsanHakları",
+        "#AİHS"
+      ],
+      "soru": "Avrupa İnsan Hakları Sözleşmesi'ni daha önce duymuş muydunuz? Yorumlarda paylaşın."
+    },
+    {
+      "kod": "g2-takvim",
+      "tema": "normal",
+      "yil": "1922",
+      "hicri": "1341",
+      "hook": "Takvîm-i Vekāyi' son kez çıktı",
+      "short": "Osmanlı Devleti'nin ilk resmî gazetesi, İstanbul hükümetinin sona ermesiyle yayın hayatını tamamladı.",
+      "gorsel_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Takvim-i_Vekayi_-_0197.pdf/page1-1280px-Takvim-i_Vekayi_-_0197.pdf.jpg",
+      "gorsel_kaynak": "Takvîm-i Vekāyi', 197. sayı (1256 H. / 1840-41), Wikimedia Commons (kamu malı)",
+      "gorsel_odak": "center 20%",
+      "tipo_buyuk": "1831",
+      "tipo_alt": "İLK SAYI",
+      "tipo_not": "1 Kasım 1831 - 4 Kasım 1922",
+      "kaynaklar": "Kaynaklar: TDV İslam Ansiklopedisi (Takvîm-i Vekāyi'), Adalet Dergisi (2024), IRCICA",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "1831: İlk sayı",
+          "II. Mahmud döneminde, 1 Kasım 1831'de ilk sayısı Türkçe olarak yayımlandı. Fransızca nüshası Le Moniteur ottoman dört gün sonra çıktı."
+        ],
+        [
+          "O AN",
+          "Son sayı",
+          "İstanbul hükümetinin ortadan kalkmasıyla 4 Kasım 1922'de yayını sona erdi. 1908'de başlayan son döneminde 4.608 sayı çıkmıştı."
+        ],
+        [
+          "SONRASI",
+          "Ankara'daki gazete",
+          "TBMM, 1920'de Ankara'da Cerîde-i Resmiyye'yi kurmuştu. Bu gazete 1927'de Resmî Gazete adını aldı."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "İki kez kapandı",
+          "Gazete 1878'de 2.119. sayısından sonra on üç yıl ara verdi. 1891'de yeniden çıktı, ancak 1892'de 283. sayıyla bir kez daha durdu."
+        ]
+      ],
+      "ig_metin": "4 Kasım 1922'de Osmanlı Devleti'nin ilk resmî gazetesi Takvîm-i Vekāyi', İstanbul hükümetinin ortadan kalkmasıyla yayın hayatını tamamladı.\n\nİlk sayısı II. Mahmud döneminde, 1 Kasım 1831'de Türkçe olarak çıkmıştı. İlk yıllarında ülkenin tek Türkçe süreli yayınıydı; kanunlar, atamalar ve hükümet kararları bu gazetede duyuruluyordu.\n\nYayını iki kez kesintiye uğradı: 1878'de 13 yıl ara verdi, 1891'de yeniden başlayan ikinci dönemi ise yaklaşık bir yıl sürdü. 1908'de başlayan son döneminde 4.608 sayı çıktı.\n\nAnkara'da ise TBMM hükümetinin 1920'de kurduğu Cerîde-i Resmiyye çıkıyordu; bu gazete 1927'de Resmî Gazete adını aldı.",
+      "fb_metin": "Tarihte bugün, 4 Kasım 1922.\n\nOsmanlı Devleti'nin ilk resmî gazetesi Takvîm-i Vekāyi', İstanbul hükümetinin ortadan kalkmasıyla yayın hayatını tamamladı.\n\nGazetenin ilk sayısı II. Mahmud döneminde, 1 Kasım 1831'de Türkçe olarak yayımlandı. Fransızca nüshası Le Moniteur ottoman ise dört gün sonra çıktı. Takvîm-i Vekāyi' ilk yıllarında ülkenin tek Türkçe süreli yayın organıydı; kanunlar, atamalar ve hükümet kararları bu gazetede duyuruluyordu. İlk döneminde, diğer dillerdeki nüshalar hariç, 3.000'in biraz üzerinde abonesi vardı.\n\nYayın hayatı kesintisiz değildi. 1878'de 2.119. sayısından sonra on üç yıl ara verdi. 1891'de yeniden başlayan ikinci dönem 1892'de 283. sayıyla sona erdi. Üçüncü ve son dönem 28 Eylül 1908'de başladı ve 4 Kasım 1922'ye kadar 4.608 sayı yayımlandı.\n\nAnkara'da ise TBMM hükümetinin 1920'de kurduğu Cerîde-i Resmiyye çıkıyordu. Bu gazete 1927'de Resmî Gazete adını aldı ve bugün de yayımlanmaya devam ediyor.",
+      "ig_etiketler": [
+        "#tarihtebugün",
+        "#osmanlıtarihi",
+        "#takvimivekayi",
+        "#basıntarihi",
+        "#gazete"
+      ],
+      "fb_etiketler": [
+        "#tarihtebugün",
+        "#TakvimiVekayi",
+        "#BasınTarihi"
+      ],
+      "soru": "Takvîm-i Vekāyi' adını daha önce duymuş muydunuz? Yorumlarda paylaşın."
+    }
+  ]
+}

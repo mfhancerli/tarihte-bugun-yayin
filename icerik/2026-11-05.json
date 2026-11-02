@@ -1,0 +1,85 @@
+{
+  "tarih": "2026-11-05",
+  "ay": "Kasım",
+  "gunno": "5",
+  "onaylandi": false,
+  "facebook": true,
+  "liste": [
+    [
+      "1925",
+      null,
+      "Ankara'nın ilk yükseköğretim kurumu olan Ankara Adliye Hukuk Mektebi, Gazi Mustafa Kemal Paşa'nın konuşmasıyla açıldı.",
+      {
+        "hook": "Ankara Hukuk Mektebi açıldı",
+        "tipo_buyuk": "İLK",
+        "tipo_alt": "YÜKSEKÖĞRETİM KURUMU",
+        "tipo_not": "Ankara Adliye Hukuk Mektebi",
+        "tema": "normal"
+      }
+    ],
+    [
+      "1919",
+      null,
+      "İngilizlerin çekildiği Antep, Fransızlar tarafından resmen işgal edildi.",
+      {
+        "hook": "Antep, Fransızlarca işgal edildi",
+        "tipo_buyuk": "ANTEP",
+        "tipo_alt": "İŞGAL",
+        "tipo_not": "İngilizlerin çekilmesinin ardından",
+        "tema": "huzunlu"
+      }
+    ],
+    [
+      "1914",
+      null,
+      "Birinci Dünya Savaşı'nda İngiltere ve Fransa, Osmanlı Devleti'ne savaş ilan etti.",
+      {
+        "hook": "İngiltere ve Fransa savaş ilan etti",
+        "tipo_buyuk": "SAVAŞ",
+        "tipo_alt": "İLANI",
+        "tipo_not": "Birinci Dünya Savaşı",
+        "tema": "normal"
+      }
+    ]
+  ],
+  "gonderiler": [
+    {
+      "kod": "g1-ecevit",
+      "tema": "normal",
+      "yil": "2006",
+      "hicri": null,
+      "hook": "Eski Başbakan Bülent Ecevit'in vefatı",
+      "short": "Eski Başbakan Bülent Ecevit, 5 Kasım 2006'da Ankara'da vefat etti.",
+      "tipo_buyuk": "1925-2006",
+      "tipo_alt": "BÜLENT ECEVİT",
+      "tipo_not": "Eski Başbakan",
+      "kaynaklar": "Kaynaklar: TDV İslam Ansiklopedisi (Ecevit, Mustafa Bülent), Britannica",
+      "slaytlar": [
+        [
+          "HAYATI",
+          "Kısaca",
+          "28 Mayıs 1925'te İstanbul'da doğdu. 1944'te Robert Kolej'den mezun oldu. Gazetecilik yaptı; 1957'de milletvekili seçildi."
+        ],
+        [
+          "GÖREVİ",
+          "Başbakanlık ve vefat",
+          "1974, 1977, 1978-79 ve 1999-2002 yıllarında başbakanlık yaptı. 5 Kasım 2006'da Ankara'da vefat etti; Devlet Mezarlığı'na defnedildi."
+        ]
+      ],
+      "ig_metin": "5 Kasım 2006'da eski Başbakan Bülent Ecevit Ankara'da vefat etti.\n\n28 Mayıs 1925'te İstanbul'da doğdu. 1944'te Robert Kolej'den mezun oldu, gazetecilik yaptı ve 1957'de milletvekili seçildi. 1974, 1977, 1978-79 ve 1999-2002 yıllarında başbakanlık görevinde bulundu.\n\n11 Kasım 2006'da Devlet Mezarlığı'na defnedildi.",
+      "fb_metin": "Tarihte bugün, 5 Kasım 2006.\n\nEski Başbakan Bülent Ecevit, Ankara'da vefat etti.\n\n28 Mayıs 1925'te İstanbul'da doğdu. 1944'te Robert Kolej'den mezun oldu ve gazetecilik yaptı. 1957'de milletvekili seçildi. 1974, 1977, 1978-79 ve 1999-2002 yıllarında başbakanlık görevinde bulundu. Şiir ve çevirileri de yayımlandı.\n\nMayıs 2006'da geçirdiği beyin kanamasının ardından tedavi gördüğü hastanede 5 Kasım 2006'da hayatını kaybetti ve 11 Kasım'da Devlet Mezarlığı'na defnedildi.",
+      "ig_etiketler": [
+        "#tarihtebugün",
+        "#bülentecevit",
+        "#türkiye",
+        "#siyasettarihi",
+        "#başbakan"
+      ],
+      "fb_etiketler": [
+        "#tarihtebugün",
+        "#BülentEcevit",
+        "#Türkiye"
+      ]
+    }
+  ]
+}
