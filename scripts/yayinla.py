@@ -96,6 +96,12 @@ def main():
     ben = istek("me", {"fields": "id"}, "GET")
     log("Anahtar türü:", "SAYFA anahtarı (doğru)" if ben.get("id") == page else "KULLANICI anahtarı — Facebook yayını için sayfa anahtarı gerekir")
     hesap = istek(ig, {"fields": "username"}, "GET"); log("Hesap:", hesap.get("username"), "| tarih:", tarih, "| kuru:" if a.kuru else "")
+    # Çift yayın koruması: günün ilk gönderisi son yayınlar arasında varsa (gecikmeli zamanlanmış iş ya da elle başlatma) dur.
+    if not a.kuru and plan["gonderiler"]:
+        imza = plan["gonderiler"][0]["ig_metin"][:80]
+        son = istek(f"{ig}/media", {"fields": "caption", "limit": "15"}, "GET").get("data", [])
+        if any((m.get("caption") or "").startswith(imza) for m in son):
+            log("Bu günün gönderileri zaten yayınlanmış; tekrar yayın yapılmadı."); return
     hatalar = []
     def dene(ad, fn, *args):
         # Bir adım hata verirse kaydedip sıradakine geçer; diğer gönderiler etkilenmez.
