@@ -1,0 +1,244 @@
+{
+  "tarih": "2026-11-08",
+  "ay": "Kasım",
+  "gunno": "8",
+  "onaylandi": true,
+  "facebook": true,
+  "liste": [
+    [
+      "1656",
+      null,
+      "Halley kuyruklu yıldızının yörüngesini ilk hesaplayan İngiliz astronom Edmond Halley doğdu.",
+      {
+        "hook": "Astronom Edmond Halley doğdu",
+        "tipo_buyuk": "HALLEY",
+        "tipo_alt": "KUYRUKLU YILDIZI",
+        "tipo_not": "Yörüngesini ilk hesaplayan astronom",
+        "tema": "normal"
+      }
+    ],
+    [
+      "1960",
+      null,
+      "John F. Kennedy, ABD başkanlık seçimini kazandı.",
+      {
+        "hook": "Kennedy ABD başkanı seçildi",
+        "tipo_buyuk": "ABD",
+        "tipo_alt": "BAŞKANLIK SEÇİMİ",
+        "tipo_not": "John F. Kennedy",
+        "tema": "normal"
+      }
+    ],
+    [
+      "1847",
+      null,
+      "Drakula romanının yazarı İrlandalı Bram Stoker, Dublin'de doğdu.",
+      {
+        "hook": "Drakula'nın yazarı Bram Stoker doğdu",
+        "tipo_buyuk": "DRAKULA",
+        "tipo_alt": "ROMANIN YAZARI",
+        "tipo_not": "Bram Stoker · Dublin",
+        "tema": "normal"
+      }
+    ]
+  ],
+  "gonderiler": [
+    {
+      "kod": "g1-uzunmehmet",
+      "tema": "normal",
+      "yil": "1829",
+      "hicri": "1245",
+      "hook": "Kara elmasın hikâyesi: Uzun Mehmet",
+      "short": "Zonguldak'ta taş kömürünü bulduğu kabul edilen Uzun Mehmet, her yıl 8 Kasım'da anılıyor.",
+      "tipo_buyuk": "1829",
+      "tipo_alt": "KARA ELMAS",
+      "tipo_not": "Ereğli · Köseağzı",
+      "kaynaklar": "Kaynaklar: Türkiye Taşkömürü Kurumu (2016 faaliyet raporu), Atatürk Ansiklopedisi, Maden Mühendisleri Odası, DergiPark, TRT Haber/AA",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Bahriyeli bir köylü",
+          "Ereğli'nin Kestaneci köyünden Uzun Mehmet, askerliğini bahriye eri olarak yaptı."
+        ],
+        [
+          "O AN",
+          "Yanan siyah taşlar",
+          "Anlatılana göre Köseağzı'ndaki değirmenin yakınında bulduğu siyah taşları ocağa attı ve yandıklarını gördü. Numuneleri İstanbul'a götürdü."
+        ],
+        [
+          "SONRASI",
+          "1848: Üretim başladı",
+          "Havzada üretim ancak 1848'de başladı. Ocaklar 1940'ta devletleştirildi; 1983'te Türkiye Taşkömürü Kurumu kuruldu."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Tarih tartışmalı",
+          "8 Kasım her yıl \"Uzun Mehmet'i Anma ve Kömür Günü\" olarak kutlanıyor. Ancak bazı kaynaklar buluşu Eylül ya da Ekim 1829'a tarihliyor; hikâyenin ayrıntıları da tartışmalı."
+        ]
+      ],
+      "ig_metin": "Bugün 8 Kasım, \"Uzun Mehmet'i Anma ve Kömür Günü\". Zonguldak havzasında taş kömürünün bulunuşu geleneksel olarak 8 Kasım 1829'a tarihlenir.\n\nEreğli'nin Kestaneci köyünden Uzun Mehmet, askerliğini bahriyede yapmıştı. Anlatılana göre Köseağzı'ndaki değirmenin yakınında bulduğu siyah taşları ocağa attı ve yandıklarını gördü; numuneleri İstanbul'a götürdü. Bazı kaynaklara göre bölgeden ilk kömür numunesi 1822'de yine Kestaneci köyünden gemici Hacı İsmail tarafından İstanbul'a götürülmüş, ancak işletme için adım atılmamıştı.\n\nHavzada üretim ancak 1848'de başladı. Kömür, Zonguldak'ı bir sanayi şehrine dönüştürdü.\n\nNot: Bazı kaynaklar buluşu Eylül ya da Ekim 1829'a tarihler; hikâyenin ayrıntıları da tarihçiler arasında tartışmalıdır.",
+      "fb_metin": "Tarihte bugün, 8 Kasım 1829.\n\nBugün \"Uzun Mehmet'i Anma ve Kömür Günü\". Zonguldak havzasında taş kömürünün bulunuşu, geleneksel olarak bu tarihe ve Ereğli'nin Kestaneci köyünden Uzun Mehmet'e bağlanır.\n\nAnlatılana göre askerliğini bahriye eri olarak yapan Uzun Mehmet, Köseağzı'ndaki değirmenin yakınında bulduğu siyah taşları ocağa attı ve yandıklarını gördü. Ardından numuneleri İstanbul'a götürdü. Bazı kaynaklara göre bölgeden ilk kömür numunesi 1822'de yine Kestaneci köyünden gemici Hacı İsmail tarafından İstanbul'a götürülmüş, ancak işletme için adım atılmamıştı.\n\nKömürün bulunmasıyla üretime hemen geçilmedi; havzada üretim ancak 1848'de başladı. Ocaklar 1940'ta devletleştirildi, 1983'te de Türkiye Taşkömürü Kurumu kuruldu. Kömür, Zonguldak'ı bir sanayi şehrine dönüştürdü.\n\nBazı kaynaklar buluşu Eylül ya da Ekim 1829'a tarihler. Uzun Mehmet'in hayatına dair anlatıların ayrıntıları da tarihçiler arasında tartışmalıdır. Yine de 8 Kasım, Zonguldak'ta her yıl törenlerle anılmaya devam ediyor.",
+      "ig_etiketler": [
+        "#tarihtebugün",
+        "#uzunmehmet",
+        "#zonguldak",
+        "#karaelmas",
+        "#madencilik"
+      ],
+      "fb_etiketler": [
+        "#tarihtebugün",
+        "#UzunMehmet",
+        "#Zonguldak"
+      ],
+      "soru": "Aranızda Zonguldaklı ya da Ereğlili olan var mı? Yorumlarda buluşalım."
+    },
+    {
+      "kod": "g2-selanik",
+      "tema": "huzunlu",
+      "yil": "1912",
+      "hicri": "1330",
+      "hook": "Selanik savaşmadan teslim edildi",
+      "short": "Balkan Savaşı'nda Selanik'in Yunan ordusuna teslimine ilişkin protokol imzalandı.",
+      "tipo_buyuk": "482",
+      "tipo_alt": "YILLIK OSMANLI ŞEHRİ",
+      "tipo_not": "1430 - 1912",
+      "kaynaklar": "Kaynaklar: TDV İslam Ansiklopedisi (Selanik), DergiPark (Aydın 2018; Balkan Savaşları çalışmaları), Hürriyet arşivi",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Beş asırlık Osmanlı şehri",
+          "Selanik, 1430'da II. Murad döneminde Osmanlı topraklarına katılmıştı. Mustafa Kemal de 1881'de bu şehirde doğdu."
+        ],
+        [
+          "O AN",
+          "Teslim protokolü",
+          "Birinci Balkan Savaşı'nda Yunan ordusu yaklaşınca 8. Kolordu Komutanı Hasan Tahsin Paşa, 8 Kasım 1912'de teslim protokolünü imzaladı. Yunan ordusu ertesi gün şehre girdi."
+        ],
+        [
+          "SONRASI",
+          "Tartışmalı bir karar",
+          "Şehrin savaşılmadan bırakılması Osmanlı kamuoyunda ağır tepki gördü. Paşa'nın kararı bugün de tarihçiler arasında tartışılıyor."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Bir gün arayla",
+          "Bulgar birlikleri de Selanik'e yürüyordu; şehre Yunan ordusundan bir gün sonra, 10 Kasım'da girdiler."
+        ]
+      ],
+      "ig_metin": "8 Kasım 1912'de, Birinci Balkan Savaşı sırasında Selanik'in Yunan ordusuna teslimine ilişkin protokol imzalandı.\n\nSelanik, 1430'dan beri Osmanlı şehriydi ve Mustafa Kemal'in de doğduğu yerdi. Yunan ordusu şehre yaklaşınca 8. Kolordu Komutanı Hasan Tahsin Paşa, şehri savunmaya girişmeden teslim etmeyi kabul etti. Yunan ordusu ertesi gün Selanik'e girdi; böylece yaklaşık beş asırlık Osmanlı yönetimi sona erdi. Selanik'e yürüyen Bulgar birlikleri ise şehre bir gün sonra girdi.\n\nŞehrin savaşılmadan bırakılması Osmanlı kamuoyunda ağır tepki gördü. Hasan Tahsin Paşa'nın kararı bugün de tarihçiler arasında tartışılıyor.",
+      "fb_metin": "Tarihte bugün, 8 Kasım 1912.\n\nBirinci Balkan Savaşı sırasında Selanik'in Yunan ordusuna teslimine ilişkin protokol imzalandı.\n\nSelanik, 1430'da II. Murad döneminde Osmanlı topraklarına katılmıştı. Yaklaşık beş yüzyıl boyunca imparatorluğun en önemli liman şehirlerinden biri oldu; Mustafa Kemal de 1881'de bu şehirde doğdu.\n\nBalkan Savaşı'nda Yunan ordusu şehre yaklaştığında Selanik'teki 8. Kolordu'nun komutanı Hasan Tahsin Paşa'ydı. Paşa, şehri savunmaya girişmeden teslim etmeyi kabul etti ve protokolü 8 Kasım'da imzaladı. Yunan ordusu ertesi gün şehre girdi ve şehirde yaklaşık beş asır süren Osmanlı yönetimi sona erdi. Aynı hedefe yürüyen Bulgar birlikleri ise şehre bir gün sonra, 10 Kasım'da girdi.\n\nŞehrin savaşılmadan bırakılması Osmanlı kamuoyunda ağır tepki gördü. Hasan Tahsin Paşa'nın kararı ve gerekçeleri bugün de tarihçiler arasında tartışılıyor. Atatürk'ün Selanik'te doğduğu ev ise bugün müze olarak ziyaret ediliyor.",
+      "ig_etiketler": [
+        "#tarihtebugün",
+        "#selanik",
+        "#balkansavaşı",
+        "#osmanlıtarihi",
+        "#osmanlı"
+      ],
+      "fb_etiketler": [
+        "#tarihtebugün",
+        "#Selanik",
+        "#BalkanSavaşı"
+      ]
+    },
+    {
+      "kod": "g3-eroltas",
+      "tema": "normal",
+      "yil": "1998",
+      "hicri": null,
+      "hook": "Yeşilçam'ın kötü adamı Erol Taş'a veda",
+      "short": "600'e yakın filmde oynayan Erol Taş, 8 Kasım 1998'de İstanbul'da vefat etti.",
+      "tipo_buyuk": "600",
+      "tipo_alt": "FİLME YAKIN",
+      "tipo_not": "Erol Taş · Yeşilçam",
+      "kaynaklar": "Kaynaklar: Hürriyet arşivi, CNN Türk, Anadolu Ajansı, Habertürk",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Erzurum'dan İstanbul'a",
+          "Erzurum'da doğdu. Babasının vefatı üzerine annesiyle İstanbul'a taşındı, pek çok işte çalıştı. 1947'de boksta Türkiye ikincisi oldu."
+        ],
+        [
+          "O AN",
+          "Çamur Şevket",
+          "İlk önemli rolünü 1957 yapımı Acı Günler'deki Çamur Şevket karakteriyle oynadı. Sonraki yıllarda Yeşilçam'ın en çok aranan kötü adamı oldu."
+        ],
+        [
+          "SONRASI",
+          "600'e yakın film",
+          "Ana (1967) ve Sürgün (1992) gibi filmlerde iyi kalpli karakterleri de canlandırdı. 8 Kasım 1998'de İstanbul'da vefat etti."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "Perde dışında",
+          "1965'te eşini genç yaşta kaybetti; küçük çocuklarına bakmak zorunda kaldı. İstanbul Cankurtaran'da uzun yıllar bir kahvehane işletti."
+        ]
+      ],
+      "ig_metin": "8 Kasım 1998'de Yeşilçam'ın \"kötü adam\" rolleriyle tanınan oyuncusu Erol Taş İstanbul'da vefat etti.\n\nErzurum'da doğdu; babasının vefatı üzerine annesiyle İstanbul'a taşındı ve genç yaşta pek çok işte çalıştı; 1947'de boksta Türkiye ikincisi oldu. İlk önemli rolünü 1957 yapımı Acı Günler'deki Çamur Şevket karakteriyle oynadı. 600'e yakın filmde rol aldı. Ana (1967) ve Sürgün (1992) gibi filmlerde iyi kalpli karakterleri de canlandırdı.\n\nPerdede kötü adamdı; gerçek hayatta ise 1965'te eşini genç yaşta kaybetti ve küçük çocuklarına bakmak zorunda kaldı. Uzun yıllar İstanbul Cankurtaran'da bir kahvehane de işletti.\n\nKendisini rahmetle anıyoruz.",
+      "fb_metin": "Tarihte bugün, 8 Kasım 1998.\n\nTürk sinemasının \"kötü adam\" denince akla gelen ilk isimlerinden Erol Taş, İstanbul'da vefat etti.\n\nErzurum'da doğdu. Babasının vefatı üzerine annesiyle İstanbul'a taşındı; okulu bırakarak hamallıktan tezgâhtarlığa kadar pek çok işte çalıştı. Gençliğinde boksla da ilgilendi ve 1947'de Türkiye ikincisi oldu.\n\nİlk önemli rolünü 1957 yapımı Acı Günler'deki Çamur Şevket karakteriyle oynadı. Sonraki yıllarda Yeşilçam'ın en çok aranan kötü adamı oldu ve 600'e yakın filmde rol aldı. Ana (1967) ve Sürgün (1992) gibi filmlerde ise iyi kalpli karakterleri canlandırdı. Devlet Sanatçısı unvanı da almıştı.\n\nPerde dışındaki hayatı rollerinden çok farklıydı: 1965'te eşini genç yaşta kaybetti; küçük çocuklarına bakmak zorunda kaldı. İstanbul Cankurtaran'da uzun yıllar bir kahvehane işletti.\n\nYeşilçam'ın bu tanıdık yüzünü vefatının yıl dönümünde bir kez daha hatırlıyoruz. Kendisini rahmetle anıyoruz.",
+      "ig_etiketler": [
+        "#tarihtebugün",
+        "#eroltaş",
+        "#yeşilçam",
+        "#türksineması",
+        "#sinema"
+      ],
+      "fb_etiketler": [
+        "#tarihtebugün",
+        "#ErolTaş",
+        "#Yeşilçam"
+      ]
+    },
+    {
+      "kod": "g4-rontgen",
+      "tema": "normal",
+      "yil": "1895",
+      "hicri": null,
+      "hook": "Röntgen X ışınlarını keşfetti",
+      "short": "Wilhelm Conrad Röntgen, Würzburg'daki laboratuvarında gözle görülmeyen yeni bir ışın türü buldu.",
+      "gorsel_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.gif",
+      "gorsel_kaynak": "Röntgen'in eşi Anna Bertha'nın elinin görüntüsü, 22 Aralık 1895, Wikimedia Commons (kamu malı)",
+      "gorsel_odak": "center",
+      "tipo_buyuk": "X",
+      "tipo_alt": "IŞINLARI",
+      "tipo_not": "Würzburg · 1895",
+      "kaynaklar": "Kaynaklar: Würzburg Üniversitesi, Röntgen-Kuratorium Würzburg, Britannica, Anadolu Ajansı, RSNA",
+      "slaytlar": [
+        [
+          "ARKA PLAN",
+          "Katot ışını deneyleri",
+          "Würzburg Üniversitesi'nde fizik profesörü olan Röntgen, 1895'te katot ışını tüpleriyle deneyler yapıyordu."
+        ],
+        [
+          "O AN",
+          "Parlayan ekran",
+          "Tüpü örttüğü hâlde yakındaki floresan bir maddeyle kaplı ekranın parladığını fark etti. Bilinmeyen bu ışınlara \"X\" adını verdi."
+        ],
+        [
+          "SONRASI",
+          "İlk röntgen görüntüsü",
+          "22 Aralık 1895'te eşi Anna Bertha'nın elinin görüntüsünü çekti; kemikler ve yüzük açıkça görünüyordu."
+        ],
+        [
+          "AZ BİLİNEN DETAY",
+          "İlk Nobel Fizik Ödülü",
+          "Keşif ona 1901'de verilen ilk Nobel Fizik Ödülü'nü kazandırdı. 8 Kasım bugün Uluslararası Radyoloji Günü olarak anılıyor."
+        ]
+      ],
+      "ig_metin": "8 Kasım 1895'te Alman fizikçi Wilhelm Conrad Röntgen, Würzburg Üniversitesi'ndeki laboratuvarında X ışınlarını keşfetti.\n\nKatot ışını tüpleriyle deney yaparken, tüpü örttüğü hâlde yakındaki floresan bir maddeyle kaplı ekranın parladığını fark etti. Bilinmeyen bu ışınlara \"X\" adını verdi.\n\nBirkaç hafta sonra eşi Anna Bertha'nın elinin görüntüsünü çekti; kemikler ve yüzük açıkça görünüyordu. Bu keşif, doktorların vücudun içini ameliyat etmeden görebilmesinin yolunu açtı. Keşif ona 1901'de verilen ilk Nobel Fizik Ödülü'nü kazandırdı.\n\n8 Kasım bugün Uluslararası Radyoloji Günü olarak anılıyor. Türkçedeki \"röntgen\" kelimesi de onun adından geliyor.",
+      "fb_metin": "Tarihte bugün, 8 Kasım 1895.\n\nAlman fizikçi Wilhelm Conrad Röntgen, Würzburg Üniversitesi'ndeki laboratuvarında X ışınlarını keşfetti.\n\nRöntgen o günlerde katot ışını tüpleriyle deneyler yapıyordu. Tüpü örttüğü hâlde, yakındaki floresan bir maddeyle kaplı ekranın parladığını fark etti. Tüpten çıkan ve gözle görülmeyen bu ışınların neler yapabildiğini haftalarca inceledi; bilinmeyen anlamında onlara \"X\" adını verdi.\n\n22 Aralık 1895'te eşi Anna Bertha'nın elinin görüntüsünü çekti. Görüntüde kemikler ve parmağındaki yüzük açıkça seçiliyordu. Bu, tıpta yeni bir dönemin başlangıcı oldu: Doktorlar ilk kez vücudun içini ameliyat etmeden görebiliyordu.\n\nKeşif, Röntgen'e 1901'de verilen ilk Nobel Fizik Ödülü'nü kazandırdı. 8 Kasım bugün Uluslararası Radyoloji Günü olarak anılıyor. Bu ışınlar Almancada bugün de onun adıyla \"Röntgen ışınları\" diye anılıyor; Türkçedeki \"röntgen\" kelimesi de buradan geliyor. Würzburg'daki laboratuvarı ise bugün anıt-müze olarak ziyaret edilebiliyor.",
+      "ig_etiketler": [
+        "#tarihtebugün",
+        "#röntgen",
+        "#bilimtarihi",
+        "#radyoloji",
+        "#fizik"
+      ],
+      "fb_etiketler": [
+        "#tarihtebugün",
+        "#Röntgen",
+        "#BilimTarihi"
+      ],
+      "soru": "Röntgen kelimesinin bir bilim insanının adından geldiğini biliyor muydunuz? Yorumlarda yazın."
+    }
+  ]
+}

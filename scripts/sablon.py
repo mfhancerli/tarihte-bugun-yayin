@@ -68,12 +68,19 @@ def parts(C, P):
                 f'<span style="{PF};font-weight:900;font-size:48px;color:{P["num"]}">{C["yil"]}</span>{hic}</div>')
     return dict(band=band, date_inline=date_inline, tipo=tipo, text_block=text_block, mini=mini)
 
-def story(C, P, X):
+def story(C, P, X, liste_olayi=False):
+    if liste_olayi:
+        # "Bugün başka neler oldu?" olayları için: carousel'i olmadığından gönderi çağrısı yerine etiket ve imza
+        ust = (f'<div style="flex:none;{WS};font-weight:700;font-size:30px;letter-spacing:0.22em;color:{P["month"]}">BUGÜN BAŞKA NELER OLDU?</div>')
+        alt = (f'<div style="flex:none;height:84px;border-top:3px solid {P["rule"]};display:flex;align-items:center;justify-content:center;{WS}">'
+               f'<span style="font-weight:600;font-size:32px;color:{P["month"]}">{e(C["hesap"])} · Takvimden bir yaprak daha.</span></div>')
+    else:
+        ust = ""
+        alt = (f'<div style="flex:none;height:84px;border:3px solid {P["ink"]};display:flex;align-items:center;justify-content:center;{WS}">'
+               f'<span style="font-weight:600;font-size:32px;color:{P["ink"]}">Hikâyenin tamamı gönderide</span></div>')
     body = (X["band"](340, 185, 268, 44) +
             f'<div style="position:absolute;left:70px;right:70px;top:390px;bottom:{1920 - SAFE_BOT}px;display:flex;flex-direction:column;gap:30px">'
-            + X["date_inline"](260, 84, 104) + X["tipo"](200) + X["text_block"](C["hook"], C["short"], 64, 34) +
-            f'<div style="flex:none;height:84px;border:3px solid {P["ink"]};display:flex;align-items:center;justify-content:center;{WS}">'
-            f'<span style="font-weight:600;font-size:32px;color:{P["ink"]}">Hikâyenin tamamı gönderide</span></div></div>')
+            + X["date_inline"](260, 84, 104) + X["tipo"](200) + ust + X["text_block"](C["hook"], C["short"], 64, 34) + alt + '</div>')
     return page(1080, 1920, P["paper"], body)
 
 def cover(C, P, X, n):
@@ -98,7 +105,7 @@ def rows_html(C, P, ysize=72, tsize=34, pad=30):
         f'<div style="display:flex;gap:36px;padding:{pad}px 0;border-top:2px solid {P["hair"]}">'
         f'<div style="min-width:180px"><div style="{PF};font-weight:900;font-size:{ysize}px;line-height:1;color:{P["month"]}">{y}</div>'
         + (f'<div style="{WS};font-size:24px;color:{P["mute"]};margin-top:6px">Hicri {h}</div>' if h else '') +
-        f'</div><div style="{WS};font-size:{tsize}px;line-height:1.42;color:{P["ink"]}">{e(tx)}</div></div>' for y, h, tx in C["liste"])
+        f'</div><div style="{WS};font-size:{tsize}px;line-height:1.42;color:{P["ink"]}">{e(tx)}</div></div>' for y, h, tx, *_ in C["liste"])
 
 def liste(C, P, X, i, n):
     body = (X["band"](110, 35) + X["mini"]() +
