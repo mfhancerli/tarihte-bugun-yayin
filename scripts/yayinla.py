@@ -16,8 +16,10 @@ BRANCH = os.environ.get("YAYIN_DALI", "main")
 
 def log(*a): print(dt.datetime.now(TZ).strftime("%H:%M:%S"), *a, flush=True)
 
-def istek(yol, veri=None, metod="POST"):
-    tok = os.environ["META_TOKEN"]
+SAYFA_TOKEN = None  # Facebook sayfası işlemleri için; anahtar_hazirla() doldurur
+
+def istek(yol, veri=None, metod="POST", sayfa=False):
+    tok = SAYFA_TOKEN if (sayfa and SAYFA_TOKEN) else os.environ["META_TOKEN"]
     if metod == "GET":
         url = f"{API}/{yol}?" + urllib.parse.urlencode({**(veri or {}), "access_token": tok})
         req = urllib.request.Request(url)
@@ -32,7 +34,26 @@ def istek(yol, veri=None, metod="POST"):
             hata = e.read().decode(errors="replace")
             if e.code >= 500 and deneme < 3:
                 log("sunucu hatası, tekrar:", e.code); time.sleep(10 * (deneme + 1)); continue
+            if '"code":190' in hata.replace(" ", ""):
+                raise SystemExit("Meta erişim anahtarı geçersiz ya da iptal edilmiş (kod 190). Yeni anahtar üretip "
+                                 f"GitHub Secrets'taki META_TOKEN'a kaydedin. Meta'nın yanıtı: {hata}")
             raise SystemExit(f"Graph API hatası {e.code} ({yol}): {hata}")
+
+def anahtar_hazirla(ig, page):
+    """Anahtarı doğrular. Sayfa anahtarı da, kullanıcı ya da sistem kullanıcısı anahtarı da kabul edilir;
+    ikinci durumda Facebook işlemleri için sayfa anahtarı otomatik alınır."""
+    global SAYFA_TOKEN
+    ben = istek("me", {"fields": "id,name"}, "GET")
+    if ben.get("id") == page:
+        SAYFA_TOKEN = os.environ["META_TOKEN"]; log("Anahtar türü: SAYFA anahtarı")
+    else:
+        r = istek(page, {"fields": "access_token"}, "GET")
+        if not r.get("access_token"):
+            raise SystemExit("Anahtar sayfaya erişemiyor: sayfa anahtarı alınamadı. Sistem kullanıcısına sayfanın atandığını kontrol edin.")
+        SAYFA_TOKEN = r["access_token"]; log("Anahtar türü: KULLANICI/SİSTEM anahtarı; sayfa anahtarı otomatik alındı")
+    hesap = istek(ig, {"fields": "username"}, "GET")
+    istek(page, {"fields": "name"}, "GET", sayfa=True)
+    return hesap.get("username")
 
 def gorsel_url(tarih, dosya):
     return f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/yayin/{tarih}/{urllib.parse.quote(dosya)}"
@@ -66,20 +87,32 @@ def ig_hikaye(ig, tarih, f, kuru):
 def fb_coklu(page, tarih, g, kuru):
     if kuru:
         # Görünmeyen (yayınlanmamış) bir fotoğraf yükleyip hemen silerek sayfa iznini dener.
-        pid = istek(f"{page}/photos", {"url": gorsel_url(tarih, g["gorseller"][0]), "published": "false"})["id"]
-        istek(pid, {"method": "delete"})
+        pid = istek(f"{page}/photos", {"url": gorsel_url(tarih, g["gorseller"][0]), "published": "false"}, sayfa=True)["id"]
+        istek(pid, {"method": "delete"}, sayfa=True)
         log("  [KURU] FB sayfa yükleme izni çalışıyor (deneme fotoğrafı silindi):", g["kod"]); return
-    ids = [istek(f"{page}/photos", {"url": gorsel_url(tarih, f), "published": "false"})["id"] for f in g["gorseller"]]
+    ids = [istek(f"{page}/photos", {"url": gorsel_url(tarih, f), "published": "false"}, sayfa=True)["id"] for f in g["gorseller"]]
     veri = {"message": g.get("fb_metin") or g["ig_metin"]}
     for i, pid in enumerate(ids): veri[f"attached_media[{i}]"] = json.dumps({"media_fbid": pid})
-    m = istek(f"{page}/feed", veri); log("  FB gönderisi yayınlandı:", g["kod"], m.get("id"))
+    m = istek(f"{page}/feed", veri, sayfa=True); log("  FB gönderisi yayınlandı:", g["kod"], m.get("id"))
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tarih"); ap.add_argument("--kuru", action="store_true")
     ap.add_argument("--bekle", action="store_true", help="İstanbul saatiyle 00:00'a kadar bekle")
+    ap.add_argument("--kontrol", action="store_true", help="Yayın yapmadan anahtarı ve yarının planını denetle")
     a = ap.parse_args()
     simdi = dt.datetime.now(TZ)
+    if a.kontrol:
+        kullanici = anahtar_hazirla(os.environ["IG_USER_ID"], os.environ["FB_PAGE_ID"])
+        log("Anahtar çalışıyor. Instagram hesabı:", kullanici)
+        yarin = (simdi + dt.timedelta(days=1)).strftime("%Y-%m-%d"); yol = f"yayin/{yarin}/plan.json"
+        if not os.path.exists(yol):
+            print(f"::warning::Yarın ({yarin}) için plan yok; bu gece yayın yapılmayacak.", flush=True)
+        elif not json.load(open(yol, encoding="utf-8")).get("onaylandi"):
+            print(f"::warning::Yarının ({yarin}) planı henüz onaylanmadı; onaylanmazsa bu gece yayın yapılmayacak.", flush=True)
+        else:
+            log("Yarının planı hazır ve onaylı:", yarin)
+        return
     if a.bekle:
         hedef = (simdi + dt.timedelta(hours=1)).replace(hour=0, minute=0, second=0, microsecond=0)
         if simdi.hour == 23 and (hedef - simdi).total_seconds() < 3600:
@@ -93,9 +126,7 @@ def main():
     if not plan.get("onaylandi") and not a.kuru:
         print("::warning::Plan onaylı değil (onaylandi=false); yayın yapılmadı.", flush=True); return
     ig, page = os.environ["IG_USER_ID"], os.environ["FB_PAGE_ID"]
-    ben = istek("me", {"fields": "id"}, "GET")
-    log("Anahtar türü:", "SAYFA anahtarı (doğru)" if ben.get("id") == page else "KULLANICI anahtarı — Facebook yayını için sayfa anahtarı gerekir")
-    hesap = istek(ig, {"fields": "username"}, "GET"); log("Hesap:", hesap.get("username"), "| tarih:", tarih, "| kuru:" if a.kuru else "")
+    log("Hesap:", anahtar_hazirla(ig, page), "| tarih:", tarih, "| kuru:" if a.kuru else "")
     # Çift yayın koruması: günün ilk gönderisi son yayınlar arasında varsa (gecikmeli zamanlanmış iş ya da elle başlatma) dur.
     if not a.kuru and plan["gonderiler"]:
         imza = plan["gonderiler"][0]["ig_metin"][:80]
