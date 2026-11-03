@@ -5,9 +5,9 @@ def up(s): return s.replace("i", "İ").replace("ı", "I").upper()
 
 THEMES = {
     "normal": dict(paper="#F1EADC", band="#B5321F", bandtxt="#F6EEE2", hole="#F1EADC", num="#1C1A16", month="#B5321F",
-                   ink="#1C1A16", mute="#5F574B", ph="#E6DDCB", phline="#CDC2AE", rule="#B5321F", hair="#CFC5B3"),
+                   ink="#1C1A16", mute="#5F574B", body="#36312A", ph="#E6DDCB", phline="#CDC2AE", rule="#B5321F", hair="#CFC5B3"),
     "huzunlu": dict(paper="#1D1F24", band="#AAB4BE", bandtxt="#1D1F24", hole="#1D1F24", num="#ECE8DF", month="#AAB4BE",
-                    ink="#ECE8DF", mute="#A6A9AF", ph="#262A31", phline="#3B404A", rule="#AAB4BE", hair="#3B404A"),
+                    ink="#ECE8DF", mute="#A6A9AF", body="#D9D5CC", ph="#262A31", phline="#3B404A", rule="#AAB4BE", hair="#3B404A"),
 }
 PF = "font-family: 'Playfair Display', serif"
 WS = "font-family: 'Work Sans', sans-serif"
@@ -40,7 +40,8 @@ def parts(C, P):
                 f'<div style="flex:1;display:flex;flex-direction:column;gap:12px">'
                 f'<div style="{WS};font-weight:700;font-size:{monsize}px;line-height:1;color:{P["month"]}">{up(C["ay"])}</div>'
                 f'<div style="height:6px;background:{P["rule"]}"></div><div>{yil_html(yilsize)}</div></div></div>')
-    def tipo(minh, big=150):
+    def tipo(minh, big=150, kutu_h=None):
+        # kutu_h: görsel yokken tipografik kutunun sabit yüksekliği; kalan alan başlık ve açıklamaya kalır
         if C.get("gorsel"):
             import base64, mimetypes
             mt = mimetypes.guess_type(C["gorsel"])[0] or "image/jpeg"
@@ -50,16 +51,21 @@ def parts(C, P):
                     f'<img src="data:{mt};base64,{b64}" style="width:100%;height:100%;object-fit:cover;object-position:{C.get("gorsel_odak", "center")};display:block"></div>'
                     f'<div style="text-align:right;{WS};font-size:22px;color:{P["mute"]}">Görsel: {e(C.get("gorsel_kaynak", ""))}</div></div>')
         # Görsel yerine tipografik alan (lisanslı görsel bulunamadığında)
+        kucuk = kutu_h is not None
+        big = int(big * 0.72) if kucuk else big
         bsz = big if len(C["tipo_buyuk"]) <= 4 else int(big * 0.55)
-        return (f'<div style="flex:1 1 0;min-height:{minh}px;background:{P["ph"]};border:2px solid {P["phline"]};box-sizing:border-box;'
-                f'display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:24px;text-align:center">'
+        boy = f'flex:none;height:{kutu_h}px' if kucuk else f'flex:1 1 0;min-height:{minh}px'
+        return (f'<div style="{boy};background:{P["ph"]};border:2px solid {P["phline"]};box-sizing:border-box;'
+                f'display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:18px 24px;text-align:center">'
                 f'<div style="{PF};font-weight:900;font-size:{bsz}px;line-height:0.95;color:{P["month"]}">{e(C["tipo_buyuk"])}</div>'
-                f'<div style="{WS};font-weight:700;font-size:34px;letter-spacing:0.3em;color:{P["ink"]}">{e(C["tipo_alt"])}</div>'
-                f'<div style="{WS};font-size:24px;line-height:1.4;color:{P["mute"]};max-width:760px;margin-top:6px">{e(C["tipo_not"])}</div></div>')
-    def text_block(hook, short, hbig, sbase, gap=16):
-        return (f'<div style="flex:none;display:flex;flex-direction:column;gap:{gap}px">'
-                f'<h1 style="margin:0;{PF};font-weight:800;font-size:{hook_fs(hook, hbig)}px;line-height:1.06;color:{P["ink"]}">{e(hook)}</h1>'
-                f'<p style="margin:0;{WS};font-size:{short_fs(short, sbase)}px;line-height:1.4;color:{P["mute"]}">{e(short)}</p></div>')
+                f'<div style="{WS};font-weight:700;font-size:{28 if kucuk else 34}px;letter-spacing:0.26em;color:{P["ink"]}">{e(C["tipo_alt"])}</div>'
+                f'<div style="{WS};font-size:{22 if kucuk else 24}px;line-height:1.35;color:{P["mute"]};max-width:760px;margin-top:4px">{e(C["tipo_not"])}</div></div>')
+    def text_block(hook, short, hbig, sbase, gap=16, dolu=False, ust=""):
+        # dolu: görsel yokken metin bloğu kalan alanı doldurur ve dikeyde ortalanır
+        boy = 'flex:1 1 0;min-height:0;justify-content:center' if dolu else 'flex:none'
+        return (f'<div style="{boy};display:flex;flex-direction:column;gap:{gap}px">{ust}'
+                f'<h1 style="margin:0;{PF};font-weight:800;font-size:{hook_fs(hook, hbig)}px;line-height:1.08;color:{P["ink"]}">{e(hook)}</h1>'
+                f'<p style="margin:0;{WS};font-weight:500;font-size:{short_fs(short, sbase)}px;line-height:1.42;color:{P["body"]}">{e(short)}</p></div>')
     def mini():
         hic = (f'<span style="{WS};font-weight:600;font-size:24px;letter-spacing:0.1em;color:{P["mute"]}">HİCRİ {C["hicri"]}</span>' if C.get("hicri") else "")
         return (f'<div style="position:absolute;left:70px;right:70px;top:150px;display:flex;align-items:baseline;gap:22px;border-bottom:3px solid {P["rule"]};padding-bottom:18px">'
@@ -80,13 +86,18 @@ def story(C, P, X, liste_olayi=False):
                f'<span style="font-weight:600;font-size:32px;color:{P["ink"]}">Hikâyenin tamamı gönderide</span></div>')
     body = (X["band"](340, 185, 268, 44) +
             f'<div style="position:absolute;left:70px;right:70px;top:390px;bottom:{1920 - SAFE_BOT}px;display:flex;flex-direction:column;gap:30px">'
-            + X["date_inline"](260, 84, 104) + X["tipo"](200) + ust + X["text_block"](C["hook"], C["short"], 64, 34) + alt + '</div>')
+            + X["date_inline"](260, 84, 104)
+            + (X["tipo"](200) + X["text_block"](C["hook"], C["short"], 68, 40, 18, ust=ust) if C.get("gorsel")
+               else X["tipo"](200, 150, 330) + X["text_block"](C["hook"], C["short"], 84, 46, 24, dolu=True, ust=ust))
+            + alt + '</div>')
     return page(1080, 1920, P["paper"], body)
 
 def cover(C, P, X, n):
     body = (X["band"](170, 30, 84, 40) +
             f'<div style="position:absolute;left:70px;right:70px;top:215px;bottom:70px;display:flex;flex-direction:column;gap:26px">'
-            + X["date_inline"](230, 76, 96) + X["tipo"](180) + X["text_block"](C["hook"], C["short"], 58, 32, 14) + '</div>'
+            + X["date_inline"](230, 76, 96)
+            + (X["tipo"](180) + X["text_block"](C["hook"], C["short"], 60, 35, 14) if C.get("gorsel")
+               else X["tipo"](180, 150, 250) + X["text_block"](C["hook"], C["short"], 74, 40, 20, dolu=True)) + '</div>'
             f'<div style="position:absolute;right:70px;bottom:24px;{WS};font-size:24px;color:{P["mute"]}">1 / {n}</div>')
     return page(1080, 1350, P["paper"], body)
 
