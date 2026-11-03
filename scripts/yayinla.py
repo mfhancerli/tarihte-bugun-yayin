@@ -89,6 +89,13 @@ def ig_hikaye(ig, tarih, f, kuru):
     if kuru: log("  [KURU] IG hikâye hazır:", f); return
     m = istek(f"{ig}/media_publish", {"creation_id": kap}); log("  IG hikâye yayınlandı:", f, m.get("id"))
 
+def fb_hikaye(page, tarih, f, kuru):
+    # Facebook sayfa hikâyesi: fotoğraf yayınlanmamış olarak yüklenir, sonra photo_stories ile hikâye yapılır.
+    pid = istek(f"{page}/photos", {"url": gorsel_url(tarih, f), "published": "false"}, sayfa=True)["id"]
+    if kuru:
+        istek(pid, {"method": "delete"}, sayfa=True); log("  [KURU] FB hikâye yüklemesi çalışıyor (deneme fotoğrafı silindi):", f); return
+    m = istek(f"{page}/photo_stories", {"photo_id": pid}, sayfa=True); log("  FB hikâye yayınlandı:", f, m.get("post_id"))
+
 def fb_coklu(page, tarih, g, kuru):
     if kuru:
         # Görünmeyen (yayınlanmamış) bir fotoğraf yükleyip hemen silerek sayfa iznini dener.
@@ -105,7 +112,7 @@ def main():
     ap.add_argument("--tarih"); ap.add_argument("--kuru", action="store_true")
     ap.add_argument("--bekle", action="store_true", help="İstanbul saatiyle 00:00'a kadar bekle")
     ap.add_argument("--kontrol", action="store_true", help="Yayın yapmadan anahtarı ve yarının planını denetle")
-    ap.add_argument("--sadece", default="", help="Yalnızca bu adımlar (virgülle): ig-carousel, fb, hikaye")
+    ap.add_argument("--sadece", default="", help="Yalnızca bu adımlar (virgülle): ig-carousel, fb, hikaye, fb-hikaye")
     a = ap.parse_args()
     simdi = dt.datetime.now(TZ)
     if a.kontrol:
@@ -133,7 +140,7 @@ def main():
         print("::warning::Plan onaylı değil (onaylandi=false); yayın yapılmadı.", flush=True); return
     ig, page = os.environ["IG_USER_ID"], os.environ["FB_PAGE_ID"]
     log("Hesap:", anahtar_hazirla(ig, page), "| tarih:", tarih, "| kuru:" if a.kuru else "")
-    adim = set(x.strip() for x in a.sadece.split(",") if x.strip()) or {"ig-carousel", "fb", "hikaye"}
+    adim = set(x.strip() for x in a.sadece.split(",") if x.strip()) or {"ig-carousel", "fb", "hikaye", "fb-hikaye"}
     # Çift yayın koruması: daha önce yayınlanmış carousel ve Facebook gönderileri atlanır; günün herhangi bir
     # gönderisi önceden yayınlanmışsa (önceki bir çalıştırma) hikâyeler de tekrar paylaşılmaz.
     ig_var, fb_var = set(), set()
@@ -145,7 +152,7 @@ def main():
             if any(m.startswith((g.get("fb_metin") or g["ig_metin"])[:80]) for m in fb_son): fb_var.add(g["kod"])
         if (ig_var or fb_var) and not a.sadece:
             log("Bu günün bazı gönderileri zaten yayınlanmış:", sorted(ig_var | fb_var), "— hikâyeler tekrar paylaşılmayacak.")
-            adim.discard("hikaye")
+            adim.discard("hikaye"); adim.discard("fb-hikaye")
     hatalar = []
     def dene(ad, fn, *args):
         # Bir adım hata verirse kaydedip sıradakine geçer; diğer gönderiler etkilenmez.
@@ -162,9 +169,10 @@ def main():
             if g["kod"] in fb_var: log("  FB gönderisi zaten yayınlanmış, atlandı:", g["kod"])
             else: dene(f"Facebook {g['kod']}", fb_coklu, page, tarih, g, a.kuru)
         time.sleep(5)
-    if "hikaye" in adim:
-        for f in plan.get("hikayeler", []):
-            dene(f"Hikâye {f}", ig_hikaye, ig, tarih, f, a.kuru); time.sleep(3)
+    for f in plan.get("hikayeler", []):
+        if "hikaye" in adim: dene(f"Instagram hikâye {f}", ig_hikaye, ig, tarih, f, a.kuru)
+        if "fb-hikaye" in adim and plan.get("facebook", True): dene(f"Facebook hikâye {f}", fb_hikaye, page, tarih, f, a.kuru)
+        time.sleep(3)
     if hatalar:
         raise SystemExit(f"{len(hatalar)} adım başarısız oldu: " + " | ".join(hatalar))
     log("Bitti.")
