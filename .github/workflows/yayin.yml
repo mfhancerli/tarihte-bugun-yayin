@@ -2,7 +2,7 @@ name: Günlük yayın
 
 on:
   schedule:
-    - cron: "40 20 * * *"   # 23:40 İstanbul; betik 00:00'ı bekler
+    - cron: "10 20 * * *"   # 23:10 İstanbul; GitHub gecikmelerine pay bırakır, betik 00:00'ı bekler
   workflow_dispatch:
     inputs:
       tarih:
@@ -18,7 +18,7 @@ concurrency: yayin
 jobs:
   yayinla:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 100
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

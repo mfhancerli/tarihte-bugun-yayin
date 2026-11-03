@@ -1,0 +1,24 @@
+name: Akşam kontrolü
+
+# Her akşam 18:07 (İstanbul): Meta anahtarı çalışıyor mu, yarının planı hazır ve onaylı mı?
+# Anahtar çalışmıyorsa iş başarısız olur ve GitHub hesap sahibine e-posta gönderir.
+on:
+  schedule:
+    - cron: "7 15 * * *"
+  workflow_dispatch:
+
+jobs:
+  kontrol:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Anahtar ve yarının planı
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+        run: python scripts/yayinla.py --kontrol
