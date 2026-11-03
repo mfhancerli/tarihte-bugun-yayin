@@ -12,6 +12,9 @@ on:
         description: "Kuru çalıştırma (yayınlamadan dene)"
         type: boolean
         default: true
+      sadece:
+        description: "Yalnızca bu adımlar (boş = hepsi): ig-carousel, fb, hikaye"
+        required: false
 
 concurrency: yayin
 
@@ -36,5 +39,6 @@ jobs:
           else
             [ -n "${{ inputs.tarih }}" ] && ARGS="--tarih ${{ inputs.tarih }}"
             [ "${{ inputs.kuru }}" = "true" ] && ARGS="$ARGS --kuru"
+            [ -n "${{ inputs.sadece }}" ] && ARGS="$ARGS --sadece ${{ inputs.sadece }}"
           fi
           python scripts/yayinla.py $ARGS

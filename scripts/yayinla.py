@@ -26,14 +26,19 @@ def istek(yol, veri=None, metod="POST", sayfa=False):
     else:
         body = urllib.parse.urlencode({**(veri or {}), "access_token": tok}, doseq=True).encode()
         req = urllib.request.Request(f"{API}/{yol}", data=body, method="POST")
-    for deneme in range(4):
+    sunucu, kota = 0, 0
+    while True:
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
             hata = e.read().decode(errors="replace")
-            if e.code >= 500 and deneme < 3:
-                log("sunucu hatası, tekrar:", e.code); time.sleep(10 * (deneme + 1)); continue
+            if e.code >= 500 and sunucu < 3:
+                sunucu += 1; log("sunucu hatası, tekrar:", e.code); time.sleep(10 * sunucu); continue
+            kod = hata.replace(" ", "")
+            if any(f'"code":{k},' in kod for k in (4, 17, 32, 613)) and kota < 8:
+                # Meta istek kotası doldu: kota kayan bir saatlik pencerede yenilenir; bekleyip yeniden dene.
+                kota += 1; log(f"Meta istek kotası doldu; 5 dk bekleniyor ({kota}/8):", yol); time.sleep(300); continue
             if '"code":190' in hata.replace(" ", ""):
                 raise SystemExit("Meta erişim anahtarı geçersiz ya da iptal edilmiş (kod 190). Yeni anahtar üretip "
                                  f"GitHub Secrets'taki META_TOKEN'a kaydedin. Meta'nın yanıtı: {hata}")
@@ -59,13 +64,13 @@ def gorsel_url(tarih, dosya):
     return f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/yayin/{tarih}/{urllib.parse.quote(dosya)}"
 
 def bekle_hazir(kap_id, sinir=300):
-    t0 = time.time()
+    t0 = time.time(); time.sleep(2)  # görseller çoğunlukla ilk sorguda hazırdır; seyrek sorgu kotayı korur
     while time.time() - t0 < sinir:
         d = istek(kap_id, {"fields": "status_code"}, "GET")
         s = d.get("status_code")
         if s == "FINISHED": return
         if s in ("ERROR", "EXPIRED"): raise SystemExit(f"Konteyner {kap_id} durumu: {s}")
-        time.sleep(4)
+        time.sleep(8)
     raise SystemExit(f"Konteyner {kap_id} zaman aşımı")
 
 def ig_carousel(ig, tarih, g, kuru):
@@ -100,6 +105,7 @@ def main():
     ap.add_argument("--tarih"); ap.add_argument("--kuru", action="store_true")
     ap.add_argument("--bekle", action="store_true", help="İstanbul saatiyle 00:00'a kadar bekle")
     ap.add_argument("--kontrol", action="store_true", help="Yayın yapmadan anahtarı ve yarının planını denetle")
+    ap.add_argument("--sadece", default="", help="Yalnızca bu adımlar (virgülle): ig-carousel, fb, hikaye")
     a = ap.parse_args()
     simdi = dt.datetime.now(TZ)
     if a.kontrol:
@@ -127,12 +133,19 @@ def main():
         print("::warning::Plan onaylı değil (onaylandi=false); yayın yapılmadı.", flush=True); return
     ig, page = os.environ["IG_USER_ID"], os.environ["FB_PAGE_ID"]
     log("Hesap:", anahtar_hazirla(ig, page), "| tarih:", tarih, "| kuru:" if a.kuru else "")
-    # Çift yayın koruması: günün ilk gönderisi son yayınlar arasında varsa (gecikmeli zamanlanmış iş ya da elle başlatma) dur.
-    if not a.kuru and plan["gonderiler"]:
-        imza = plan["gonderiler"][0]["ig_metin"][:80]
-        son = istek(f"{ig}/media", {"fields": "caption", "limit": "15"}, "GET").get("data", [])
-        if any((m.get("caption") or "").startswith(imza) for m in son):
-            log("Bu günün gönderileri zaten yayınlanmış; tekrar yayın yapılmadı."); return
+    adim = set(x.strip() for x in a.sadece.split(",") if x.strip()) or {"ig-carousel", "fb", "hikaye"}
+    # Çift yayın koruması: daha önce yayınlanmış carousel ve Facebook gönderileri atlanır; günün herhangi bir
+    # gönderisi önceden yayınlanmışsa (önceki bir çalıştırma) hikâyeler de tekrar paylaşılmaz.
+    ig_var, fb_var = set(), set()
+    if not a.kuru:
+        ig_son = [m.get("caption") or "" for m in istek(f"{ig}/media", {"fields": "caption", "limit": "25"}, "GET").get("data", [])]
+        fb_son = [m.get("message") or "" for m in istek(f"{page}/posts", {"fields": "message", "limit": "25"}, "GET", sayfa=True).get("data", [])]
+        for g in plan["gonderiler"]:
+            if any(c.startswith(g["ig_metin"][:80]) for c in ig_son): ig_var.add(g["kod"])
+            if any(m.startswith((g.get("fb_metin") or g["ig_metin"])[:80]) for m in fb_son): fb_var.add(g["kod"])
+        if (ig_var or fb_var) and not a.sadece:
+            log("Bu günün bazı gönderileri zaten yayınlanmış:", sorted(ig_var | fb_var), "— hikâyeler tekrar paylaşılmayacak.")
+            adim.discard("hikaye")
     hatalar = []
     def dene(ad, fn, *args):
         # Bir adım hata verirse kaydedip sıradakine geçer; diğer gönderiler etkilenmez.
@@ -142,11 +155,16 @@ def main():
             hatalar.append(f"{ad}: {e}"); print(f"::error::{ad}: {e}", flush=True)
     for g in plan["gonderiler"]:
         log("Gönderi:", g["kod"])
-        dene(f"Instagram {g['kod']}", ig_carousel, ig, tarih, g, a.kuru)
-        if plan.get("facebook", True): dene(f"Facebook {g['kod']}", fb_coklu, page, tarih, g, a.kuru)
+        if "ig-carousel" in adim:
+            if g["kod"] in ig_var: log("  IG carousel zaten yayınlanmış, atlandı:", g["kod"])
+            else: dene(f"Instagram {g['kod']}", ig_carousel, ig, tarih, g, a.kuru)
+        if "fb" in adim and plan.get("facebook", True):
+            if g["kod"] in fb_var: log("  FB gönderisi zaten yayınlanmış, atlandı:", g["kod"])
+            else: dene(f"Facebook {g['kod']}", fb_coklu, page, tarih, g, a.kuru)
         time.sleep(5)
-    for f in plan.get("hikayeler", []):
-        dene(f"Hikâye {f}", ig_hikaye, ig, tarih, f, a.kuru); time.sleep(3)
+    if "hikaye" in adim:
+        for f in plan.get("hikayeler", []):
+            dene(f"Hikâye {f}", ig_hikaye, ig, tarih, f, a.kuru); time.sleep(3)
     if hatalar:
         raise SystemExit(f"{len(hatalar)} adım başarısız oldu: " + " | ".join(hatalar))
     log("Bitti.")
