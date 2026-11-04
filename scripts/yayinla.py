@@ -18,7 +18,7 @@ def log(*a): print(dt.datetime.now(TZ).strftime("%H:%M:%S"), *a, flush=True)
 
 SAYFA_TOKEN = None  # Facebook sayfası işlemleri için; anahtar_hazirla() doldurur
 
-def istek(yol, veri=None, metod="POST", sayfa=False):
+def istek(yol, veri=None, metod="POST", sayfa=False, kota_bekle=True):
     tok = SAYFA_TOKEN if (sayfa and SAYFA_TOKEN) else os.environ["META_TOKEN"]
     if metod == "GET":
         url = f"{API}/{yol}?" + urllib.parse.urlencode({**(veri or {}), "access_token": tok})
@@ -36,7 +36,7 @@ def istek(yol, veri=None, metod="POST", sayfa=False):
             if e.code >= 500 and sunucu < 3:
                 sunucu += 1; log("sunucu hatası, tekrar:", e.code); time.sleep(10 * sunucu); continue
             kod = hata.replace(" ", "")
-            if any(f'"code":{k},' in kod for k in (4, 17, 32, 613)) and kota < 8:
+            if any(f'"code":{k},' in kod for k in (4, 17, 32, 613)) and kota < 8 and kota_bekle:
                 # Meta istek kotası doldu: kota kayan bir saatlik pencerede yenilenir; bekleyip yeniden dene.
                 kota += 1; log(f"Meta istek kotası doldu; 5 dk bekleniyor ({kota}/8):", yol); time.sleep(300); continue
             if '"code":190' in hata.replace(" ", ""):
@@ -73,6 +73,19 @@ def bekle_hazir(kap_id, sinir=300):
         time.sleep(8)
     raise SystemExit(f"Konteyner {kap_id} zaman aşımı")
 
+def ig_yayinla(ig, kap):
+    """Konteyneri yayınlar. Meta bazen gönderiyi yayınladığı hâlde hata (ör. kod 4, kota) döndürür; bu yüzden
+    hata gelince yeniden denemeden önce konteynerin durumuna bakılır: PUBLISHED ise yayın başarılıdır."""
+    for deneme in range(6):
+        try:
+            return istek(f"{ig}/media_publish", {"creation_id": kap}, kota_bekle=False).get("id")
+        except SystemExit as hata:
+            durum = istek(kap, {"fields": "status_code"}, "GET").get("status_code")
+            if durum == "PUBLISHED":
+                log("  Meta hata döndürdü ama gönderi yayınlanmış (durum: PUBLISHED); başarılı sayıldı."); return kap
+            if durum in ("ERROR", "EXPIRED") or deneme == 5: raise hata
+            log(f"  Yayınlanmadı (durum: {durum}); 5 dk sonra yeniden denenecek ({deneme + 1}/5)"); time.sleep(300)
+
 def ig_carousel(ig, tarih, g, kuru):
     cocuklar = []
     for f in g["gorseller"]:
@@ -81,13 +94,13 @@ def ig_carousel(ig, tarih, g, kuru):
     kap = istek(f"{ig}/media", {"media_type": "CAROUSEL", "children": ",".join(cocuklar), "caption": g["ig_metin"]})["id"]
     bekle_hazir(kap)
     if kuru: log("  [KURU] IG carousel hazır, yayınlanmadı:", g["kod"]); return
-    m = istek(f"{ig}/media_publish", {"creation_id": kap}); log("  IG carousel yayınlandı:", g["kod"], m.get("id"))
+    log("  IG carousel yayınlandı:", g["kod"], ig_yayinla(ig, kap))
 
 def ig_hikaye(ig, tarih, f, kuru):
     kap = istek(f"{ig}/media", {"image_url": gorsel_url(tarih, f), "media_type": "STORIES"})["id"]
     bekle_hazir(kap)
     if kuru: log("  [KURU] IG hikâye hazır:", f); return
-    m = istek(f"{ig}/media_publish", {"creation_id": kap}); log("  IG hikâye yayınlandı:", f, m.get("id"))
+    log("  IG hikâye yayınlandı:", f, ig_yayinla(ig, kap))
 
 def fb_hikaye(page, tarih, f, kuru):
     # Facebook sayfa hikâyesi: fotoğraf yayınlanmamış olarak yüklenir, sonra photo_stories ile hikâye yapılır.
