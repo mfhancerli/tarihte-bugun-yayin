@@ -71,9 +71,20 @@ async def uret(yol):
         g = dict(kod=f"liste{k}", yil=l[0], hicri=l[1], short=l[2], kaynaklar="", slaytlar=[], tema=h.get("tema", "normal"), **{a: b for a, b in h.items() if a != "tema"})
         C = baglam(icerik, g); P = S.THEMES[C["tema"]]; X = S.parts(C, P)
         ad = f"liste{k}-hikaye.jpg"; isler.append((ad, 1080, 1920, S.story(C, P, X, liste_olayi=True))); plan["hikayeler"].append(ad)
-    C0 = baglam(icerik, icerik["gonderiler"][0])
-    isler.append(("son-hikaye.jpg", 1080, 1920, S.story_liste(C0)))
-    plan["hikayeler"].append("son-hikaye.jpg")
+    # Özet "Bugün başka neler oldu?" hikâyesi yalnızca liste olaylarının kendi hikâyeleri yoksa üretilir;
+    # ikisi birlikte aynı olayları iki kez gösterir (4 Kasım 2026'da yaşandı).
+    if not any(len(l) > 3 and l[3] for l in icerik["liste"]):
+        C0 = baglam(icerik, icerik["gonderiler"][0])
+        isler.append(("son-hikaye.jpg", 1080, 1920, S.story_liste(C0)))
+        plan["hikayeler"].append("son-hikaye.jpg")
+    # Tekrar denetimi: aynı olay (yıl + başlık) hikâyelerde iki kez yer alamaz
+    gorulen = {}
+    for g in icerik["gonderiler"]:
+        gorulen.setdefault((str(g["yil"]), g["hook"]), []).append(g["kod"])
+    for k, l in enumerate(icerik["liste"], 1):
+        if len(l) > 3 and l[3]: gorulen.setdefault((str(l[0]), l[3]["hook"]), []).append(f"liste{k}")
+    cift = {a: b for a, b in gorulen.items() if len(b) > 1}
+    if cift: raise SystemExit(f"{tarih}: aynı olay hikâyelerde birden fazla kez yer alıyor: {cift}")
     async with async_playwright() as p:
         b = await p.chromium.launch(); pg = await b.new_page()
         for ad, w, h, html in isler:
