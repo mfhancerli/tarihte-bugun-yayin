@@ -2,7 +2,7 @@
  "tarih": "2026-11-12",
  "ay": "Kasım",
  "gunno": "12",
- "onaylandi": false,
+ "onaylandi": true,
  "facebook": true,
  "liste": [
   [
@@ -45,7 +45,7 @@
  "gonderiler": [
   {
    "kod": "g1-duzce",
-   "tema": "normal",
+   "tema": "huzunlu",
    "yil": "1999",
    "hicri": null,
    "hook": "Düzce depremi: 87 gün sonra ikinci yıkım",
