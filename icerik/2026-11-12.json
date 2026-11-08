@@ -1,0 +1,96 @@
+{
+ "tarih": "2026-11-12",
+ "ay": "Kasım",
+ "gunno": "12",
+ "onaylandi": false,
+ "facebook": true,
+ "liste": [
+  [
+   "1969",
+   null,
+   "Cumhurbaşkanı Cevdet Sunay, Sovyetler Birliği'ne resmî ziyarete başladı; Moskova'dan sonra Leningrad, Kiev, Tiflis ve Bakü'yü de ziyaret etti.",
+   {
+    "hook": "Sunay'ın Sovyetler Birliği ziyareti",
+    "tipo_buyuk": "SUNAY",
+    "tipo_alt": "SSCB ZİYARETİ",
+    "tipo_not": "12-21 Kasım 1969",
+    "tema": "normal"
+   }
+  ],
+  [
+   "2014",
+   null,
+   "Avrupa Uzay Ajansı'nın Philae aracı, 67P kuyruklu yıldızına iniş yaptı; bir kuyruklu yıldıza yapılan ilk kontrollü (yumuşak) inişti.",
+   {
+    "hook": "Kuyruklu yıldıza ilk iniş",
+    "tipo_buyuk": "PHILAE",
+    "tipo_alt": "KUYRUKLU YILDIZA İNİŞ",
+    "tipo_not": "67P · Rosetta görevi",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1840",
+   null,
+   "Düşünen Adam heykelinin yaratıcısı Fransız heykeltıraş Auguste Rodin, Paris'te doğdu.",
+   {
+    "hook": "Heykeltıraş Rodin doğdu",
+    "tipo_buyuk": "RODIN",
+    "tipo_alt": "DÜŞÜNEN ADAM",
+    "tipo_not": "Paris · 1840",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-duzce",
+   "tema": "normal",
+   "yil": "1999",
+   "hicri": null,
+   "hook": "Düzce depremi: 87 gün sonra ikinci yıkım",
+   "short": "12 Kasım 1999'da saat 18.57'de Düzce merkezli büyük bir deprem meydana geldi.",
+   "tipo_buyuk": "18.57",
+   "tipo_alt": "DÜZCE DEPREMİ",
+   "tipo_not": "12 Kasım 1999",
+   "kaynaklar": "Kaynaklar: AFAD (tatbikat açıklamaları), Barka vd. 2002 (BSSA, İTÜ), TBMM tutanakları, Düzce Valiliği (Habertürk/AA), Hacettepe Üniversitesi Halk Sağlığı AD, CNN Türk, Cumhuriyet",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "17 Ağustos'un ardından",
+     "Bölge, 17 Ağustos 1999 depreminin yaralarını sarmaya çalışıyordu. Düzce o depremde de ağır etkilenmişti."
+    ],
+    [
+     "O AN",
+     "Cuma akşamı, 18.57",
+     "12 Kasım 1999 Cuma akşamı saat 18.57'de Düzce merkezli deprem meydana geldi. Deprem pek çok ilde hissedildi."
+    ],
+    [
+     "SONRASI",
+     "Ağır kayıplar",
+     "Deprem büyük can ve mal kaybına yol açtı. Düzce'nin yapı stoku sonraki yıllarda büyük ölçüde yenilendi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Tetiklenen fay",
+     "Uzmanlara göre 17 Ağustos depremi, Düzce fayının doğu kesiminde gerilimi artırmıştı; bu kesim yaklaşık üç ay sonra kırıldı."
+    ]
+   ],
+   "ig_metin": "12 Kasım 1999 Cuma akşamı saat 18.57'de Düzce merkezli büyük bir deprem meydana geldi.\n\nBölge, 87 gün önce yaşanan 17 Ağustos depreminin yaralarını sarmaya çalışıyordu. Uzmanlara göre 17 Ağustos depremi, Düzce fayının doğu kesiminde gerilimi artırmıştı; bu kesim yaklaşık üç ay sonra kırıldı. Deprem büyük can ve mal kaybına yol açtı.\n\n12 Kasım bugün afet bilincinin hatırlatıldığı bir gün. 2022'de bu tarihte, depremin yaşandığı saat olan 18.57'de ülke genelinde ilk kez \"Çök-Kapan-Tutun\" tatbikatı yapıldı.\n\nHayatını kaybedenleri rahmetle anıyoruz.",
+   "fb_metin": "Tarihte bugün, 12 Kasım 1999.\n\nCuma akşamı saat 18.57'de Düzce merkezli büyük bir deprem meydana geldi. Deprem pek çok ilde hissedildi ve büyük can ve mal kaybına yol açtı.\n\nBölge, 87 gün önce yaşanan 17 Ağustos 1999 depreminin yaralarını sarmaya çalışıyordu; Düzce o depremde de ağır etkilenmişti. Uzmanlara göre 17 Ağustos depremi, Düzce fayının doğu kesiminde gerilimi artırmıştı; bu kesim yaklaşık üç ay sonra kırıldı.\n\nDüzce'nin yapı stoku sonraki yıllarda büyük ölçüde yenilendi. 12 Kasım bugün afet bilincinin hatırlatıldığı bir gün: okullarda afet eğitimi etkinlikleri düzenleniyor. 2022'de bu tarihte, depremin yaşandığı saat olan 18.57'de ülke genelinde ilk kez \"Çök-Kapan-Tutun\" tatbikatı yapıldı.\n\nHayatını kaybedenleri rahmetle anıyoruz.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#düzcedepremi",
+    "#düzce",
+    "#afetbilinci",
+    "#deprem"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#DüzceDepremi",
+    "#AfetBilinci"
+   ],
+   "soru": "Evinizde deprem çantası hazır mı? Yorumlarda paylaşın, birbirimize hatırlatalım."
+  }
+ ]
+}

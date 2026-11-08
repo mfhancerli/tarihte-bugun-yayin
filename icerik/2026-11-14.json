@@ -1,0 +1,145 @@
+{
+ "tarih": "2026-11-14",
+ "ay": "Kasım",
+ "gunno": "14",
+ "onaylandi": false,
+ "facebook": true,
+ "liste": [
+  [
+   "2001",
+   null,
+   "A Milli Futbol Takımı, play-off rövanşında Avusturya'yı 5-0 yenerek 48 yıl aradan sonra Dünya Kupası finallerine katılma hakkı kazandı.",
+   {
+    "hook": "48 yıl sonra Dünya Kupası",
+    "tipo_buyuk": "5-0",
+    "tipo_alt": "DÜNYA KUPASI BİLETİ",
+    "tipo_not": "Türkiye - Avusturya · İstanbul",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1914",
+   "1332",
+   "Osmanlı Devleti, Birinci Dünya Savaşı'nda İstanbul'da Fatih Camii'nde düzenlenen törenle Cihad-ı Ekber ilan etti.",
+   {
+    "hook": "Cihad-ı Ekber ilan edildi",
+    "tipo_buyuk": "CİHAD-I EKBER",
+    "tipo_alt": "İLANI",
+    "tipo_not": "Fatih Camii · İstanbul",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1969",
+   null,
+   "İkinci insanlı Ay inişi görevi Apollo 12 fırlatıldı; roket kalkıştan saniyeler sonra yıldırım çarpmasına rağmen yoluna devam etti.",
+   {
+    "hook": "Apollo 12 fırlatıldı",
+    "tipo_buyuk": "APOLLO 12",
+    "tipo_alt": "AY'A İKİNCİ İNİŞ GÖREVİ",
+    "tipo_not": "Kennedy Uzay Merkezi",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-sinema",
+   "tema": "normal",
+   "yil": "1914",
+   "hicri": null,
+   "hook": "Türk sinemasının başlangıcı sayılan film",
+   "short": "Ayastefanos'taki Rus Abidesi'nin yıkılışının 14 Kasım 1914'te Fuat Uzkınay tarafından filme alındığı kabul edilir.",
+   "tipo_buyuk": "SİNEMA",
+   "tipo_alt": "TÜRK SİNEMASININ BAŞLANGICI",
+   "tipo_not": "Ayastefanos · Fuat Uzkınay",
+   "kaynaklar": "Kaynaklar: Atatürk Ansiklopedisi, Cumhuriyet arşivi, TDV İslam Ansiklopedisi (Sinema)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Ayastefanos'taki anıt",
+     "Ruslar, 1877-78 Osmanlı-Rus Savaşı'nın ardından İstanbul yakınlarındaki Ayastefanos'a (bugünkü Yeşilköy) bir anıt dikmişti."
+    ],
+    [
+     "O AN",
+     "Kameranın arkasında Uzkınay",
+     "Osmanlı Devleti'nin Birinci Dünya Savaşı'na girmesinin ardından anıt yıkıldı. Yaygın kabule göre yıkım 14 Kasım 1914'te Fuat Uzkınay tarafından filme alındı."
+    ],
+    [
+     "SONRASI",
+     "Sinemanın doğum günü",
+     "Bu film uzun yıllar Türk sinemasının ilk filmi kabul edildi. 14 Kasım da Türk sinemasının başlangıç tarihi olarak anıldı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Kayıp bir film",
+     "Filmin hiçbir kopyası günümüze ulaşmadı. Bu yüzden bazı araştırmacılar filmin gerçekten çekilip çekilmediğini sorguluyor."
+    ]
+   ],
+   "ig_metin": "14 Kasım, Türk sinemasının başlangıç tarihi olarak anılır.\n\nRuslar, 1877-78 Osmanlı-Rus Savaşı'nın ardından Ayastefanos'a (bugünkü Yeşilköy) bir anıt dikmişti. Osmanlı Devleti'nin Birinci Dünya Savaşı'na girmesinin ardından anıt yıkıldı. Yaygın kabule göre yıkım, 14 Kasım 1914'te Fuat Uzkınay tarafından filme alındı.\n\nNe var ki filmin hiçbir kopyası günümüze ulaşmadı. Bu yüzden bazı araştırmacılar filmin gerçekten çekilip çekilmediğini sorguluyor.",
+   "fb_metin": "Tarihte bugün, 14 Kasım 1914.\n\nBu tarih, uzun yıllardır Türk sinemasının başlangıcı olarak anılıyor.\n\nRuslar, 1877-78 Osmanlı-Rus Savaşı'nın ardından İstanbul yakınlarındaki Ayastefanos'a (bugünkü Yeşilköy) bir anıt dikmişti. Osmanlı Devleti'nin Birinci Dünya Savaşı'na girmesinin ardından anıt yıkıldı. Yaygın kabule göre yıkım, 14 Kasım 1914'te Fuat Uzkınay tarafından filme alındı. \"Ayastefanos'taki Rus Abidesinin Yıkılışı\" adıyla bilinen bu film, Türk sinemasının ilk filmi kabul edildi.\n\nAncak filmin hiçbir kopyası günümüze ulaşmadı. Bu yüzden bazı araştırmacılar filmin gerçekten çekilip çekilmediğini sorguluyor. Tartışmalara rağmen 14 Kasım, Türk sinemasının doğum günü olarak hatırlanmaya devam ediyor.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#türksineması",
+    "#sinema",
+    "#fuatuzkınay",
+    "#yeşilköy"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#TürkSineması",
+    "#Sinema"
+   ],
+   "soru": "Sizce gelmiş geçmiş en iyi Türk filmi hangisi?"
+  },
+  {
+   "kod": "g2-orhanveli",
+   "tema": "normal",
+   "yil": "1950",
+   "hicri": null,
+   "hook": "Orhan Veli'yi kaybettiğimiz gün",
+   "short": "Garip akımının öncülerinden şair Orhan Veli Kanık, 14 Kasım 1950'de İstanbul'da hayatını kaybetti.",
+   "tipo_buyuk": "GARİP",
+   "tipo_alt": "ORHAN VELİ KANIK",
+   "tipo_not": "1914 - 1950",
+   "kaynaklar": "Kaynaklar: TDV İslam Ansiklopedisi (Orhan Veli Kanık), NTV/AA arşivi",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Garip",
+     "Orhan Veli, Oktay Rifat ve Melih Cevdet Anday ile birlikte 1941'de \"Garip\" adlı ortak şiir kitabını yayımladı."
+    ],
+    [
+     "O AN",
+     "36 yaşında",
+     "14 Kasım 1950'de İstanbul'da, 36 yaşında hayatını kaybetti."
+    ],
+    [
+     "SONRASI",
+     "Şiirde yeni bir dil",
+     "Garip akımı, şiirde ölçü ve kafiyeyi bir kenara bırakarak gündelik konuşma dilini öne çıkardı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Yaprak dergisi",
+     "1949-1950 yıllarında \"Yaprak\" adlı bir edebiyat dergisi çıkardı."
+    ]
+   ],
+   "ig_metin": "14 Kasım 1950'de şair Orhan Veli Kanık, İstanbul'da 36 yaşında hayatını kaybetti.\n\nOrhan Veli, Oktay Rifat ve Melih Cevdet Anday ile birlikte 1941'de \"Garip\" adlı ortak şiir kitabını yayımladı. Garip akımı, şiirde ölçü ve kafiyeyi bir kenara bırakarak gündelik konuşma dilini öne çıkardı.\n\nKısa ömrüne rağmen Türk şiirinde kalıcı bir iz bıraktı.",
+   "fb_metin": "Tarihte bugün, 14 Kasım 1950.\n\nŞair Orhan Veli Kanık, İstanbul'da 36 yaşında hayatını kaybetti.\n\nOrhan Veli, Oktay Rifat ve Melih Cevdet Anday ile birlikte 1941'de \"Garip\" adlı ortak şiir kitabını yayımladı. Garip akımı, şiirde ölçü ve kafiyeyi bir kenara bırakarak gündelik konuşma dilini ve sıradan insanın hayatını öne çıkardı.\n\n1949-1950 yıllarında \"Yaprak\" adlı bir edebiyat dergisi çıkardı. Kısa ömrüne rağmen Türk şiirinde kalıcı bir iz bıraktı.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#orhanveli",
+    "#şiir",
+    "#edebiyat",
+    "#garip"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#OrhanVeli",
+    "#Şiir"
+   ],
+   "soru": "En sevdiğiniz Orhan Veli şiiri hangisi?"
+  }
+ ]
+}

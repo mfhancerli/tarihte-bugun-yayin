@@ -1,0 +1,143 @@
+{
+ "tarih": "2026-11-11",
+ "ay": "Kasım",
+ "gunno": "11",
+ "onaylandi": false,
+ "facebook": true,
+ "liste": [
+  [
+   "1938",
+   null,
+   "TBMM, Atatürk'ün vefatının ertesi günü İsmet İnönü'yü Türkiye'nin ikinci cumhurbaşkanı seçti.",
+   {
+    "hook": "İnönü cumhurbaşkanı seçildi",
+    "tipo_buyuk": "İNÖNÜ",
+    "tipo_alt": "İKİNCİ CUMHURBAŞKANI",
+    "tipo_not": "TBMM · 11 Kasım 1938",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1918",
+   null,
+   "Almanya ile İtilaf Devletleri arasında Compiègne Ormanı'nda ateşkes imzalandı; Batı Cephesi'nde çatışmalar sona erdi.",
+   {
+    "hook": "Compiègne'de ateşkes imzalandı",
+    "tipo_buyuk": "COMPIÈGNE",
+    "tipo_alt": "ATEŞKES",
+    "tipo_not": "I. Dünya Savaşı · Batı Cephesi",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1821",
+   null,
+   "Suç ve Ceza'nın yazarı Rus romancı Fyodor Dostoyevski, Moskova'da doğdu.",
+   {
+    "hook": "Dostoyevski doğdu",
+    "tipo_buyuk": "DOSTOYEVSKİ",
+    "tipo_alt": "SUÇ VE CEZA",
+    "tipo_not": "Moskova · 1821",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-arafat",
+   "tema": "normal",
+   "yil": "2004",
+   "hicri": null,
+   "hook": "Yaser Arafat hayatını kaybetti",
+   "short": "Uzun yıllar Filistin Kurtuluş Örgütü'nün başında bulunan Yaser Arafat, 11 Kasım 2004'te Paris yakınlarında vefat etti.",
+   "tipo_buyuk": "ARAFAT",
+   "tipo_alt": "FKÖ LİDERİ",
+   "tipo_not": "1929 - 2004",
+   "kaynaklar": "Kaynaklar: Britannica (Yasir Arafat), AFP, AP, Nobel Vakfı, CNN Türk arşivi",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Filistin davasının simgesi",
+     "Arafat, 1969'dan itibaren Filistin Kurtuluş Örgütü'nün (FKÖ) başkanlığını yürüttü."
+    ],
+    [
+     "O AN",
+     "Paris'te son günler",
+     "Sağlığı ağırlaşınca Ekim 2004 sonunda Ramallah'tan Fransa'ya götürüldü. 11 Kasım 2004'te Clamart'taki Percy askerî hastanesinde hayatını kaybetti."
+    ],
+    [
+     "SONRASI",
+     "Kahire ve Ramallah",
+     "12 Kasım'da Kahire'de resmî cenaze töreni düzenlendi; ardından Ramallah'ta toprağa verildi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Nobel Barış Ödülü",
+     "Arafat, 1994 Nobel Barış Ödülü'nü Yitzhak Rabin ve Şimon Peres ile paylaşmıştı."
+    ]
+   ],
+   "ig_metin": "11 Kasım 2004'te Filistin lideri Yaser Arafat, Paris yakınlarındaki Percy askerî hastanesinde hayatını kaybetti.\n\nArafat, 1969'dan itibaren Filistin Kurtuluş Örgütü'nün başkanlığını yürütmüştü. Sağlığı ağırlaşınca Ekim 2004 sonunda Ramallah'tan Fransa'ya götürüldü.\n\n12 Kasım'da Kahire'de resmî cenaze töreni düzenlendi; ardından Ramallah'ta toprağa verildi. Arafat, 1994 Nobel Barış Ödülü'nü Yitzhak Rabin ve Şimon Peres ile paylaşmıştı.",
+   "fb_metin": "Tarihte bugün, 11 Kasım 2004.\n\nFilistin lideri Yaser Arafat, Paris yakınlarındaki Clamart'ta bulunan Percy askerî hastanesinde hayatını kaybetti.\n\nArafat, 1969'dan itibaren Filistin Kurtuluş Örgütü'nün (FKÖ) başkanlığını yürüttü ve uzun yıllar boyunca Filistin davasının simge isimlerinden biri oldu. 1994'te Nobel Barış Ödülü'nü Yitzhak Rabin ve Şimon Peres ile paylaştı.\n\nSağlığı ağırlaşınca Ekim 2004 sonunda Ramallah'tan Fransa'ya götürüldü. Vefatının ardından 12 Kasım'da Kahire'de resmî cenaze töreni düzenlendi; naaşı daha sonra Ramallah'ta toprağa verildi.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#yaserarafat",
+    "#filistin",
+    "#kudüs",
+    "#ortadoğu"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#YaserArafat",
+    "#Filistin"
+   ]
+  },
+  {
+   "kod": "g2-savasilani",
+   "tema": "normal",
+   "yil": "1914",
+   "hicri": "1332",
+   "hook": "Osmanlı, İtilaf Devletleri'ne savaş ilan etti",
+   "short": "11 Kasım 1914'te Osmanlı Devleti, İtilaf Devletleri'ne resmen savaş ilan etti.",
+   "tipo_buyuk": "İTİLAF'A",
+   "tipo_alt": "SAVAŞ İLANI",
+   "tipo_not": "V. Mehmed Reşad · Hicri 1332",
+   "kaynaklar": "Kaynaklar: Atatürk Araştırma Merkezi (ATAM) dergisi, DergiPark (Birinci Dünya Savaşı çalışmaları), TDV İslam Ansiklopedisi (Mehmed V; Mondros Mütarekesi), Britannica (World War I)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Karadeniz baskını",
+     "29 Ekim 1914'te Osmanlı donanması Karadeniz'deki Rus limanlarını bombaladı. Ardından Rusya, İngiltere ve Fransa Osmanlı Devleti'ne savaş ilan etti."
+    ],
+    [
+     "O AN",
+     "Padişah iradesi",
+     "11 Kasım 1914'te Sultan V. Mehmed Reşad'ın iradesiyle Osmanlı Devleti de İtilaf Devletleri'ne resmen savaş ilan etti."
+    ],
+    [
+     "SONRASI",
+     "Pek çok cephe",
+     "Osmanlı Devleti savaş boyunca Kafkasya, Çanakkale, Irak, Filistin ve Hicaz gibi pek çok cephede mücadele etti."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Mondros'la biten savaş",
+     "Osmanlı Devleti için savaş, 30 Ekim 1918'de imzalanan Mondros Mütarekesi ile sona erdi."
+    ]
+   ],
+   "ig_metin": "11 Kasım 1914'te Osmanlı Devleti, Sultan V. Mehmed Reşad'ın iradesiyle İtilaf Devletleri'ne resmen savaş ilan etti.\n\n29 Ekim 1914'te Osmanlı donanmasının Karadeniz'deki Rus limanlarını bombalamasının ardından Rusya, İngiltere ve Fransa Osmanlı Devleti'ne savaş ilan etmişti.\n\nOsmanlı Devleti savaş boyunca Kafkasya, Çanakkale, Irak, Filistin ve Hicaz gibi pek çok cephede mücadele etti. Savaş, 30 Ekim 1918'de imzalanan Mondros Mütarekesi ile sona erdi.",
+   "fb_metin": "Tarihte bugün, 11 Kasım 1914.\n\nOsmanlı Devleti, Sultan V. Mehmed Reşad'ın iradesiyle İtilaf Devletleri'ne resmen savaş ilan etti.\n\nBirinci Dünya Savaşı Temmuz 1914'ün sonunda başlamıştı. 29 Ekim 1914'te Osmanlı donanması Karadeniz'deki Rus limanlarını bombaladı. Bunun üzerine Rusya, İngiltere ve Fransa Osmanlı Devleti'ne savaş ilan etti. Osmanlı'nın resmî savaş ilanı 11 Kasım'da geldi.\n\nOsmanlı Devleti savaş boyunca Kafkasya, Çanakkale, Irak, Filistin ve Hicaz gibi pek çok cephede mücadele etti. Osmanlı için savaş, 30 Ekim 1918'de imzalanan Mondros Mütarekesi ile sona erdi.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#birincidünyasavaşı",
+    "#osmanlı",
+    "#osmanlıtarihi",
+    "#1914"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#BirinciDünyaSavaşı",
+    "#Osmanlı"
+   ]
+  }
+ ]
+}
