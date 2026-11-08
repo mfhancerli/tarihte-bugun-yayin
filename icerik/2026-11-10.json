@@ -1,0 +1,143 @@
+{
+ "tarih": "2026-11-10",
+ "ay": "Kasım",
+ "gunno": "10",
+ "onaylandi": true,
+ "facebook": true,
+ "liste": [
+  [
+   "1989",
+   null,
+   "Bulgaristan'da Türklere yönelik asimilasyon politikasını yürüten Todor Jivkov görevden alındı.",
+   {
+    "hook": "Todor Jivkov görevden alındı",
+    "tipo_buyuk": "JİVKOV",
+    "tipo_alt": "GÖREVDEN ALINDI",
+    "tipo_not": "Bulgaristan · 1989",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1922",
+   null,
+   "Kırklareli'nin yönetimi TBMM Hükümeti'ne geçti; şehir işgalden kurtuldu.",
+   {
+    "hook": "Kırklareli'nin kurtuluşu",
+    "tipo_buyuk": "KIRKLARELİ",
+    "tipo_alt": "KURTULUŞ",
+    "tipo_not": "TBMM Hükümeti'ne geçti",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1871",
+   null,
+   "Gazeteci Henry Morton Stanley, kayıp kâşif David Livingstone'u Tanganika Gölü kıyısındaki Ujiji'de buldu (buluşmanın kesin tarihi tartışmalıdır).",
+   {
+    "hook": "Stanley, Livingstone'u buldu",
+    "tipo_buyuk": "UJİJİ",
+    "tipo_alt": "STANLEY VE LIVINGSTONE",
+    "tipo_not": "Tanganika Gölü kıyısı",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-ataturk",
+   "tema": "huzunlu",
+   "yil": "1938",
+   "hicri": null,
+   "hook": "Atatürk'ü saygı ve özlemle anıyoruz",
+   "short": "Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk, 10 Kasım 1938'de saat 09.05'te Dolmabahçe Sarayı'nda hayatını kaybetti.",
+   "tipo_buyuk": "09.05",
+   "tipo_alt": "DOLMABAHÇE",
+   "tipo_not": "10 Kasım 1938",
+   "kaynaklar": "Kaynaklar: TBMM yayınları, Atatürk Ansiklopedisi, Cumhuriyet arşivi, Anadolu Ajansı, Anıtkabir Komutanlığı",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Ağır bir hastalık",
+     "Atatürk, 1938 yılı boyunca ağırlaşan bir hastalıkla mücadele etti ve son aylarını İstanbul'da, Dolmabahçe Sarayı'nda geçirdi."
+    ],
+    [
+     "O AN",
+     "Saat 09.05",
+     "10 Kasım 1938 Perşembe sabahı saat 09.05'te, 57 yaşında hayata gözlerini yumdu."
+    ],
+    [
+     "SONRASI",
+     "Ankara'ya yolculuk",
+     "Naaşı Ankara'ya getirildi ve Etnografya Müzesi'ne geçici olarak konuldu. 10 Kasım 1953'te Anıtkabir'e nakledildi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Her yıl aynı saatte",
+     "Her yıl 10 Kasım'da saat 09.05'te Türkiye genelinde saygı duruşunda bulunulur, sirenler çalar."
+    ]
+   ],
+   "ig_metin": "10 Kasım 1938, saat 09.05.\n\nTürkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk, İstanbul'da Dolmabahçe Sarayı'nda 57 yaşında hayatını kaybetti. 1938 yılı boyunca ağırlaşan bir hastalıkla mücadele etmişti.\n\nNaaşı Ankara'ya getirilerek Etnografya Müzesi'ne geçici olarak konuldu; 10 Kasım 1953'te Anıtkabir'e nakledildi.\n\nBugün saat 09.05'te Türkiye genelinde saygı duruşunda bulunulacak. Atatürk'ü saygı ve özlemle anıyoruz.",
+   "fb_metin": "Tarihte bugün, 10 Kasım 1938.\n\nTürkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk, saat 09.05'te İstanbul'da, Dolmabahçe Sarayı'nda 57 yaşında hayatını kaybetti.\n\nAtatürk, 1938 yılı boyunca ağırlaşan bir hastalıkla mücadele etmiş ve son aylarını Dolmabahçe Sarayı'nda geçirmişti. Vefat haberi bütün yurtta derin bir yasla karşılandı.\n\nNaaşı Ankara'ya getirilerek Etnografya Müzesi'ne geçici olarak konuldu. 10 Kasım 1953'te, yapımı tamamlanan Anıtkabir'e nakledildi.\n\nHer yıl 10 Kasım'da saat 09.05'te Türkiye genelinde saygı duruşunda bulunulur ve sirenler çalar. Vefatının 88. yılında Atatürk'ü saygı ve özlemle anıyoruz.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#10kasım",
+    "#atatürk",
+    "#mustafakemalatatürk",
+    "#anıtkabir"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#10Kasım",
+    "#Atatürk"
+   ]
+  },
+  {
+   "kod": "g2-varna",
+   "tema": "normal",
+   "yil": "1444",
+   "hicri": "848",
+   "hook": "Varna: Haçlı ordusuna karşı zafer",
+   "short": "II. Murad komutasındaki Osmanlı ordusu, 10 Kasım 1444'te Varna'da Haçlı ordusunu yendi.",
+   "tipo_buyuk": "VARNA",
+   "tipo_alt": "ZAFERİ",
+   "tipo_not": "II. Murad · Hicri 848",
+   "kaynaklar": "Kaynaklar: TDV İslam Ansiklopedisi (Varna Savaşı, Feridun Emecen; Murad II), Britannica (Battle of Varna)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Bozulan barış",
+     "1444 yazında Osmanlılar ile Macarlar arasında bir barış antlaşması yapılmıştı. Ancak Macar Kralı Vladislav ve müttefikleri kısa süre sonra Haçlı seferini yeniden başlattı."
+    ],
+    [
+     "O AN",
+     "II. Murad yeniden ordunun başında",
+     "Tahtı oğlu II. Mehmed'e bırakmış olan II. Murad, tehlike üzerine ordunun başına geçti. 10 Kasım 1444'te Varna yakınlarındaki savaşı Osmanlılar kazandı."
+    ],
+    [
+     "SONRASI",
+     "Kral savaş meydanında öldü",
+     "Kral Vladislav savaşta hayatını kaybetti. Zafer, Osmanlıların Balkanlar'daki varlığını sağlamlaştırdı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Takvim notu",
+     "Kaynaklardaki 10 Kasım tarihi, o dönem Avrupa'da kullanılan Jülyen takvimine göredir. Hicri takvimde 28 Receb 848'e denk gelir."
+    ]
+   ],
+   "ig_metin": "10 Kasım 1444'te II. Murad komutasındaki Osmanlı ordusu, Varna'da Haçlı ordusunu yendi.\n\nAynı yılın yazında Osmanlılar ile Macarlar arasında bir barış antlaşması yapılmıştı. Ancak Macar Kralı Vladislav ve müttefikleri kısa süre sonra seferi yeniden başlattı. Tahtı oğlu II. Mehmed'e bırakmış olan II. Murad, bu tehlike üzerine yeniden ordunun başına geçti.\n\nSavaşta Kral Vladislav hayatını kaybetti. Zafer, Osmanlıların Balkanlar'daki varlığını sağlamlaştırdı.\n\nNot: 10 Kasım tarihi, o dönem kullanılan Jülyen takvimine göredir (Hicri: 28 Receb 848).",
+   "fb_metin": "Tarihte bugün, 10 Kasım 1444.\n\nII. Murad komutasındaki Osmanlı ordusu, Karadeniz kıyısındaki Varna yakınlarında Haçlı ordusunu yendi.\n\nAynı yılın yazında Osmanlılar ile Macarlar arasında bir barış antlaşması yapılmıştı. Ancak Macar Kralı Vladislav ve müttefikleri kısa süre sonra Haçlı seferini yeniden başlattı. Tahtı oğlu II. Mehmed'e bırakmış olan II. Murad, bu tehlike karşısında yeniden ordunun başına geçti.\n\nSavaşta Kral Vladislav hayatını kaybetti. Varna zaferi, Osmanlıların Balkanlar'daki varlığını sağlamlaştırdı.\n\nNot: Kaynaklarda geçen 10 Kasım tarihi, o dönem Avrupa'da kullanılan Jülyen takvimine göredir. Hicri takvimde 28 Receb 848'e denk gelir.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#varna",
+    "#ikincimurad",
+    "#osmanlı",
+    "#osmanlıtarihi"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#Varna",
+    "#Osmanlı"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "tarih": "2026-11-13",
+ "ay": "Kasım",
+ "gunno": "13",
+ "onaylandi": true,
+ "facebook": true,
+ "liste": [
+  [
+   "1922",
+   null,
+   "Tekirdağ, TBMM idaresine alınarak Yunan işgalinden kurtuldu.",
+   {
+    "hook": "Tekirdağ'ın kurtuluşu",
+    "tipo_buyuk": "TEKİRDAĞ",
+    "tipo_alt": "KURTULUŞ",
+    "tipo_not": "13 Kasım 1922",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1985",
+   null,
+   "Kolombiya'da Nevado del Ruiz yanardağının patlamasıyla oluşan çamur akıntıları Armero kasabasını gömdü; binlerce kişi hayatını kaybetti.",
+   {
+    "hook": "Nevado del Ruiz faciası",
+    "tipo_buyuk": "ARMERO",
+    "tipo_alt": "YANARDAĞ FACİASI",
+    "tipo_not": "Nevado del Ruiz · Kolombiya",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1850",
+   null,
+   "Define Adası'nın yazarı İskoç romancı Robert Louis Stevenson, Edinburgh'da doğdu.",
+   {
+    "hook": "Define Adası'nın yazarı doğdu",
+    "tipo_buyuk": "STEVENSON",
+    "tipo_alt": "DEFİNE ADASI",
+    "tipo_not": "Edinburgh · 1850",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-itilaf",
+   "tema": "normal",
+   "yil": "1918",
+   "hicri": "1337",
+   "hook": "İtilaf donanması İstanbul önlerinde",
+   "short": "13 Kasım 1918'de İtilaf Devletleri'nin donanması İstanbul önlerine demirledi.",
+   "tipo_buyuk": "İSTANBUL",
+   "tipo_alt": "İTİLAF DONANMASI",
+   "tipo_not": "Fiilî işgalin başlangıcı",
+   "kaynaklar": "Kaynaklar: Atatürk Ansiklopedisi, DergiPark (İstanbul'un işgali çalışmaları), TDV İslam Ansiklopedisi (Mondros Mütarekesi; İstanbul)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Mondros'un ardından",
+     "30 Ekim 1918'de imzalanan Mondros Mütarekesi, İtilaf Devletleri'ne Boğazları kullanma ve stratejik noktaları işgal etme imkânı tanıyordu."
+    ],
+    [
+     "O AN",
+     "13 Kasım 1918",
+     "İtilaf Devletleri'nin donanması İstanbul önlerine demirledi. Bu tarih, İstanbul'un fiilî işgalinin başlangıcı kabul edilir."
+    ],
+    [
+     "SONRASI",
+     "Resmî işgal ve kurtuluş",
+     "İstanbul 16 Mart 1920'de resmen işgal edildi. Türk birlikleri 6 Ekim 1923'te şehre girdi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Aynı gün Haydarpaşa",
+     "Mustafa Kemal Paşa da aynı gün İstanbul'a ulaştı ve Haydarpaşa'dan şehre geçti."
+    ]
+   ],
+   "ig_metin": "13 Kasım 1918'de İtilaf Devletleri'nin donanması İstanbul önlerine demirledi. Bu tarih, İstanbul'un fiilî işgalinin başlangıcı kabul edilir.\n\nİki hafta önce, 30 Ekim 1918'de imzalanan Mondros Mütarekesi, İtilaf Devletleri'ne Boğazları kullanma ve stratejik noktaları işgal etme imkânı tanımıştı.\n\nİstanbul 16 Mart 1920'de resmen işgal edildi; Türk birlikleri şehre 6 Ekim 1923'te girdi. Mustafa Kemal Paşa da 13 Kasım 1918'de İstanbul'a ulaşmıştı.",
+   "fb_metin": "Tarihte bugün, 13 Kasım 1918.\n\nİtilaf Devletleri'nin donanması İstanbul önlerine demirledi. Bu tarih, İstanbul'un fiilî işgalinin başlangıcı kabul edilir.\n\nOsmanlı Devleti için Birinci Dünya Savaşı, 30 Ekim 1918'de imzalanan Mondros Mütarekesi ile sona ermişti. Mütareke, İtilaf Devletleri'ne Boğazları kullanma ve stratejik noktaları işgal etme imkânı tanıyordu. Donanmanın İstanbul'a gelişi, bu sürecin başkentte görünür hâle geldiği gündü.\n\nMustafa Kemal Paşa da aynı gün İstanbul'a ulaştı. İstanbul 16 Mart 1920'de resmen işgal edildi. Türk birlikleri şehre ancak 6 Ekim 1923'te, Lozan Antlaşması'nın ardından girebildi.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#istanbul",
+    "#mondros",
+    "#millimücadele",
+    "#osmanlıtarihi"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#İstanbul",
+    "#MilliMücadele"
+   ]
+  }
+ ]
+}
