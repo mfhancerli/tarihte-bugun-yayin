@@ -73,16 +73,30 @@ def bekle_hazir(kap_id, sinir=300):
         time.sleep(8)
     raise SystemExit(f"Konteyner {kap_id} zaman aşımı")
 
-def ig_yayinla(ig, kap):
-    """Konteyneri yayınlar. Meta bazen gönderiyi yayınladığı hâlde hata (ör. kod 4, kota) döndürür; bu yüzden
-    hata gelince yeniden denemeden önce konteynerin durumuna bakılır: PUBLISHED ise yayın başarılıdır."""
+def ig_yayinlanmis_mi(ig, imza):
+    """Hesabın son gönderilerinde açıklaması `imza` ile başlayan bir gönderi var mı? (hata dönse bile yayınlanmış olabilir)"""
+    if not imza: return False
+    try:
+        son = istek(f"{ig}/media", {"fields": "caption", "limit": "15"}, "GET", kota_bekle=False).get("data", [])
+    except SystemExit:
+        return False
+    return any((m.get("caption") or "").startswith(imza) for m in son)
+
+def ig_yayinla(ig, kap, imza=None):
+    """Konteyneri yayınlar. Meta bazen gönderiyi yayınladığı hâlde hata döndürür (kod 4 'eylem engellendi', -1 'Fatal' vb.;
+    5-8 Kasım 2026'da carousel'ler yayınlandığı hâlde böyle hatalar geldi). Bu yüzden hata gelince önce 90 sn beklenir,
+    sonra (1) konteynerin durumuna, (2) carousel'ler için hesabın son gönderilerindeki açıklamaya bakılır."""
     for deneme in range(6):
         try:
             return istek(f"{ig}/media_publish", {"creation_id": kap}, kota_bekle=False).get("id")
         except SystemExit as hata:
-            durum = istek(kap, {"fields": "status_code"}, "GET").get("status_code")
-            if durum == "PUBLISHED":
-                log("  Meta hata döndürdü ama gönderi yayınlanmış (durum: PUBLISHED); başarılı sayıldı."); return kap
+            time.sleep(90)
+            try:
+                durum = istek(kap, {"fields": "status_code"}, "GET", kota_bekle=False).get("status_code")
+            except SystemExit:
+                durum = None
+            if durum == "PUBLISHED" or ig_yayinlanmis_mi(ig, imza):
+                log("  Meta hata döndürdü ama gönderi yayınlanmış; başarılı sayıldı."); return kap
             if durum in ("ERROR", "EXPIRED") or deneme == 5: raise hata
             log(f"  Yayınlanmadı (durum: {durum}); 5 dk sonra yeniden denenecek ({deneme + 1}/5)"); time.sleep(300)
 
@@ -94,7 +108,8 @@ def ig_carousel(ig, tarih, g, kuru):
     kap = istek(f"{ig}/media", {"media_type": "CAROUSEL", "children": ",".join(cocuklar), "caption": g["ig_metin"]})["id"]
     bekle_hazir(kap)
     if kuru: log("  [KURU] IG carousel hazır, yayınlanmadı:", g["kod"]); return
-    log("  IG carousel yayınlandı:", g["kod"], ig_yayinla(ig, kap))
+    log("  IG carousel yayınlandı:", g["kod"], ig_yayinla(ig, kap, imza=g["ig_metin"][:60]))
+    time.sleep(120)  # Instagram'ın "eylem engellendi" korumasına takılmamak için gönderiler arasında 2 dk ara
 
 def ig_hikaye(ig, tarih, f, kuru):
     kap = istek(f"{ig}/media", {"image_url": gorsel_url(tarih, f), "media_type": "STORIES"})["id"]
