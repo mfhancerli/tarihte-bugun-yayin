@@ -1,6 +1,6 @@
 {
   "tarih": "2026-11-11",
-  "onaylandi": true,
+  "onaylandi": false,
   "facebook": true,
   "gonderiler": [
     {
@@ -35,6 +35,7 @@
   "hikayeler": [
     "g1-arafat-hikaye.jpg",
     "g2-savasilani-hikaye.jpg",
+    "son-hikaye.jpg",
     "liste1-hikaye.jpg",
     "liste2-hikaye.jpg",
     "liste3-hikaye.jpg"
