@@ -2,7 +2,7 @@
  "tarih": "2026-11-11",
  "ay": "Kasım",
  "gunno": "11",
- "onaylandi": true,
+ "onaylandi": false,
  "facebook": true,
  "liste": [
   [
@@ -139,5 +139,6 @@
     "#Osmanlı"
    ]
   }
- ]
+ ],
+ "not": "Hesap sahibi Meta Business Suite'te ELLE planladı (8 Kasım 2026, GitHub askıdayken). Çift yayın olmaması için otomatik yayından çıkarıldı."
 }
