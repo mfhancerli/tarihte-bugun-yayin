@@ -4,6 +4,7 @@ name: Akşam kontrolü
 # Anahtar çalışmıyorsa iş başarısız olur ve GitHub hesap sahibine e-posta gönderir.
 on:
   schedule:
+    # Zamanlama, hesap askısı (8-10 Kasım 2026) sonrası yeniden kaydedildi.
     - cron: "7 15 * * *"
   workflow_dispatch:
 

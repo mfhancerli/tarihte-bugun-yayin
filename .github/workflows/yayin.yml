@@ -2,6 +2,7 @@ name: Günlük yayın
 
 on:
   schedule:
+    # Zamanlama, hesap askısı (8-10 Kasım 2026) sonrası yeniden kaydedildi.
     - cron: "10 20 * * *"   # 23:10 İstanbul; GitHub gecikmelerine pay bırakır, betik 00:00'ı bekler
   workflow_dispatch:
     inputs:
