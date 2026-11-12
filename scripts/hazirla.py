@@ -56,20 +56,17 @@ async def uret(yol):
     isler, plan = [], dict(tarih=tarih, onaylandi=bool(icerik.get("onaylandi")), facebook=icerik.get("facebook", True), gonderiler=[], hikayeler=[])
     for g in icerik["gonderiler"]:
         C = baglam(icerik, g); P = S.THEMES[C["tema"]]; X = S.parts(C, P)
+        # "Bugün başka neler oldu?" ve kapanış sayfaları gönderinin temasından bağımsız, her zaman normal temadır
+        # (hesap sahibinin 12 Kasım 2026 kararı: koyu tema yalnızca olaya ait sayfalarda).
+        PN = S.THEMES["normal"]; XN = S.parts(C, PN)
         n = 3 + len(C["slaytlar"])
-        sayfalar = [S.cover(C, P, X, n)] + [S.content(C, P, X, j + 2, n, *s) for j, s in enumerate(C["slaytlar"])] + [S.liste(C, P, X, n - 1, n), S.slogan(C, P, X, n, n)]
+        sayfalar = [S.cover(C, P, X, n)] + [S.content(C, P, X, j + 2, n, *s) for j, s in enumerate(C["slaytlar"])] + [S.liste(C, PN, XN, n - 1, n), S.slogan(C, PN, XN, n, n)]
         adlar = []
         for j, html in enumerate(sayfalar, 1):
             ad = f"{g['kod']}-carousel-{j:02d}.jpg"; isler.append((ad, 1080, 1350, html)); adlar.append(ad)
         isler.append((f"{g['kod']}-hikaye.jpg", 1080, 1920, S.story(C, P, X)))
         plan["gonderiler"].append(dict(kod=g["kod"], gorseller=adlar, ig_metin=aciklama(icerik, g, "ig"), fb_metin=aciklama(icerik, g, "fb")))
         plan["hikayeler"].append(f"{g['kod']}-hikaye.jpg")
-    # "Bugün başka neler oldu?" özet hikâyesi her gün üretilir ve gönderi hikâyelerinin hemen ardından,
-    # liste olaylarının kendi hikâyelerinden önce paylaşılır (hesap sahibinin 8 Kasım 2026 kararı).
-    if icerik["liste"]:
-        C0 = baglam(icerik, icerik["gonderiler"][0])
-        isler.append(("son-hikaye.jpg", 1080, 1920, S.story_liste(C0)))
-        plan["hikayeler"].append("son-hikaye.jpg")
     # Ardından listedeki her olay için ayrı hikâye karesi (carousel'leri yoktur)
     for k, l in enumerate(icerik["liste"], 1):
         h = l[3] if len(l) > 3 else None
@@ -77,6 +74,12 @@ async def uret(yol):
         g = dict(kod=f"liste{k}", yil=l[0], hicri=l[1], short=l[2], kaynaklar="", slaytlar=[], tema=h.get("tema", "normal"), **{a: b for a, b in h.items() if a != "tema"})
         C = baglam(icerik, g); P = S.THEMES[C["tema"]]; X = S.parts(C, P)
         ad = f"liste{k}-hikaye.jpg"; isler.append((ad, 1080, 1920, S.story(C, P, X, liste_olayi=True))); plan["hikayeler"].append(ad)
+    # En sonda "Bugün başka neler oldu?" özet hikâyesi: listeye giremeyen, puanı yetmeyen diğer doğrulanmış olaylar
+    # (içerik dosyasındaki "diger" alanı). Hesap sahibinin 12 Kasım 2026 kararı. "diger" boşsa özet hikâye yapılmaz.
+    if icerik.get("diger"):
+        C0 = baglam(icerik, icerik["gonderiler"][0]); C0 = dict(C0, liste=icerik["diger"])
+        isler.append(("son-hikaye.jpg", 1080, 1920, S.story_liste(C0)))
+        plan["hikayeler"].append("son-hikaye.jpg")
     # Tekrar denetimi tek tek hikâyeler içindir; özet hikâye günün listesini bilerek toplu gösterir.
     # Tekrar denetimi: aynı olay (yıl + başlık) hikâyelerde iki kez yer alamaz
     gorulen = {}
@@ -84,6 +87,9 @@ async def uret(yol):
         gorulen.setdefault((str(g["yil"]), g["hook"]), []).append(g["kod"])
     for k, l in enumerate(icerik["liste"], 1):
         if len(l) > 3 and l[3]: gorulen.setdefault((str(l[0]), l[3]["hook"]), []).append(f"liste{k}")
+    for x in icerik.get("diger", []):
+        if any(str(x[0]) == str(l[0]) and x[2] == l[2] for l in icerik["liste"]):
+            raise SystemExit(f"{tarih}: 'diger' olayı liste ya da gönderilerle çakışıyor: {x[0]}")
     cift = {a: b for a, b in gorulen.items() if len(b) > 1}
     if cift: raise SystemExit(f"{tarih}: aynı olay hikâyelerde birden fazla kez yer alıyor: {cift}")
     async with async_playwright() as p:
