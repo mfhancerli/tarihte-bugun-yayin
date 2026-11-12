@@ -141,5 +141,18 @@
    ],
    "soru": "En sevdiğiniz Orhan Veli şiiri hangisi?"
   }
- ]
+ ],
+ "diger": [
+  [
+   "1889",
+   null,
+   "Gazeteci Nellie Bly, Jules Verne'in romanındaki 80 günlük dünya turu rekorunu geçmek için New York'tan yola çıktı."
+  ],
+  [
+   "1922",
+   null,
+   "BBC, Londra'daki 2LO stüdyosundan ilk günlük radyo yayınını yaptı."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Nellie Bly), BBC/London Museum (BBC'nin ilk yayını)"
 }
