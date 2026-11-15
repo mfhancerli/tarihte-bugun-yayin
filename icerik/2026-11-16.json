@@ -1,0 +1,110 @@
+{
+ "tarih": "2026-11-16",
+ "ay": "Kasım",
+ "gunno": "16",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (16-22 Kasım partisi, 16 Kasım 02:00'de üretildi).",
+ "liste": [
+  [
+   "2000",
+   null,
+   "Sanatçı Ahmet Kaya, Paris'te kalp krizi sonucu hayatını kaybetti.",
+   {
+    "hook": "Ahmet Kaya hayatını kaybetti",
+    "tipo_buyuk": "AHMET KAYA",
+    "tipo_alt": "1957-2000",
+    "tipo_not": "Paris",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1945",
+   null,
+   "UNESCO'nun kuruluş sözleşmesi, Londra'da 37 ülke tarafından imzalandı.",
+   {
+    "hook": "UNESCO'nun kuruluş imzası",
+    "tipo_buyuk": "UNESCO",
+    "tipo_alt": "KURULUŞ SÖZLEŞMESİ",
+    "tipo_not": "Londra · 37 ülke",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1974",
+   null,
+   "Porto Riko'daki Arecibo radyo teleskobundan, dünya dışı yaşama yönelik ilk kasıtlı radyo mesajı uzaya gönderildi.",
+   {
+    "hook": "Uzaylılara ilk kasıtlı mesaj",
+    "tipo_buyuk": "ARECIBO",
+    "tipo_alt": "UZAYA MESAJ",
+    "tipo_not": "Porto Riko · M13 yönüne",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-butto",
+   "tema": "normal",
+   "yil": "1988",
+   "hicri": null,
+   "hook": "İlk kadın lidere giden seçim",
+   "short": "16 Kasım 1988 seçiminde Benazir Butto'nun partisi Pakistan meclisinde en çok sandalyeyi kazandı.",
+   "tipo_buyuk": "BENAZİR BUTTO",
+   "tipo_alt": "PAKİSTAN SEÇİMİ",
+   "tipo_not": "16 Kasım 1988",
+   "kaynaklar": "Kaynaklar: Britannica (Benazir Bhutto; Pakistan), Pakistan Ulusal Meclisi, Pakistan Kadın Parlamenterler Grubu, History.com",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "11 yıl sonra partili seçim",
+     "Pakistan'da 16 Kasım 1988'de, 11 yıl aradan sonra ilk kez partilerin yarıştığı genel seçim yapıldı."
+    ],
+    [
+     "O AN",
+     "Meclisin en büyük partisi",
+     "Benazir Butto'nun liderliğindeki Pakistan Halk Partisi, Ulusal Meclis'te en çok sandalyeyi kazanan parti oldu. Sandalyelerin yarısından biraz azını almıştı."
+    ],
+    [
+     "SONRASI",
+     "Aralıkta başbakan",
+     "Butto, Aralık 1988'de Pakistan'ın ilk kadın başbakanı olarak göreve başladı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Modern tarihte bir ilk",
+     "Britannica'ya göre Benazir Butto, modern tarihte bir Müslüman ülkenin başına geçen ilk kadın lider oldu."
+    ]
+   ],
+   "ig_metin": "16 Kasım 1988'de Pakistan'da genel seçim yapıldı. Benazir Butto'nun liderliğindeki Pakistan Halk Partisi, Ulusal Meclis'te en çok sandalyeyi kazandı.\n\nÜlkede 11 yıl aradan sonra ilk kez partilerin yarıştığı bu seçimin ardından Butto, Aralık 1988'de Pakistan'ın ilk kadın başbakanı oldu.\n\nBritannica, Benazir Butto'yu modern tarihte bir Müslüman ülkenin başına geçen ilk kadın lider olarak anıyor.",
+   "fb_metin": "Tarihte bugün, 16 Kasım 1988.\n\nPakistan'da genel seçim yapıldı. Ülkede 11 yıl aradan sonra ilk kez partilerin yarıştığı bu seçimde, Benazir Butto'nun liderliğindeki Pakistan Halk Partisi Ulusal Meclis'te en çok sandalyeyi kazandı. Parti, sandalyelerin yarısından biraz azını almıştı.\n\nSeçimin ardından Benazir Butto, Aralık 1988'de Pakistan'ın ilk kadın başbakanı olarak göreve başladı.\n\nBritannica, onu modern tarihte bir Müslüman ülkenin başına geçen ilk kadın lider olarak anıyor.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#dünyatarihi",
+    "#pakistan",
+    "#benazirbutto",
+    "#16kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#Pakistan",
+    "#BenazirButto"
+   ],
+   "soru": "Benazir Butto'nun adını daha önce duymuş muydunuz? Yorumlarda paylaşın."
+  }
+ ],
+ "diger": [
+  [
+   "1983",
+   null,
+   "A Milli Futbol Takımı, Avrupa Şampiyonası eleme maçında Avusturya'yı 3-1 yendi."
+  ],
+  [
+   "1965",
+   null,
+   "Sovyetler Birliği, Venüs'e gönderdiği Venera 3 uzay aracını fırlattı."
+  ]
+ ],
+ "diger_kaynaklar": "TFF (TamSaha maç kayıtları), NASA NSSDC (Venera 3)"
+}

@@ -1,0 +1,109 @@
+{
+ "tarih": "2026-11-19",
+ "ay": "Kasım",
+ "gunno": "19",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (16-22 Kasım partisi, 16 Kasım 02:00'de üretildi).",
+ "liste": [
+  [
+   "2011",
+   null,
+   "Türk sinemasının usta yönetmenlerinden Ömer Lütfi Akad, İstanbul'da hayatını kaybetti.",
+   {
+    "hook": "Ömer Lütfi Akad'ı kaybettik",
+    "tipo_buyuk": "LÜTFİ AKAD",
+    "tipo_alt": "1916-2011",
+    "tipo_not": "Yönetmen · senarist",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1946",
+   null,
+   "Afganistan, İzlanda ve İsveç ile birlikte Birleşmiş Milletler'e üye oldu.",
+   {
+    "hook": "Afganistan BM'ye katıldı",
+    "tipo_buyuk": "AFGANİSTAN",
+    "tipo_alt": "BM ÜYESİ OLDU",
+    "tipo_not": "New York · 1946",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1969",
+   null,
+   "Brezilyalı futbolcu Pelé, Maracanã'da Vasco da Gama'ya attığı penaltıyla kariyerinin 1000. golü olarak kayda geçen golü attı.",
+   {
+    "hook": "Pelé'nin 1000. golü",
+    "tipo_buyuk": "PELÉ",
+    "tipo_alt": "1000. GOL",
+    "tipo_not": "Maracanã · 1969",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-meliksah",
+   "tema": "normal",
+   "yil": "1092",
+   "hicri": "485",
+   "hook": "Sultan Melikşah'ın vefatı",
+   "short": "19 Kasım 1092'de Büyük Selçuklu Sultanı Melikşah, Bağdat'ta vefat etti.",
+   "tipo_buyuk": "MELİKŞAH",
+   "tipo_alt": "BÜYÜK SELÇUKLU",
+   "tipo_not": "Bağdat · 1092",
+   "kaynaklar": "Kaynaklar: TDV İslâm Ansiklopedisi (Melikşah), Britannica (Malik-Shāh)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Alparslan'ın oğlu",
+     "Melikşah, babası Sultan Alparslan'ın ölümü üzerine 1072'de Büyük Selçuklu sultanı ilan edildi."
+    ],
+    [
+     "O AN",
+     "Bağdat'ta vefat",
+     "TDV İslâm Ansiklopedisi'ne göre Melikşah, 16 Şevval 485'te (19 Kasım 1092) Bağdat'ta vefat etti."
+    ],
+    [
+     "SONRASI",
+     "Kaşgar'dan Boğaziçi'ne",
+     "TDV'ye göre onun döneminde hâkimiyet alanı Kaşgar'dan Boğaziçi'ne, Aral Gölü ve Kafkasya'dan Yemen ve Aden'e uzanıyordu."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Celâlî takvimi",
+     "Celâlî takvimi adı verilen güneş takvimi, Melikşah'ın emriyle hazırlandı."
+    ]
+   ],
+   "ig_metin": "19 Kasım 1092'de Büyük Selçuklu Sultanı Melikşah, Bağdat'ta vefat etti. TDV İslâm Ansiklopedisi vefat tarihini 16 Şevval 485 olarak veriyor.\n\nMelikşah, babası Sultan Alparslan'ın ölümü üzerine 1072'de sultan ilan edilmişti. Onun döneminde Selçuklu hâkimiyeti Kaşgar'dan Boğaziçi'ne, Aral Gölü ve Kafkasya'dan Yemen ve Aden'e uzanıyordu.\n\nCelâlî takvimi adı verilen güneş takvimi de Melikşah'ın emriyle hazırlandı.",
+   "fb_metin": "Tarihte bugün, 19 Kasım 1092 (16 Şevval 485).\n\nBüyük Selçuklu Sultanı Melikşah, Bağdat'ta vefat etti.\n\nMelikşah, babası Sultan Alparslan'ın ölümü üzerine 1072'de sultan ilan edilmişti. TDV İslâm Ansiklopedisi'ne göre onun döneminde Selçuklu hâkimiyeti Kaşgar'dan Boğaziçi'ne, Aral Gölü ve Kafkasya'dan Yemen ve Aden'e uzanıyordu.\n\nCelâlî takvimi adı verilen güneş takvimi de Melikşah'ın emriyle hazırlandı. Melikşah, daha sonra İsfahan'da defnedildi.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#selçuklutarihi",
+    "#melikşah",
+    "#büyükselçuklu",
+    "#celalitakvimi"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#Selçuklu",
+    "#Melikşah"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1949",
+   null,
+   "İstanbul Radyosu, ara verdiği yayınlarına yeniden başladı."
+  ],
+  [
+   "1863",
+   null,
+   "ABD Başkanı Abraham Lincoln, Gettysburg Konuşması'nı yaptı."
+  ]
+ ],
+ "diger_kaynaklar": "DergiPark (İstanbul Radyosu tarihi), Britannica (Gettysburg Address)"
+}

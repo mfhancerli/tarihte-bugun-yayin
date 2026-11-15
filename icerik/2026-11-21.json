@@ -1,0 +1,109 @@
+{
+ "tarih": "2026-11-21",
+ "ay": "Kasım",
+ "gunno": "21",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (16-22 Kasım partisi, 16 Kasım 02:00'de üretildi).",
+ "liste": [
+  [
+   "1961",
+   null,
+   "İmam-hatip okullarının açılmasındaki gayretleriyle tanınan âlim Mahmut Celâleddin Ökten (Celâl Hoca) vefat etti.",
+   {
+    "hook": "Celâl Hoca'nın vefatı",
+    "tipo_buyuk": "CELÂL HOCA",
+    "tipo_alt": "MAHMUT CELÂLEDDİN ÖKTEN",
+    "tipo_not": "1882-1961",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1927",
+   null,
+   "Samsun-Amasya demiryolu hattı işletmeye açıldı.",
+   {
+    "hook": "Samsun-Amasya hattı açıldı",
+    "tipo_buyuk": "SAMSUN-AMASYA",
+    "tipo_alt": "DEMİRYOLU",
+    "tipo_not": "1927",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1783",
+   null,
+   "Pilâtre de Rozier ve Marquis d'Arlandes, Paris'te sıcak hava balonuyla ilk insanlı serbest uçuşu yaptı.",
+   {
+    "hook": "İlk insanlı balon uçuşu",
+    "tipo_buyuk": "BALON",
+    "tipo_alt": "İLK SERBEST UÇUŞ",
+    "tipo_not": "Paris · 1783",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-etnografya",
+   "tema": "normal",
+   "yil": "1938",
+   "hicri": null,
+   "hook": "Atatürk'ün 15 yıllık geçici kabri",
+   "short": "21 Kasım 1938'de Atatürk'ün naaşı, Ankara Etnografya Müzesi'ndeki geçici kabrine konuldu.",
+   "tipo_buyuk": "ETNOGRAFYA",
+   "tipo_alt": "MÜZESİ",
+   "tipo_not": "Ankara · 1938-1953",
+   "kaynaklar": "Kaynaklar: T.C. Kültür ve Turizm Bakanlığı (Ankara Etnografya Müzesi), Cumhuriyet, DHA",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "İstanbul'dan Ankara'ya",
+     "10 Kasım 1938'de Dolmabahçe Sarayı'nda vefat eden Atatürk'ün naaşı, İstanbul'daki törenlerin ardından Ankara'ya götürüldü."
+    ],
+    [
+     "O AN",
+     "Geçici kabir",
+     "21 Kasım 1938'de yabancı devlet temsilcilerinin de katıldığı törenle naaş, Etnografya Müzesi'ndeki geçici kabre konuldu."
+    ],
+    [
+     "SONRASI",
+     "15 yıl burada kaldı",
+     "Anıtkabir tamamlandıktan sonra naaş, 10 Kasım 1953'te düzenlenen törenle Anıtkabir'e nakledildi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Mermerdeki yazı",
+     "Müzedeki sembolik kabirde, Atatürk'ün 21 Kasım 1938'den 10 Kasım 1953'e kadar burada yattığını belirten bir kitabe bulunuyor."
+    ]
+   ],
+   "ig_metin": "21 Kasım 1938'de Atatürk'ün naaşı, yabancı devlet temsilcilerinin de katıldığı bir törenle Ankara Etnografya Müzesi'ndeki geçici kabrine konuldu.\n\nNaaş burada yaklaşık 15 yıl kaldı. Anıtkabir tamamlandıktan sonra, 10 Kasım 1953'te düzenlenen törenle Anıtkabir'e nakledildi.\n\nMüzedeki sembolik kabirde bugün, Atatürk'ün 21 Kasım 1938'den 10 Kasım 1953'e kadar burada yattığını belirten bir kitabe bulunuyor.",
+   "fb_metin": "Tarihte bugün, 21 Kasım 1938.\n\n10 Kasım 1938'de Dolmabahçe Sarayı'nda vefat eden Atatürk'ün naaşı, İstanbul'daki törenlerin ardından Ankara'ya götürüldü. 21 Kasım'da yabancı devlet temsilcilerinin de katıldığı bir törenle Ankara Etnografya Müzesi'ndeki geçici kabrine konuldu.\n\nNaaş burada yaklaşık 15 yıl kaldı. Anıtkabir tamamlandıktan sonra, 10 Kasım 1953'te düzenlenen törenle Anıtkabir'e nakledildi.\n\nMüzedeki sembolik kabirde bugün, Atatürk'ün 21 Kasım 1938'den 10 Kasım 1953'e kadar burada yattığını belirten bir kitabe bulunuyor.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#cumhuriyettarihi",
+    "#atatürk",
+    "#etnografyamüzesi",
+    "#anıtkabir"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#Atatürk",
+    "#Anıtkabir"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1694",
+   null,
+   "Fransız yazar ve düşünür Voltaire, Paris'te doğdu."
+  ],
+  [
+   "1969",
+   null,
+   "İnternetin öncüsü ARPANET ağında, iki üniversite arasındaki ilk kalıcı bağlantı kuruldu."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Voltaire), UCLA / Computer History Museum (ARPANET)"
+}
