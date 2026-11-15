@@ -1,0 +1,158 @@
+{
+ "tarih": "2026-11-20",
+ "ay": "Kasım",
+ "gunno": "20",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (16-22 Kasım partisi, 16 Kasım 02:00'de üretildi).",
+ "liste": [
+  [
+   "1863",
+   null,
+   "Bugünkü Ziraat Bankası'nın temelini oluşturan Memleket Sandıkları, Mithat Paşa tarafından Pirot'ta kuruldu.",
+   {
+    "hook": "Ziraat Bankası'nın temeli atıldı",
+    "tipo_buyuk": "MEMLEKET",
+    "tipo_alt": "SANDIKLARI",
+    "tipo_not": "Mithat Paşa · Pirot",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1989",
+   null,
+   "BM Genel Kurulu, Çocuk Haklarına Dair Sözleşme'yi kabul etti.",
+   {
+    "hook": "Çocuk Hakları Sözleşmesi kabul edildi",
+    "tipo_buyuk": "ÇOCUK HAKLARI",
+    "tipo_alt": "SÖZLEŞMESİ",
+    "tipo_not": "BM Genel Kurulu · 1989",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1612",
+   "1021",
+   "Osmanlı Devleti ile Safevîler arasında Nasuh Paşa Antlaşması imzalandı.",
+   {
+    "hook": "Nasuh Paşa Antlaşması",
+    "tipo_buyuk": "NASUH PAŞA",
+    "tipo_alt": "ANTLAŞMASI",
+    "tipo_not": "Osmanlı-Safevî barışı",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-lozan",
+   "tema": "normal",
+   "yil": "1922",
+   "hicri": null,
+   "hook": "Lozan Konferansı açıldı",
+   "short": "20 Kasım 1922'de Türkiye'nin barış şartlarının görüşüleceği Lozan Konferansı, İsviçre'de açıldı.",
+   "tipo_buyuk": "LOZAN",
+   "tipo_alt": "KONFERANSI AÇILDI",
+   "tipo_not": "20 Kasım 1922",
+   "kaynaklar": "Kaynaklar: TDV İslâm Ansiklopedisi (Lozan Antlaşması), DergiPark (Lozan Konferansı makaleleri)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Bir hafta ertelendi",
+     "Konferans, davette belirtildiği gibi 13 Kasım'da değil, 20 Kasım 1922'de açıldı."
+    ],
+    [
+     "O AN",
+     "Mont Benon'da tören",
+     "Açılış, Lozan'daki Mont Benon gazinosunda düzenlenen törenle yapıldı. Türk heyetine İsmet Paşa başkanlık ediyordu."
+    ],
+    [
+     "SONRASI",
+     "Kesinti ve imza",
+     "Görüşmeler 4 Şubat 1923'te kesintiye uğradı. İkinci dönemin ardından Lozan Antlaşması 24 Temmuz 1923'te imzalandı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Açılış konuşması",
+     "Açılış konuşmasını İsviçre Konfederasyonu Başkanı Robert Haab yaptı."
+    ]
+   ],
+   "ig_metin": "20 Kasım 1922'de Türkiye'nin barış şartlarının görüşüleceği Lozan Konferansı, İsviçre'nin Lozan şehrinde açıldı.\n\nKonferans, davette belirtildiği gibi 13 Kasım'da değil 20 Kasım'da, Mont Benon gazinosunda düzenlenen törenle başladı. Türk heyetine İsmet Paşa başkanlık ediyordu.\n\nGörüşmeler 4 Şubat 1923'te kesintiye uğradı. İkinci dönemin ardından Lozan Antlaşması 24 Temmuz 1923'te imzalandı.",
+   "fb_metin": "Tarihte bugün, 20 Kasım 1922.\n\nTürkiye'nin barış şartlarının görüşüleceği Lozan Konferansı, İsviçre'nin Lozan şehrinde açıldı.\n\nKonferans, davette belirtildiği gibi 13 Kasım'da değil 20 Kasım'da, Mont Benon gazinosunda düzenlenen törenle başladı. Açılış konuşmasını İsviçre Konfederasyonu Başkanı Robert Haab yaptı. Türk heyetine İsmet Paşa başkanlık ediyordu.\n\nGörüşmeler 4 Şubat 1923'te kesintiye uğradı. İkinci dönemin ardından Lozan Antlaşması 24 Temmuz 1923'te imzalandı.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#cumhuriyettarihi",
+    "#lozan",
+    "#ismetpaşa",
+    "#20kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#Lozan",
+    "#İsmetPaşa"
+   ],
+   "soru": "Lozan Konferansı'nın bir hafta ertelendiğini biliyor muydunuz? Yorumlarda paylaşın."
+  },
+  {
+   "kod": "g2-mescidiharam",
+   "tema": "normal",
+   "yil": "1979",
+   "hicri": "1400",
+   "hook": "Mescid-i Haram'a silahlı baskın",
+   "short": "20 Kasım 1979'da silahlı bir grup, Mekke'deki Mescid-i Haram'ı ele geçirdi.",
+   "tipo_buyuk": "MESCİD-İ HARAM",
+   "tipo_alt": "SİLAHLI BASKIN",
+   "tipo_not": "Mekke · 1979",
+   "kaynaklar": "Kaynaklar: Arab News, EBSCO Research Starters (Salem Press), NPR",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Sabah namazı vakti",
+     "20 Kasım 1979 sabahı Mescid-i Haram'da sabah namazı için büyük bir cemaat toplanmıştı."
+    ],
+    [
+     "O AN",
+     "Cüheyman ve grubu",
+     "Cüheyman el-Uteybî liderliğindeki silahlı grup, caminin kontrolünü ele geçirdi."
+    ],
+    [
+     "SONRASI",
+     "İki haftalık kuşatma",
+     "Suudi güvenlik güçleri, yaklaşık iki hafta süren çatışmaların ardından Aralık başında mescidin kontrolünü yeniden sağladı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Mehdi iddiası",
+     "Saldırganlar, aralarından birinin beklenen Mehdi olduğunu ilan etti."
+    ]
+   ],
+   "ig_metin": "20 Kasım 1979 sabahı, Mekke'deki Mescid-i Haram'da sabah namazı için büyük bir cemaat toplanmıştı. Cüheyman el-Uteybî liderliğindeki silahlı bir grup, caminin kontrolünü ele geçirdi.\n\nSaldırganlar, aralarından birinin beklenen Mehdi olduğunu ilan etti. Suudi güvenlik güçleri, yaklaşık iki hafta süren çatışmaların ardından Aralık başında mescidin kontrolünü yeniden sağladı.",
+   "fb_metin": "Tarihte bugün, 20 Kasım 1979 (1 Muharrem 1400).\n\nMekke'deki Mescid-i Haram'da sabah namazı için büyük bir cemaat toplanmıştı. Cüheyman el-Uteybî liderliğindeki silahlı bir grup, caminin kontrolünü ele geçirdi.\n\nSaldırganlar, aralarından birinin beklenen Mehdi olduğunu ilan etti. Suudi güvenlik güçleri, yaklaşık iki hafta süren çatışmaların ardından Aralık başında mescidin kontrolünü yeniden sağladı.\n\nOlay, İslam dünyasının en kutsal mekânında yaşanan acı hadiselerden biri olarak hatırlanıyor.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#islamtarihi",
+    "#mescidiharam",
+    "#mekke",
+    "#20kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#MescidiHaram",
+    "#Mekke"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1998",
+   null,
+   "Uluslararası Uzay İstasyonu'nun ilk modülü Zarya, Baykonur'dan fırlatıldı."
+  ],
+  [
+   "1985",
+   null,
+   "Microsoft, Windows işletim sisteminin ilk sürümü Windows 1.0'ı piyasaya sundu."
+  ]
+ ],
+ "diger_kaynaklar": "NASA (Zarya), Microsoft / Britannica (Windows 1.0)"
+}

@@ -1,0 +1,154 @@
+{
+ "tarih": "2026-11-18",
+ "ay": "Kasım",
+ "gunno": "18",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (16-22 Kasım partisi, 16 Kasım 02:00'de üretildi).",
+ "liste": [
+  [
+   "1933",
+   null,
+   "Darülfünun'un yerine kurulan İstanbul Üniversitesi, törenle eğitime başladı.",
+   {
+    "hook": "İstanbul Üniversitesi açıldı",
+    "tipo_buyuk": "İSTANBUL",
+    "tipo_alt": "ÜNİVERSİTESİ",
+    "tipo_not": "Darülfünun'un yerine · 1933",
+    "tema": "normal"
+   }
+  ],
+  [
+   "2000",
+   null,
+   "Besteci ve ses sanatçısı Yıldırım Gürses hayatını kaybetti.",
+   {
+    "hook": "Yıldırım Gürses'i kaybettik",
+    "tipo_buyuk": "YILDIRIM GÜRSES",
+    "tipo_alt": "1938-2000",
+    "tipo_not": "Besteci · ses sanatçısı",
+    "tema": "normal"
+   }
+  ],
+  [
+   "2013",
+   null,
+   "NASA'nın Mars atmosferini incelemek için tasarladığı MAVEN aracı fırlatıldı.",
+   {
+    "hook": "MAVEN Mars'a yola çıktı",
+    "tipo_buyuk": "MAVEN",
+    "tipo_alt": "MARS YOLCUSU",
+    "tipo_not": "NASA · 2013",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-kanije",
+   "tema": "normal",
+   "yil": "1601",
+   "hicri": "1010",
+   "hook": "Kanije savunması zaferle bitti",
+   "short": "18 Kasım 1601'de Kanije'yi kuşatan Habsburg ordusu, Tiryaki Hasan Paşa'nın savunması karşısında geri çekildi.",
+   "tipo_buyuk": "KANİJE",
+   "tipo_alt": "SAVUNMASI",
+   "tipo_not": "Tiryaki Hasan Paşa",
+   "kaynaklar": "Kaynaklar: TDV İslâm Ansiklopedisi (Tiryâkî Hasan Paşa; Kanije), DergiPark",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Uzun kuşatma",
+     "Habsburg kuvvetleri, 1601'de 10 Eylül'den itibaren Macaristan'daki Kanije Kalesi'ni kuşattı."
+    ],
+    [
+     "O AN",
+     "Kaleden çıkış",
+     "Kalenin savunmasını yöneten Tiryaki Hasan Paşa, kaleden çıkarak bir baskın düzenledi ve kuşatan orduyu ağır biçimde sarstı."
+    ],
+    [
+     "SONRASI",
+     "Kuşatma kalktı",
+     "Ağır kayıplar veren Habsburg ordusu, 18 Kasım 1601'de kuşatmayı kaldırıp geri çekildi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Destanlara konu oldu",
+     "Kanije savunması Osmanlı tarihlerinde geniş yer aldı. Hakkında gazavatnameler yazıldı, romanlara konu oldu."
+    ]
+   ],
+   "ig_metin": "18 Kasım 1601'de Kanije Kalesi'ni kuşatan Habsburg ordusu, ağır kayıplar vererek kuşatmayı kaldırdı ve geri çekildi.\n\nKuşatma 10 Eylül'de başlamıştı. Kalenin savunmasını yöneten Tiryaki Hasan Paşa, kaleden çıkarak düzenlediği çıkış harekâtıyla kuşatan orduyu ağır biçimde sarstı.\n\nKanije savunması Osmanlı tarihlerinde geniş yer aldı. Hakkında gazavatnameler yazıldı, romanlara konu oldu.",
+   "fb_metin": "Tarihte bugün, 18 Kasım 1601.\n\nMacaristan'daki Kanije Kalesi'ni kuşatan Habsburg ordusu, ağır kayıplar vererek kuşatmayı kaldırdı ve geri çekildi.\n\nKuşatma 10 Eylül 1601'de başlamıştı. Kalenin savunmasını yöneten Tiryaki Hasan Paşa, kaleden çıkarak düzenlediği çıkış harekâtıyla kuşatan orduyu ağır biçimde sarstı.\n\nKanije savunması Osmanlı tarihlerinde geniş yer aldı ve büyük yankı uyandırdı. Hakkında gazavatnameler yazıldı, savunma romanlara konu oldu.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#osmanlıtarihi",
+    "#kanije",
+    "#tiryakihasanpaşa",
+    "#18kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#OsmanlıTarihi",
+    "#Kanije"
+   ],
+   "soru": "Kanije savunmasını daha önce duymuş muydunuz? Yorumlarda paylaşın."
+  },
+  {
+   "kod": "g2-saitfaik",
+   "tema": "normal",
+   "yil": "1906",
+   "hicri": null,
+   "hook": "Sait Faik'in doğumunun 120. yılı",
+   "short": "18 Kasım 1906'da öykü yazarı Sait Faik Abasıyanık, Adapazarı'nda doğdu.",
+   "tipo_buyuk": "SAİT FAİK",
+   "tipo_alt": "ABASIYANIK",
+   "tipo_not": "1906-1954",
+   "kaynaklar": "Kaynaklar: TDV İslâm Ansiklopedisi (Sait Faik Abasıyanık), Atatürk Ansiklopedisi, Darüşşafaka Cemiyeti",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Adapazarı'nda doğdu",
+     "Asıl adı Mehmet Sait olan Sait Faik, 18 Kasım 1906'da Adapazarı'nda doğdu."
+    ],
+    [
+     "O AN",
+     "Öykünün ustası",
+     "Sait Faik, Türk edebiyatının en önemli öykücüleri arasında sayılıyor."
+    ],
+    [
+     "SONRASI",
+     "Burgazada'daki ev",
+     "11 Mayıs 1954'te hayatını kaybeden yazarın Burgazada'daki evi, bugün Sait Faik Abasıyanık Müzesi olarak ziyaret edilebiliyor."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Adını taşıyan ödül",
+     "Sait Faik Hikâye Armağanı, bugün Darüşşafaka Cemiyeti tarafından sürdürülüyor."
+    ]
+   ],
+   "ig_metin": "18 Kasım 1906'da öykü yazarı Sait Faik Abasıyanık, Adapazarı'nda doğdu. Asıl adı Mehmet Sait'ti.\n\nSait Faik, Türk edebiyatının en önemli öykücüleri arasında sayılıyor. 11 Mayıs 1954'te hayatını kaybeden yazarın Burgazada'daki evi, bugün Sait Faik Abasıyanık Müzesi olarak ziyaret edilebiliyor.\n\nAdını taşıyan Sait Faik Hikâye Armağanı da Darüşşafaka Cemiyeti tarafından sürdürülüyor.",
+   "fb_metin": "Tarihte bugün, 18 Kasım 1906.\n\nÖykü yazarı Sait Faik Abasıyanık, Adapazarı'nda doğdu. Asıl adı Mehmet Sait'ti. Bugün doğumunun 120. yıl dönümü.\n\nSait Faik, Türk edebiyatının en önemli öykücüleri arasında sayılıyor. 11 Mayıs 1954'te hayatını kaybeden yazarın Burgazada'daki evi, bugün Sait Faik Abasıyanık Müzesi olarak ziyaret edilebiliyor.\n\nAdını taşıyan Sait Faik Hikâye Armağanı da Darüşşafaka Cemiyeti tarafından sürdürülüyor.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#edebiyattarihi",
+    "#saitfaik",
+    "#saitfaikabasıyanık",
+    "#burgazada"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#SaitFaik",
+    "#TürkEdebiyatı"
+   ],
+   "soru": "Sait Faik'in en sevdiğiniz öyküsü hangisi? Yorumlarda paylaşın."
+  }
+ ],
+ "diger": [
+  [
+   "1960",
+   null,
+   "Türk Standardları Enstitüsü'nün (TSE) kuruluş kanunu kabul edildi."
+  ]
+ ],
+ "diger_kaynaklar": "132 sayılı TSE Kuruluş Kanunu (Lexpera mevzuat)"
+}

@@ -1,0 +1,158 @@
+{
+ "tarih": "2026-11-17",
+ "ay": "Kasım",
+ "gunno": "17",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (16-22 Kasım partisi, 16 Kasım 02:00'de üretildi).",
+ "liste": [
+  [
+   "1924",
+   null,
+   "Cumhuriyet döneminin ilk muhalefet partisi Terakkiperver Cumhuriyet Fırkası kuruldu.",
+   {
+    "hook": "İlk muhalefet partisi kuruldu",
+    "tipo_buyuk": "TERAKKİPERVER",
+    "tipo_alt": "CUMHURİYET FIRKASI",
+    "tipo_not": "Ankara · 1924",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1999",
+   null,
+   "A Milli Futbol Takımı, Bursa'da İrlanda ile 0-0 berabere kalarak EURO 2000 finallerine katılma hakkı kazandı.",
+   {
+    "hook": "EURO 2000 bileti Bursa'da geldi",
+    "tipo_buyuk": "EURO 2000",
+    "tipo_alt": "BURSA'DA BİLET",
+    "tipo_not": "Türkiye 0-0 İrlanda",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1970",
+   null,
+   "Sovyetlerin Luna 17 aracı, uzaktan kumandalı ilk ay gezgini Lunokhod 1'i Ay'a indirdi.",
+   {
+    "hook": "Ay'da ilk uzaktan kumandalı araç",
+    "tipo_buyuk": "LUNOKHOD 1",
+    "tipo_alt": "AY'DA İLK GEZGİN",
+    "tipo_not": "Luna 17 · Yağmurlar Denizi",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-suveys",
+   "tema": "normal",
+   "yil": "1869",
+   "hicri": null,
+   "hook": "Süveyş Kanalı açıldı",
+   "short": "17 Kasım 1869'da Akdeniz'i Kızıldeniz'e bağlayan Süveyş Kanalı gösterişli bir törenle açıldı.",
+   "tipo_buyuk": "SÜVEYŞ",
+   "tipo_alt": "KANAL AÇILDI",
+   "tipo_not": "Mısır · 1869",
+   "kaynaklar": "Kaynaklar: Britannica (Suez Canal), Fransa Ulusal Kütüphanesi (BnF), History.com",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Mısır'dan imtiyaz",
+     "Fransız diplomat Ferdinand de Lesseps, 1854'te Mısır Valisi Said Paşa'dan kanalı inşa etme imtiyazını aldı."
+    ],
+    [
+     "O AN",
+     "Ağustosta bitti, Kasımda açıldı",
+     "Kanal Ağustos 1869'da tamamlandı ve 17 Kasım 1869'da gösterişli bir törenle resmen açıldı."
+    ],
+    [
+     "SONRASI",
+     "Kafilenin başında",
+     "Fransız İmparatoriçesi Eugénie'yi taşıyan L'Aigle yatı, kanaldan geçen gemi kafilesinin başındaydı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Hisseler satıldı",
+     "Mali sıkıntıya düşen Mısır Hidivi İsmail Paşa, 1875'te kanal şirketindeki hisselerini İngiltere'ye satmak zorunda kaldı."
+    ]
+   ],
+   "ig_metin": "17 Kasım 1869'da Akdeniz'i Kızıldeniz'e bağlayan Süveyş Kanalı gösterişli bir törenle açıldı.\n\nFransız diplomat Ferdinand de Lesseps, kanalı inşa etme imtiyazını 1854'te Mısır Valisi Said Paşa'dan almıştı. Kanal Ağustos 1869'da tamamlandı. Açılışta kanaldan geçen gemi kafilesinin başında, Fransız İmparatoriçesi Eugénie'yi taşıyan L'Aigle yatı vardı.\n\nMali sıkıntıya düşen Hidiv İsmail Paşa, 1875'te kanal şirketindeki hisselerini İngiltere'ye satmak zorunda kaldı.",
+   "fb_metin": "Tarihte bugün, 17 Kasım 1869.\n\nAkdeniz'i Kızıldeniz'e bağlayan Süveyş Kanalı gösterişli bir törenle açıldı.\n\nFransız diplomat Ferdinand de Lesseps, kanalı inşa etme imtiyazını 1854'te Mısır Valisi Said Paşa'dan almıştı. Kanal Ağustos 1869'da tamamlandı ve 17 Kasım'da resmen açıldı. Açılışta kanaldan geçen gemi kafilesinin başında, Fransız İmparatoriçesi Eugénie'yi taşıyan L'Aigle yatı vardı.\n\nKanalın açılışından birkaç yıl sonra mali sıkıntıya düşen Mısır Hidivi İsmail Paşa, 1875'te kanal şirketindeki hisselerini İngiltere'ye satmak zorunda kaldı.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#dünyatarihi",
+    "#süveyşkanalı",
+    "#mısır",
+    "#17kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#SüveyşKanalı",
+    "#Mısır"
+   ],
+   "soru": "Süveyş Kanalı'ndan hiç gemiyle geçtiniz mi? Yorumlarda paylaşın."
+  },
+  {
+   "kod": "g2-vahdeddin",
+   "tema": "normal",
+   "yil": "1922",
+   "hicri": null,
+   "hook": "Son padişah İstanbul'dan ayrıldı",
+   "short": "17 Kasım 1922'de son Osmanlı padişahı VI. Mehmed Vahdeddin, İngiliz Malaya zırhlısıyla İstanbul'dan ayrıldı.",
+   "tipo_buyuk": "VAHDEDDİN",
+   "tipo_alt": "İSTANBUL'DAN AYRILDI",
+   "tipo_not": "17 Kasım 1922",
+   "kaynaklar": "Kaynaklar: TDV İslâm Ansiklopedisi (Lozan Antlaşması; Abdülmecid Efendi), Britannica (Mehmed VI)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Saltanat kaldırılmıştı",
+     "TBMM, 1 Kasım 1922'de aldığı kararla saltanatı kaldırmıştı."
+    ],
+    [
+     "O AN",
+     "Malaya zırhlısı",
+     "VI. Mehmed Vahdeddin, 17 Kasım 1922'de İngiliz Malaya zırhlısına binerek İstanbul'dan ayrıldı."
+    ],
+    [
+     "SONRASI",
+     "Önce Malta'ya",
+     "Vahdeddin önce Malta'ya götürüldü. Hayatının geri kalanını yurt dışında geçirdi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Yeni halife",
+     "Vahdeddin'in ayrılmasından kısa süre sonra, 19 Kasım 1922'de TBMM Abdülmecid Efendi'yi halife seçti."
+    ]
+   ],
+   "ig_metin": "17 Kasım 1922'de son Osmanlı padişahı VI. Mehmed Vahdeddin, İngiliz Malaya zırhlısına binerek İstanbul'dan ayrıldı.\n\nTBMM, 1 Kasım 1922'de aldığı kararla saltanatı kaldırmıştı. Vahdeddin önce Malta'ya götürüldü ve hayatının geri kalanını yurt dışında geçirdi.\n\nAyrılışından kısa süre sonra, 19 Kasım 1922'de TBMM Abdülmecid Efendi'yi halife seçti.",
+   "fb_metin": "Tarihte bugün, 17 Kasım 1922.\n\nSon Osmanlı padişahı VI. Mehmed Vahdeddin, İngiliz Malaya zırhlısına binerek İstanbul'dan ayrıldı.\n\nTBMM, 1 Kasım 1922'de aldığı kararla saltanatı kaldırmıştı. Vahdeddin önce Malta'ya götürüldü ve hayatının geri kalanını yurt dışında geçirdi.\n\nAyrılışından kısa süre sonra, 19 Kasım 1922'de TBMM Abdülmecid Efendi'yi halife seçti.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#osmanlıtarihi",
+    "#vahdeddin",
+    "#sonpadişah",
+    "#17kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#OsmanlıTarihi",
+    "#Vahdeddin"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1930",
+   null,
+   "Serbest Cumhuriyet Fırkası, kurucuları tarafından kapatıldı."
+  ],
+  [
+   "1558",
+   null,
+   "I. Elizabeth, İngiltere tahtına çıktı."
+  ]
+ ],
+ "diger_kaynaklar": "MEB (Atatürk İnkılapları: Siyasi Partiler), Britannica (Elizabeth I)"
+}

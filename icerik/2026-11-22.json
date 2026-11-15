@@ -1,0 +1,158 @@
+{
+ "tarih": "2026-11-22",
+ "ay": "Kasım",
+ "gunno": "22",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (16-22 Kasım partisi, 16 Kasım 02:00'de üretildi).",
+ "liste": [
+  [
+   "1881",
+   null,
+   "Osmanlı Harbiye Nazırı Enver Paşa, İstanbul'da doğdu.",
+   {
+    "hook": "Enver Paşa'nın doğumu",
+    "tipo_buyuk": "ENVER PAŞA",
+    "tipo_alt": "1881-1922",
+    "tipo_not": "İstanbul",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1943",
+   null,
+   "Fransızların tutukladığı Lübnanlı liderler serbest bırakıldı. Bu gün, Lübnan'da Bağımsızlık Günü olarak kutlanıyor.",
+   {
+    "hook": "Lübnan'ın bağımsızlık günü",
+    "tipo_buyuk": "LÜBNAN",
+    "tipo_alt": "BAĞIMSIZLIK GÜNÜ",
+    "tipo_not": "Beyrut · 1943",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1963",
+   null,
+   "ABD Başkanı John F. Kennedy, Dallas'ta suikast sonucu hayatını kaybetti.",
+   {
+    "hook": "Kennedy suikastı",
+    "tipo_buyuk": "KENNEDY",
+    "tipo_alt": "DALLAS SUİKASTI",
+    "tipo_not": "1963",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-ahmed1",
+   "tema": "normal",
+   "yil": "1617",
+   "hicri": "1026",
+   "hook": "Sultan I. Ahmed'in vefatı",
+   "short": "22 Kasım 1617'de Sultanahmet Camii'ni yaptıran Osmanlı padişahı I. Ahmed, İstanbul'da vefat etti.",
+   "tipo_buyuk": "I. AHMED",
+   "tipo_alt": "OSMANLI PADİŞAHI",
+   "tipo_not": "1603-1617",
+   "kaynaklar": "Kaynaklar: TDV İslâm Ansiklopedisi (Ahmed I; Mustafa I; Sultan Ahmed Camii ve Külliyesi), Fransa Ulusal Kütüphanesi (BnF)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "On dört yaşında tahtta",
+     "I. Ahmed, babası III. Mehmed'in 22 Aralık 1603'teki vefatı üzerine on dört yaşında tahta geçti."
+    ],
+    [
+     "O AN",
+     "Genç yaşta vefat",
+     "TDV İslâm Ansiklopedisi'ne göre 51 gün süren bir mide hastalığının ardından 22 Kasım 1617'de vefat etti."
+    ],
+    [
+     "SONRASI",
+     "Kardeşi tahta geçti",
+     "Yerine, 22 Kasım 1617'de kardeşi I. Mustafa tahta çıktı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Caminin tamamlandığı yıl",
+     "Sultanahmet Camii 1609'da yapılmaya başlandı, 1616'da ibadete açıldı ve 1617'de bütün mefruşatıyla tamamlandı."
+    ]
+   ],
+   "ig_metin": "22 Kasım 1617'de Sultanahmet Camii'ni yaptıran Osmanlı padişahı I. Ahmed, İstanbul'da vefat etti.\n\nBabası III. Mehmed'in 1603'teki vefatı üzerine on dört yaşında tahta geçmişti. TDV İslâm Ansiklopedisi'ne göre 51 gün süren bir mide hastalığının ardından vefat etti. Yerine kardeşi I. Mustafa tahta çıktı.\n\nSultanahmet Camii 1609'da yapılmaya başlanmış, 1616'da ibadete açılmış ve vefat ettiği yıl olan 1617'de bütün mefruşatıyla tamamlanmıştı.",
+   "fb_metin": "Tarihte bugün, 22 Kasım 1617.\n\nSultanahmet Camii'ni yaptıran Osmanlı padişahı I. Ahmed, İstanbul'da vefat etti.\n\nBabası III. Mehmed'in 22 Aralık 1603'teki vefatı üzerine on dört yaşında tahta geçmişti. TDV İslâm Ansiklopedisi'ne göre 51 gün süren bir mide hastalığının ardından vefat etti. Yerine aynı gün kardeşi I. Mustafa tahta çıktı.\n\nSultanahmet Camii 1609'da yapılmaya başlanmış, 1616'da ibadete açılmış ve vefat ettiği yıl olan 1617'de bütün mefruşatıyla tamamlanmıştı.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#osmanlıtarihi",
+    "#sultanahmet",
+    "#birinciahmed",
+    "#22kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#OsmanlıTarihi",
+    "#Sultanahmet"
+   ]
+  },
+  {
+   "kod": "g2-kalpnakli",
+   "tema": "normal",
+   "yil": "1968",
+   "hicri": null,
+   "hook": "Türkiye'de ilk kalp nakli",
+   "short": "22 Kasım 1968'de Türkiye'deki ilk kalp nakli ameliyatı, Ankara'da Dr. Kemal Bayazıt ve ekibi tarafından yapıldı.",
+   "tipo_buyuk": "KALP NAKLİ",
+   "tipo_alt": "TÜRKİYE'DE İLK",
+   "tipo_not": "Ankara · 1968",
+   "kaynaklar": "Kaynaklar: TRT Haber, Akademisyen Kitabevi (tıp tarihi), Türk Göğüs Kalp Damar Cerrahisi Dergisi, CNN Türk",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Dünyadaki ilkten bir yıl sonra",
+     "Dünyadaki ilk insandan insana kalp nakli, 1967'de Güney Afrika'da Dr. Christiaan Barnard tarafından yapılmıştı."
+    ],
+    [
+     "O AN",
+     "Ankara'da ilk nakil",
+     "Türkiye'deki ilk kalp nakli, 22 Kasım 1968'de Türkiye Yüksek İhtisas Hastanesi'nde Kemal Bayazıt ve ekibi tarafından gerçekleştirildi."
+    ],
+    [
+     "SONRASI",
+     "Hasta yaşatılamadı",
+     "Ameliyat teknik olarak başarılı oldu, ancak hasta yaşatılamadı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "İki gün sonra İstanbul'da",
+     "İki gün sonra Dr. Siyami Ersek de İstanbul'da bir kalp nakli ameliyatı yaptı."
+    ]
+   ],
+   "ig_metin": "22 Kasım 1968'de Türkiye'deki ilk kalp nakli ameliyatı, Ankara'daki Türkiye Yüksek İhtisas Hastanesi'nde Kemal Bayazıt ve ekibi tarafından yapıldı.\n\nDünyadaki ilk insandan insana kalp nakli, bir yıl önce Güney Afrika'da Dr. Christiaan Barnard tarafından gerçekleştirilmişti. Ankara'daki ameliyat teknik olarak başarılı oldu, ancak hasta yaşatılamadı.\n\nİki gün sonra Dr. Siyami Ersek de İstanbul'da bir kalp nakli ameliyatı yaptı.",
+   "fb_metin": "Tarihte bugün, 22 Kasım 1968.\n\nTürkiye'deki ilk kalp nakli ameliyatı, Ankara'daki Türkiye Yüksek İhtisas Hastanesi'nde Kemal Bayazıt ve ekibi tarafından yapıldı.\n\nDünyadaki ilk insandan insana kalp nakli, bir yıl önce Güney Afrika'da Dr. Christiaan Barnard tarafından gerçekleştirilmişti. Ankara'daki ameliyat teknik olarak başarılı oldu, ancak hasta yaşatılamadı.\n\nİki gün sonra Dr. Siyami Ersek de İstanbul'da bir kalp nakli ameliyatı yaptı. Türkiye'de nakil sonrası uzun süre yaşayan ilk hasta ise 1989'da ameliyat edildi.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#bilimtarihi",
+    "#kalpnakli",
+    "#kemalbayazıt",
+    "#22kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#KalpNakli",
+    "#BilimTarihi"
+   ],
+   "soru": "Türkiye'deki ilk kalp naklinin tarihini biliyor muydunuz? Yorumlarda paylaşın."
+  }
+ ],
+ "diger": [
+  [
+   "1869",
+   null,
+   "Ünlü yelkenli Cutty Sark, İskoçya'nın Dumbarton kentinde suya indirildi."
+  ],
+  [
+   "1908",
+   null,
+   "Manastır Kongresi'nde Arnavut alfabesi kabul edildi."
+  ]
+ ],
+ "diger_kaynaklar": "Royal Museums Greenwich (Cutty Sark), Britannica (Albania)"
+}
