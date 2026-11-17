@@ -1,0 +1,110 @@
+{
+ "tarih": "2026-11-25",
+ "ay": "Kasım",
+ "gunno": "25",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (23-29 Kasım partisi, 18 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1915",
+   null,
+   "Albert Einstein, genel görelilik kuramının alan denklemlerini Prusya Bilimler Akademisi'nde sundu.",
+   {
+    "hook": "Einstein'ın alan denklemleri",
+    "tipo_buyuk": "EINSTEIN",
+    "tipo_alt": "GENEL GÖRELİLİK",
+    "tipo_not": "Berlin · 1915",
+    "tema": "normal"
+   }
+  ],
+  [
+   "2020",
+   null,
+   "Arjantinli futbolcu Diego Maradona, 60 yaşında hayatını kaybetti.",
+   {
+    "hook": "Maradona hayatını kaybetti",
+    "tipo_buyuk": "MARADONA",
+    "tipo_alt": "1960-2020",
+    "tipo_not": "Arjantin",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1952",
+   null,
+   "Agatha Christie'nin Fare Kapanı (The Mousetrap) oyunu Londra'da sahnelenmeye başladı.",
+   {
+    "hook": "Fare Kapanı sahnede",
+    "tipo_buyuk": "FARE KAPANI",
+    "tipo_alt": "THE MOUSETRAP",
+    "tipo_not": "Agatha Christie · Londra",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-edirne",
+   "tema": "normal",
+   "yil": "1922",
+   "hicri": null,
+   "hook": "Edirne'nin kurtuluşu",
+   "short": "25 Kasım 1922'de imzalanan teslim tutanağıyla iki yılı aşkın süre işgal altında kalan Edirne geri alındı.",
+   "tipo_buyuk": "EDİRNE",
+   "tipo_alt": "KURTULUŞ",
+   "tipo_not": "25 Kasım 1922",
+   "kaynaklar": "Kaynaklar: Serkan Tuna, \"Edirne'nin İlk Kurtuluş Yıldönümü Töreni ve TBMM Heyeti\" (DergiPark), Trakya Üniversitesi (Edirne'de Yunan işgal uygulamaları), Marmara Üniversitesi (Atatürk ve İnönü döneminde Edirne), Edirne Aile ve Sosyal Hizmetler İl Müdürlüğü",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "İki yıllık işgal",
+     "Edirne, 25 Temmuz 1920'de Yunan kuvvetlerince işgal edildi."
+    ],
+    [
+     "O AN",
+     "Teslim tutanağı",
+     "Mudanya Mütarekesi gereğince Yunan kuvvetleri 21 Kasım 1922'de Edirne'den ayrıldı. 25 Kasım'da imzalanan teslim tutanağıyla şehir geri alındı."
+    ],
+    [
+     "SONRASI",
+     "Her yıl 25 Kasım",
+     "Edirne'nin kurtuluşu o günden beri her yıl 25 Kasım'da törenlerle anılıyor."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "İlk yıl dönümü",
+     "Kurtuluşun ilk yıl dönümü olan 25 Kasım 1923'te Edirne'de bir tören düzenlendi. Törene elli bini aşkın bölge halkı ve bir TBMM heyeti katıldı."
+    ]
+   ],
+   "ig_metin": "25 Kasım 1922'de imzalanan teslim tutanağıyla Edirne geri alındı.\n\nŞehir, 25 Temmuz 1920'de Yunan kuvvetlerince işgal edilmişti. Mudanya Mütarekesi gereğince Yunan kuvvetleri 21 Kasım 1922'de Edirne'den ayrıldı.\n\nKurtuluşun ilk yıl dönümü olan 25 Kasım 1923'te şehirde düzenlenen törene elli bini aşkın bölge halkı ve bir TBMM heyeti katıldı. Edirne'nin kurtuluşu bugün de her yıl 25 Kasım'da törenlerle anılıyor.",
+   "fb_metin": "Tarihte bugün, 25 Kasım 1922.\n\nİmzalanan teslim tutanağıyla Edirne geri alındı.\n\nŞehir, 25 Temmuz 1920'de Yunan kuvvetlerince işgal edilmişti. Mudanya Mütarekesi gereğince Yunan kuvvetleri 21 Kasım 1922'de Edirne'den ayrıldı ve 25 Kasım'da şehir teslim alındı.\n\nKurtuluşun ilk yıl dönümü olan 25 Kasım 1923'te Edirne'de bir tören düzenlendi. Törene elli bini aşkın bölge halkı ve bir TBMM heyeti katıldı. Edirne'nin kurtuluşu bugün de her yıl 25 Kasım'da törenlerle anılıyor.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#türkiyetarihi",
+    "#edirne",
+    "#edirneninkurtuluşu",
+    "#25kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#Edirne",
+    "#TürkiyeTarihi"
+   ],
+   "soru": "Edirne'yi hiç ziyaret ettiniz mi? Yorumlarda paylaşın."
+  }
+ ],
+ "diger": [
+  [
+   "1975",
+   null,
+   "Surinam, Hollanda'dan bağımsızlığını kazandı."
+  ],
+  [
+   "1984",
+   null,
+   "Band Aid, Etiyopya'daki kıtlık için yardım toplamak amacıyla \"Do They Know It's Christmas?\" şarkısını kaydetti."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Suriname; Band Aid)"
+}

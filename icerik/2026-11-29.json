@@ -1,0 +1,109 @@
+{
+ "tarih": "2026-11-29",
+ "ay": "Kasım",
+ "gunno": "29",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (23-29 Kasım partisi, 18 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1935",
+   null,
+   "İş Bankası'nın kurduğu Paşabahçe Şişe ve Cam Fabrikası, Başbakan İsmet İnönü'nün katıldığı törenle açıldı.",
+   {
+    "hook": "Paşabahçe fabrikası açıldı",
+    "tipo_buyuk": "PAŞABAHÇE",
+    "tipo_alt": "ŞİŞE VE CAM",
+    "tipo_not": "Beykoz · 1935",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1899",
+   null,
+   "FC Barcelona, Joan Gamper'in önderliğinde kuruldu.",
+   {
+    "hook": "FC Barcelona kuruldu",
+    "tipo_buyuk": "FC BARCELONA",
+    "tipo_alt": "KURULUŞ",
+    "tipo_not": "Barselona · 1899",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1961",
+   null,
+   "Şempanze Enos, Mercury-Atlas 5 göreviyle Dünya'nın çevresinde iki tur attı.",
+   {
+    "hook": "Yörüngede bir şempanze",
+    "tipo_buyuk": "ENOS",
+    "tipo_alt": "MERCURY-ATLAS 5",
+    "tipo_not": "NASA · 1961",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-filistin181",
+   "tema": "normal",
+   "yil": "1947",
+   "hicri": null,
+   "hook": "BM, Filistin'in bölünmesine karar verdi",
+   "short": "29 Kasım 1947'de BM Genel Kurulu, Filistin'in bir Arap ve bir Yahudi devletine bölünmesini öngören kararı kabul etti.",
+   "tipo_buyuk": "BM 181",
+   "tipo_alt": "FİLİSTİN KARARI",
+   "tipo_not": "29 Kasım 1947",
+   "kaynaklar": "Kaynaklar: Britannica (United Nations Resolution 181), BM Dijital Kütüphanesi (A/RES/181(II) oylama kaydı), BM UNISPAL (Filistin Halkıyla Uluslararası Dayanışma Günü), UNESCO",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Manda yönetiminin geleceği",
+     "İngiltere, Filistin'deki manda yönetiminin geleceğini BM'ye götürmüştü. BM'nin özel komitesi UNSCOP, bir bölünme planı hazırladı."
+    ],
+    [
+     "O AN",
+     "33 evet, 13 hayır",
+     "29 Kasım 1947'de BM Genel Kurulu, Filistin'in bir Arap ve bir Yahudi devletine bölünmesini öngören 181 sayılı kararı 33 evet, 13 hayır ve 10 çekimser oyla kabul etti."
+    ],
+    [
+     "SONRASI",
+     "Dayanışma günü",
+     "BM Genel Kurulu, 1977'de aldığı kararla 29 Kasım'ı Filistin Halkıyla Uluslararası Dayanışma Günü olarak belirledi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Türkiye'nin oyu",
+     "Türkiye, karara \"hayır\" oyu veren 13 ülke arasındaydı. Kararda Kudüs için ayrı bir uluslararası statü öngörülmüştü."
+    ]
+   ],
+   "ig_metin": "29 Kasım 1947'de BM Genel Kurulu, Filistin'in bir Arap ve bir Yahudi devletine bölünmesini öngören 181 sayılı kararı kabul etti.\n\nKarar 33 evet, 13 hayır ve 10 çekimser oyla kabul edildi. Kudüs için ayrı bir uluslararası statü öngörülmüştü. Türkiye, karara \"hayır\" oyu veren 13 ülke arasındaydı.\n\nBM Genel Kurulu 1977'de aldığı kararla 29 Kasım'ı Filistin Halkıyla Uluslararası Dayanışma Günü olarak belirledi. Bu gün, her yıl BM'de anılıyor.",
+   "fb_metin": "Tarihte bugün, 29 Kasım 1947.\n\nBM Genel Kurulu, Filistin'in bir Arap ve bir Yahudi devletine bölünmesini öngören 181 sayılı kararı kabul etti.\n\nİngiltere, Filistin'deki manda yönetiminin geleceğini BM'ye götürmüştü. BM özel komitesi UNSCOP'un önerisine dayanan plan, 33 evet, 13 hayır ve 10 çekimser oyla kabul edildi. Kudüs için ayrı bir uluslararası statü öngörülmüştü. Türkiye, karara \"hayır\" oyu veren 13 ülke arasındaydı.\n\nBM Genel Kurulu 1977'de aldığı kararla 29 Kasım'ı Filistin Halkıyla Uluslararası Dayanışma Günü olarak belirledi.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#dünyatarihi",
+    "#filistin",
+    "#birleşmişmilletler",
+    "#29kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#Filistin",
+    "#DünyaTarihi"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1972",
+   null,
+   "Atari, ilk ticari başarıya ulaşan video oyunlarından Pong'u duyurdu."
+  ],
+  [
+   "1830",
+   null,
+   "Polonya'da Rus yönetimine karşı Kasım Ayaklanması başladı."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Pong; November Insurrection)"
+}

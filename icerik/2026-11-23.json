@@ -1,0 +1,110 @@
+{
+ "tarih": "2026-11-23",
+ "ay": "Kasım",
+ "gunno": "23",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (23-29 Kasım partisi, 18 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1994",
+   null,
+   "Galatasaray, Şampiyonlar Ligi grup maçında İstanbul'da Barcelona'yı 2-1 yendi.",
+   {
+    "hook": "Galatasaray, Barcelona'yı yendi",
+    "tipo_buyuk": "GALATASARAY 2-1",
+    "tipo_alt": "BARCELONA",
+    "tipo_not": "Şampiyonlar Ligi · İstanbul",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1924",
+   null,
+   "Edwin Hubble'ın Andromeda'nın Samanyolu dışında ayrı bir gökada olduğunu gösteren bulgusu ilk kez The New York Times'ta duyuruldu.",
+   {
+    "hook": "Andromeda ayrı bir gökada",
+    "tipo_buyuk": "ANDROMEDA",
+    "tipo_alt": "AYRI BİR GÖKADA",
+    "tipo_not": "Edwin Hubble · 1924",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1963",
+   null,
+   "BBC'nin bilimkurgu dizisi Doctor Who'nun ilk bölümü yayınlandı.",
+   {
+    "hook": "Doctor Who ilk kez ekranda",
+    "tipo_buyuk": "DOCTOR WHO",
+    "tipo_alt": "İLK BÖLÜM",
+    "tipo_not": "BBC · Londra",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-katmaprotokol",
+   "tema": "normal",
+   "yil": "1970",
+   "hicri": null,
+   "hook": "Türkiye-AET yolunda Katma Protokol",
+   "short": "23 Kasım 1970'te Türkiye ile Avrupa Ekonomik Topluluğu arasındaki Katma Protokol Brüksel'de imzalandı.",
+   "tipo_buyuk": "KATMA PROTOKOL",
+   "tipo_alt": "TÜRKİYE - AET",
+   "tipo_not": "Brüksel · 1970",
+   "kaynaklar": "Kaynaklar: T.C. Ticaret Bakanlığı (Türkiye-AB ilişkilerinin kronolojisi), AB Resmî Gazetesi / EUR-Lex (Additional Protocol, 23 November 1970), CVCE (Lüksemburg Üniversitesi arşivi)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Ankara Anlaşması",
+     "Türkiye ile Avrupa Ekonomik Topluluğu (AET) arasında ortaklık ilişkisini kuran Ankara Anlaşması, 12 Eylül 1963'te imzalanmıştı."
+    ],
+    [
+     "O AN",
+     "Brüksel'de imza",
+     "Ortaklığın geçiş dönemini düzenleyen Katma Protokol, 23 Kasım 1970'te Brüksel'de imzalandı. Aynı gün II. Mali Protokol de imzalandı."
+    ],
+    [
+     "SONRASI",
+     "1973'te yürürlükte",
+     "Katma Protokol, Temmuz 1971'de Millet Meclisi ve Cumhuriyet Senatosu'nda kabul edildi; 1 Ocak 1973'te yürürlüğe girdi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Önce ticari hükümler",
+     "Protokol yürürlüğe girene kadar ticari hükümleri, ayrı bir Geçici Anlaşma ile 1 Eylül 1971'den itibaren uygulandı."
+    ]
+   ],
+   "ig_metin": "23 Kasım 1970'te Türkiye ile Avrupa Ekonomik Topluluğu (AET) arasındaki Katma Protokol Brüksel'de imzalandı.\n\nProtokol, 12 Eylül 1963'te imzalanan Ankara Anlaşması'yla kurulan ortaklığın geçiş dönemini düzenliyordu. Aynı gün II. Mali Protokol de imzalandı.\n\nKatma Protokol, Temmuz 1971'de Millet Meclisi ve Cumhuriyet Senatosu'nda kabul edildi; 1 Ocak 1973'te yürürlüğe girdi. Protokol yürürlüğe girene kadar ticari hükümleri ayrı bir Geçici Anlaşma ile 1 Eylül 1971'den itibaren uygulandı.",
+   "fb_metin": "Tarihte bugün, 23 Kasım 1970.\n\nTürkiye ile Avrupa Ekonomik Topluluğu (AET) arasındaki Katma Protokol Brüksel'de imzalandı.\n\nProtokol, 12 Eylül 1963'te imzalanan Ankara Anlaşması'yla kurulan ortaklığın geçiş dönemini düzenliyordu. Aynı gün II. Mali Protokol de imzalandı.\n\nKatma Protokol, Temmuz 1971'de Millet Meclisi ve Cumhuriyet Senatosu'nda kabul edildi; 1 Ocak 1973'te yürürlüğe girdi. Protokol yürürlüğe girene kadar ticari hükümleri ayrı bir Geçici Anlaşma ile 1 Eylül 1971'den itibaren uygulandı.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#türkiyetarihi",
+    "#katmaprotokol",
+    "#avrupabirliği",
+    "#23kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#TürkiyeTarihi",
+    "#KatmaProtokol"
+   ],
+   "soru": "Türkiye'nin Avrupa ile ilişkilerinin bu ilk adımlarını biliyor muydunuz? Yorumlarda paylaşın."
+  }
+ ],
+ "diger": [
+  [
+   "1980",
+   null,
+   "Güney İtalya'daki Irpinia bölgesinde meydana gelen depremde binlerce kişi hayatını kaybetti."
+  ],
+  [
+   "2015",
+   null,
+   "Blue Origin'in New Shepard roketi uzaya ulaştıktan sonra dikey olarak yere indi."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (1980 İtalya depremi), Blue Origin (New Shepard)"
+}

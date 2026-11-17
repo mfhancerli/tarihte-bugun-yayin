@@ -1,0 +1,109 @@
+{
+ "tarih": "2026-11-28",
+ "ay": "Kasım",
+ "gunno": "28",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (23-29 Kasım partisi, 18 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "2002",
+   null,
+   "Garip akımının kurucularından şair Melih Cevdet Anday, İstanbul'da hayatını kaybetti.",
+   {
+    "hook": "Melih Cevdet Anday'ın vefatı",
+    "tipo_buyuk": "MELİH CEVDET",
+    "tipo_alt": "ANDAY",
+    "tipo_not": "1915-2002",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1943",
+   null,
+   "Churchill, Roosevelt ve Stalin, Tahran Konferansı'nda bir araya geldi.",
+   {
+    "hook": "Tahran Konferansı başladı",
+    "tipo_buyuk": "TAHRAN",
+    "tipo_alt": "KONFERANSI",
+    "tipo_not": "Churchill · Roosevelt · Stalin",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1520",
+   null,
+   "Macellan'ın filosu, bugün kendi adıyla anılan boğazı geçerek Pasifik Okyanusu'na çıktı.",
+   {
+    "hook": "Macellan Pasifik'e çıktı",
+    "tipo_buyuk": "MACELLAN",
+    "tipo_alt": "PASİFİK'E ÇIKIŞ",
+    "tipo_not": "Macellan Boğazı",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-arnavutluk",
+   "tema": "normal",
+   "yil": "1912",
+   "hicri": "1330",
+   "hook": "Arnavutluk bağımsızlığını ilan etti",
+   "short": "28 Kasım 1912'de Avlonya'da toplanan kongre, Arnavutluk'un Osmanlı Devleti'nden bağımsızlığını ilan etti.",
+   "tipo_buyuk": "ARNAVUTLUK",
+   "tipo_alt": "BAĞIMSIZLIK",
+   "tipo_not": "Avlonya · 1912",
+   "kaynaklar": "Kaynaklar: Atatürk Araştırma Merkezi Dergisi (Selma Yel), YÖK Açık Bilim (Bağımsızlık sonrası Arnavutluk 1912-1914), DergiPark (Arnavutluk tahtı mücadelesi; Belgi dergisi), TRT Haber",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Balkan Savaşı sürerken",
+     "Osmanlı ordusunun Balkan Savaşı'nda yenilgiye uğradığı günlerde, Kasım 1912'de Avlonya'da Arnavut kongresi toplandı."
+    ],
+    [
+     "O AN",
+     "Avlonya'da ilan",
+     "Eski Osmanlı mebusu İsmail Kemal Bey'in önderliğindeki kongre, 28 Kasım 1912'de Arnavutluk'un bağımsızlığını ilan etti."
+    ],
+    [
+     "SONRASI",
+     "Londra'da tanınma",
+     "Arnavutluk'un bağımsızlığı, 29 Temmuz 1913'te Londra Konferansı'nda Büyük Devletler tarafından tanındı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Bayrak ve Bağımsızlık Günü",
+     "28 Kasım, Arnavutlar tarafından her yıl Bayrak ve Bağımsızlık Günü olarak kutlanıyor."
+    ]
+   ],
+   "ig_metin": "28 Kasım 1912'de Avlonya'da toplanan kongre, Arnavutluk'un Osmanlı Devleti'nden bağımsızlığını ilan etti.\n\nKongre, Osmanlı ordusunun Balkan Savaşı'nda yenilgiye uğradığı günlerde toplanmıştı. Bağımsızlık, eski Osmanlı mebusu İsmail Kemal Bey'in önderliğinde ilan edildi.\n\nArnavutluk'un bağımsızlığı, 29 Temmuz 1913'te Londra Konferansı'nda Büyük Devletler tarafından tanındı. 28 Kasım, Arnavutlar tarafından her yıl Bayrak ve Bağımsızlık Günü olarak kutlanıyor.",
+   "fb_metin": "Tarihte bugün, 28 Kasım 1912.\n\nAvlonya'da toplanan kongre, Arnavutluk'un Osmanlı Devleti'nden bağımsızlığını ilan etti.\n\nKongre, Osmanlı ordusunun Balkan Savaşı'nda yenilgiye uğradığı günlerde toplanmıştı. Bağımsızlık, eski Osmanlı mebusu İsmail Kemal Bey'in önderliğinde ilan edildi.\n\nArnavutluk'un bağımsızlığı, 29 Temmuz 1913'te Londra Konferansı'nda Büyük Devletler tarafından tanındı. 28 Kasım, Arnavutlar tarafından her yıl Bayrak ve Bağımsızlık Günü olarak kutlanıyor.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#osmanlıtarihi",
+    "#arnavutluk",
+    "#balkantarihi",
+    "#28kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#OsmanlıTarihi",
+    "#Arnavutluk"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1964",
+   null,
+   "NASA, Mariner 4 uzay aracını Mars'a doğru fırlattı."
+  ],
+  [
+   "1960",
+   null,
+   "Moritanya, Fransa'dan bağımsızlığını kazandı."
+  ]
+ ],
+ "diger_kaynaklar": "NASA (Mariner 4), Britannica (Mauritania)"
+}

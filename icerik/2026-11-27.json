@@ -1,0 +1,109 @@
+{
+ "tarih": "2026-11-27",
+ "ay": "Kasım",
+ "gunno": "27",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (23-29 Kasım partisi, 18 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1895",
+   null,
+   "Alfred Nobel, Nobel Ödülleri'nin kurulmasını sağlayan vasiyetini Paris'te imzaladı.",
+   {
+    "hook": "Nobel'in vasiyeti imzalandı",
+    "tipo_buyuk": "NOBEL",
+    "tipo_alt": "VASİYETİ",
+    "tipo_not": "Paris · 1895",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1978",
+   null,
+   "UNESCO Genel Konferansı, Atatürk'ün doğumunun 100. yılı olan 1981'de anılmasına katkıda bulunma kararı aldı.",
+   {
+    "hook": "UNESCO'dan Atatürk kararı",
+    "tipo_buyuk": "UNESCO",
+    "tipo_alt": "1981 ATATÜRK YILI",
+    "tipo_not": "Genel Konferans · Paris",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1971",
+   null,
+   "Sovyetlerin Mars 2 iniş modülü, Mars yüzeyine çakılarak gezegene ulaşan ilk insan yapımı nesne oldu.",
+   {
+    "hook": "Mars'a ulaşan ilk araç",
+    "tipo_buyuk": "MARS 2",
+    "tipo_alt": "İLK TEMAS",
+    "tipo_not": "SSCB · 1971",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-clermont",
+   "tema": "normal",
+   "yil": "1095",
+   "hicri": "488",
+   "hook": "Haçlı seferlerini başlatan çağrı",
+   "short": "27 Kasım 1095'te Papa II. Urbanus, Clermont'ta yaptığı konuşmayla Haçlı seferine çağrıda bulundu.",
+   "tipo_buyuk": "CLERMONT",
+   "tipo_alt": "HAÇLI ÇAĞRISI",
+   "tipo_not": "Fransa · 1095",
+   "kaynaklar": "Kaynaklar: Ankara Üniversitesi Açık Ders (Haçlı Seferleri İçin Çağrı), DergiPark (Haçlı seferlerine motive eden dinî söylemler), World History Encyclopedia (Council of Clermont), EBSCO Research Starters, İstanbul Üniversitesi tezi (Kilise, Papalık ve Haçlı Seferleri)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Bizans'ın yardım isteği",
+     "Bizans İmparatoru I. Aleksios, Mart 1095'te Piacenza'da toplanan konsile elçi göndererek Anadolu'daki Selçuklu Türklerine karşı Papa'dan yardım istedi."
+    ],
+    [
+     "O AN",
+     "Clermont'ta çağrı",
+     "Papa II. Urbanus, 27 Kasım 1095'te Clermont Konsili sırasında din adamlarından ve halktan oluşan kalabalığa seslenerek Haçlı seferine katılma çağrısı yaptı."
+    ],
+    [
+     "SONRASI",
+     "Birinci Haçlı Seferi",
+     "1096'da başlayan Birinci Haçlı Seferi sırasında ve sonunda Haçlılar 1098'de Urfa ve Antakya'da, 1099'da Kudüs'te devletler kurdu."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Metni günümüze ulaşmadı",
+     "Konuşmanın birebir metni günümüze ulaşmadı. Olayı aktaran kaynakların anlattıkları birbirinden farklıdır."
+    ]
+   ],
+   "ig_metin": "27 Kasım 1095'te Papa II. Urbanus, Clermont Konsili sırasında din adamlarından ve halktan oluşan kalabalığa seslenerek Haçlı seferine katılma çağrısı yaptı.\n\nBizans İmparatoru I. Aleksios, aynı yılın Mart ayında Piacenza'da toplanan konsile elçi göndererek Anadolu'daki Selçuklu Türklerine karşı yardım istemişti.\n\n1096'da başlayan Birinci Haçlı Seferi sırasında ve sonunda Haçlılar 1098'de Urfa ve Antakya'da, 1099'da Kudüs'te devletler kurdu. Haçlı seferleri yaklaşık iki yüzyıl sürdü.",
+   "fb_metin": "Tarihte bugün, 27 Kasım 1095.\n\nPapa II. Urbanus, Fransa'daki Clermont Konsili sırasında din adamlarından ve halktan oluşan kalabalığa seslenerek Haçlı seferine katılma çağrısı yaptı.\n\nBizans İmparatoru I. Aleksios, aynı yılın Mart ayında Piacenza'da toplanan konsile elçi göndererek Anadolu'daki Selçuklu Türklerine karşı yardım istemişti.\n\n1096'da başlayan Birinci Haçlı Seferi sırasında ve sonunda Haçlılar 1098'de Urfa ve Antakya'da, 1099'da Kudüs'te devletler kurdu. Haçlı seferleri yaklaşık iki yüzyıl sürdü.\n\nKonuşmanın birebir metni günümüze ulaşmadı; olayı aktaran kaynakların anlattıkları birbirinden farklıdır.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#islamtarihi",
+    "#haçlıseferleri",
+    "#selçuklu",
+    "#27kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#İslamTarihi",
+    "#HaçlıSeferleri"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1942",
+   null,
+   "Toulon Limanı'ndaki Fransız donanması, Alman kuvvetlerinin eline geçmemek için gemilerini batırdı."
+  ],
+  [
+   "2001",
+   null,
+   "NASA, Hubble Uzay Teleskobu ile Güneş Sistemi dışındaki bir gezegenin atmosferinin ilk kez tespit edildiğini duyurdu."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Toulon), NASA (HD 209458 b)"
+}
