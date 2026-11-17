@@ -1,0 +1,158 @@
+{
+ "tarih": "2026-11-24",
+ "ay": "Kasım",
+ "gunno": "24",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (23-29 Kasım partisi, 18 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1934",
+   null,
+   "TBMM, 2587 sayılı kanunla Mustafa Kemal'e \"Atatürk\" soyadını verdi.",
+   {
+    "hook": "Atatürk soyadı verildi",
+    "tipo_buyuk": "ATATÜRK",
+    "tipo_alt": "SOYADI KANUNU",
+    "tipo_not": "TBMM · 2587 sayılı kanun",
+    "tema": "normal"
+   }
+  ],
+  [
+   "2013",
+   null,
+   "İran ile BM Güvenlik Konseyi'nin beş daimî üyesi ve Almanya arasında Cenevre'de geçici nükleer anlaşma imzalandı.",
+   {
+    "hook": "Cenevre'de geçici nükleer anlaşma",
+    "tipo_buyuk": "CENEVRE",
+    "tipo_alt": "GEÇİCİ ANLAŞMA",
+    "tipo_not": "İran · P5+1",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1642",
+   null,
+   "Hollandalı denizci Abel Tasman, bugün Tazmanya olarak bilinen adayı gören ilk Avrupalı oldu.",
+   {
+    "hook": "Tazmanya'yı gören ilk Avrupalı",
+    "tipo_buyuk": "ABEL TASMAN",
+    "tipo_alt": "TAZMANYA",
+    "tipo_not": "Hollandalı denizci",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-ogretmenler",
+   "tema": "normal",
+   "yil": "1928",
+   "hicri": null,
+   "hook": "Öğretmenler Günü neden 24 Kasım?",
+   "short": "24 Kasım 1928'de Millet Mektepleri Talimatnamesi yürürlüğe girdi; Atatürk bu teşkilatın başöğretmenliğini üstlendi.",
+   "tipo_buyuk": "ÖĞRETMENLER",
+   "tipo_alt": "GÜNÜ",
+   "tipo_not": "24 Kasım · Başöğretmen",
+   "kaynaklar": "Kaynaklar: Atatürk Ansiklopedisi, Pamukkale Üniversitesi Sosyal Bilimler Enstitüsü Dergisi (Millet Mektepleri, 1928-1935), DergiPark (Millet Mektepleri Teşkilatı Talimatnamesi), NTV, Habertürk",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Millet Mektepleri",
+     "Bakanlar Kurulu, okuma yazma bilmeyen yetişkinlere eğitim vermek için kurulacak Millet Mektepleri'nin talimatnamesini 11 Kasım 1928'de kabul etti."
+    ],
+    [
+     "O AN",
+     "Başöğretmen",
+     "Millet Mektepleri Talimatnamesi 24 Kasım 1928'de Resmî Gazete'de yayımlanarak yürürlüğe girdi. Atatürk, bu teşkilatın başöğretmenliğini üstlendi."
+    ],
+    [
+     "SONRASI",
+     "Dersler başladı",
+     "Millet Mektepleri, 1 Ocak 1929'da öğretime başladı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "1981'den beri kutlanıyor",
+     "24 Kasım, Atatürk'ün doğumunun 100. yılı olan 1981'den beri her yıl Öğretmenler Günü olarak kutlanıyor."
+    ]
+   ],
+   "ig_metin": "24 Kasım, Türkiye'de Öğretmenler Günü olarak kutlanıyor. Bu tarih, 1928'deki bir gelişmeye dayanıyor.\n\nBakanlar Kurulu, okuma yazma bilmeyen yetişkinlere eğitim vermek için kurulacak Millet Mektepleri'nin talimatnamesini 11 Kasım 1928'de kabul etti. Talimatname 24 Kasım 1928'de Resmî Gazete'de yayımlanarak yürürlüğe girdi ve Atatürk bu teşkilatın başöğretmenliğini üstlendi.\n\nMillet Mektepleri 1 Ocak 1929'da öğretime başladı. 24 Kasım ise Atatürk'ün doğumunun 100. yılı olan 1981'den beri Öğretmenler Günü olarak kutlanıyor.\n\nTüm öğretmenlerimizin Öğretmenler Günü kutlu olsun.",
+   "fb_metin": "Tarihte bugün, 24 Kasım 1928.\n\nMillet Mektepleri Talimatnamesi Resmî Gazete'de yayımlanarak yürürlüğe girdi ve Atatürk bu teşkilatın başöğretmenliğini üstlendi.\n\nOkuma yazma bilmeyen yetişkinlere eğitim vermek için kurulan Millet Mektepleri'nin talimatnamesi, Bakanlar Kurulu'nca 11 Kasım 1928'de kabul edilmişti. Millet Mektepleri 1 Ocak 1929'da öğretime başladı.\n\n24 Kasım, Atatürk'ün doğumunun 100. yılı olan 1981'den beri Türkiye'de Öğretmenler Günü olarak kutlanıyor.\n\nTüm öğretmenlerimizin Öğretmenler Günü kutlu olsun.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#öğretmenlergünü",
+    "#başöğretmen",
+    "#türkiyetarihi",
+    "#24kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#ÖğretmenlerGünü",
+    "#24Kasım"
+   ],
+   "soru": "Size en çok iz bırakan öğretmeninizi yorumlarda anar mısınız?"
+  },
+  {
+   "kod": "g2-caldiran",
+   "tema": "normal",
+   "yil": "1976",
+   "hicri": null,
+   "hook": "Çaldıran depreminin 50. yılı",
+   "short": "24 Kasım 1976'da merkez üssü Van'daki Çaldıran olan depremde binlerce kişi hayatını kaybetti.",
+   "tipo_buyuk": "ÇALDIRAN",
+   "tipo_alt": "DEPREMİ",
+   "tipo_not": "Van · 1976",
+   "kaynaklar": "Kaynaklar: Gülkan ve diğerleri, Muradiye-Çaldıran Depremi Mühendislik Raporu (ODTÜ, 1978), Çukurova Üniversitesi Mühendislik Fakültesi Dergisi (2020), TBMM soru önergesi, NTV, Habertürk",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Van Gölü'nün kuzeydoğusu",
+     "Deprem, 24 Kasım 1976'da merkez üssü o dönem Van'ın Muradiye ilçesine bağlı Çaldıran olan bölgede meydana geldi."
+    ],
+    [
+     "O AN",
+     "Binlerce can kaybı",
+     "Depremde resmî rakamlara göre 3 bin 840 kişi hayatını kaybetti, 10 bine yakın yapı hasar gördü."
+    ],
+    [
+     "SONRASI",
+     "Yüzeyde kırık",
+     "Depremi üreten Çaldıran Fayı, yeryüzünde 50-55 kilometre uzunluğunda bir kırık oluşturdu."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Mühendislik raporu",
+     "ODTÜ'lü araştırmacılar depremden sonra bölgede inceleme yaparak hasarları ayrıntılı bir mühendislik raporunda kayda geçirdi."
+    ]
+   ],
+   "ig_metin": "24 Kasım 1976'da merkez üssü o dönem Van'ın Muradiye ilçesine bağlı Çaldıran olan bir deprem meydana geldi.\n\nDepremde resmî rakamlara göre 3 bin 840 kişi hayatını kaybetti, 10 bine yakın yapı hasar gördü. Depremi üreten Çaldıran Fayı, yeryüzünde 50-55 kilometre uzunluğunda bir kırık oluşturdu.\n\nDepremin 50. yılında hayatını kaybedenleri rahmetle anıyoruz.",
+   "fb_metin": "Tarihte bugün, 24 Kasım 1976.\n\nMerkez üssü o dönem Van'ın Muradiye ilçesine bağlı olan Çaldıran olan bir deprem meydana geldi.\n\nDepremde resmî rakamlara göre 3 bin 840 kişi hayatını kaybetti, 10 bine yakın yapı hasar gördü. Depremi üreten Çaldıran Fayı, yeryüzünde 50-55 kilometre uzunluğunda bir kırık oluşturdu. ODTÜ'lü araştırmacılar depremden sonra hasarları ayrıntılı bir mühendislik raporunda kayda geçirdi.\n\nDepremin 50. yılında hayatını kaybedenleri rahmetle anıyoruz.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#türkiyetarihi",
+    "#çaldırandepremi",
+    "#van",
+    "#24kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#ÇaldıranDepremi",
+    "#Van"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1877",
+   null,
+   "Anna Sewell'in romanı Siyah İnci (Black Beauty) yayımlandı."
+  ],
+  [
+   "1932",
+   null,
+   "Bugünkü FBI'ın suç laboratuvarı Washington'da açıldı."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Anna Sewell), FBI (Laboratory history)"
+}

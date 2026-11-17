@@ -1,0 +1,110 @@
+{
+ "tarih": "2026-11-26",
+ "ay": "Kasım",
+ "gunno": "26",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (23-29 Kasım partisi, 18 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1922",
+   null,
+   "Arkeolog Howard Carter, Tutankamon'un mezarının mühürlü kapısında açtığı delikten içeriyi ilk kez gördü.",
+   {
+    "hook": "Tutankamon'un mezarına ilk bakış",
+    "tipo_buyuk": "TUTANKAMON",
+    "tipo_alt": "MEZARI",
+    "tipo_not": "Krallar Vadisi · Mısır",
+    "tema": "normal"
+   }
+  ],
+  [
+   "2011",
+   null,
+   "NASA'nın Mars Bilim Laboratuvarı, Curiosity gezgini ile birlikte fırlatıldı.",
+   {
+    "hook": "Curiosity Mars'a yola çıktı",
+    "tipo_buyuk": "CURIOSITY",
+    "tipo_alt": "MARS'A YOLCULUK",
+    "tipo_not": "NASA · Cape Canaveral",
+    "tema": "normal"
+   }
+  ],
+  [
+   "2003",
+   null,
+   "Concorde yolcu uçağı, İngiltere'nin Bristol kentine yaptığı uçuşla son kez havalandı.",
+   {
+    "hook": "Concorde'un son uçuşu",
+    "tipo_buyuk": "CONCORDE",
+    "tipo_alt": "SON UÇUŞ",
+    "tipo_not": "Heathrow → Bristol",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-alpullu",
+   "tema": "normal",
+   "yil": "1926",
+   "hicri": null,
+   "hook": "İlk Türk şekeri 100 yaşında",
+   "short": "26 Kasım 1926'da Kırklareli'deki Alpullu Şeker Fabrikası'nda ilk Türk şekeri üretildi.",
+   "tipo_buyuk": "ALPULLU",
+   "tipo_alt": "İLK TÜRK ŞEKERİ",
+   "tipo_not": "Kırklareli · 1926",
+   "kaynaklar": "Kaynaklar: Atatürk Ansiklopedisi (Şeker Sanayinin Kurulması ve Gelişimi), DergiPark (Atatürk dönemi şeker sanayii), Ekonomi Gazetesi, Dünya Gazetesi",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Şeker için kanun",
+     "Türkiye'nin ihtiyaç duyduğu şekerin üretilmesi için 5 Nisan 1925 tarihli 601 sayılı kanunla çalışmalar başlatıldı."
+    ],
+    [
+     "O AN",
+     "İlk Türk şekeri",
+     "Kırklareli'nin Alpullu beldesinde kurulan fabrikada 26 Kasım 1926'da ilk Türk şekeri üretildi."
+    ],
+    [
+     "SONRASI",
+     "21 gün sonra Uşak",
+     "Uşak Şeker Fabrikası da 17 Aralık 1926'da üretime başladı. Bu iki fabrika, yeni fabrikalar kuruluncaya kadar ülkenin şeker ihtiyacını kısmen karşıladı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Kuruluş günü",
+     "Atatürk Ansiklopedisi'ne göre 26 Kasım 1926, Türkiye şeker sanayisinin kuruluş günü kabul ediliyor. Ansiklopedi Uşak'ı ilk şeker fabrikası olarak anıyor; Alpullu ondan önce tamamlandı."
+    ]
+   ],
+   "ig_metin": "26 Kasım 1926'da Kırklareli'nin Alpullu beldesinde kurulan fabrikada ilk Türk şekeri üretildi.\n\nTürkiye'nin ihtiyaç duyduğu şekerin üretilmesi için 5 Nisan 1925 tarihli 601 sayılı kanunla çalışmalar başlatılmıştı. Alpullu'dan 21 gün sonra, 17 Aralık 1926'da Uşak Şeker Fabrikası da üretime başladı.\n\nAtatürk Ansiklopedisi'ne göre 26 Kasım 1926, Türkiye şeker sanayisinin kuruluş günü kabul ediliyor. Bu yıl, ilk Türk şekerinin üretilişinin 100. yılı.",
+   "fb_metin": "Tarihte bugün, 26 Kasım 1926.\n\nKırklareli'nin Alpullu beldesinde kurulan fabrikada ilk Türk şekeri üretildi.\n\nTürkiye'nin ihtiyaç duyduğu şekerin üretilmesi için 5 Nisan 1925 tarihli 601 sayılı kanunla çalışmalar başlatılmıştı. Alpullu'dan 21 gün sonra, 17 Aralık 1926'da Uşak Şeker Fabrikası da üretime başladı. Bu iki fabrika, yeni fabrikalar kuruluncaya kadar ülkenin şeker ihtiyacını kısmen karşıladı.\n\nAtatürk Ansiklopedisi'ne göre 26 Kasım 1926, Türkiye şeker sanayisinin kuruluş günü kabul ediliyor. Bu yıl, ilk Türk şekerinin üretilişinin 100. yılı.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#türkiyetarihi",
+    "#alpullu",
+    "#şekerfabrikası",
+    "#26kasım"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#TürkiyeTarihi",
+    "#Alpullu"
+   ],
+   "soru": "Çevrenizde bir şeker fabrikası var mı? Yorumlarda paylaşın."
+  }
+ ],
+ "diger": [
+  [
+   "1949",
+   null,
+   "Hindistan Kurucu Meclisi, ülkenin anayasasını kabul etti."
+  ],
+  [
+   "1965",
+   null,
+   "Fransa, ilk uydusu Asterix'i fırlattı."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Constitution of India), CNES (Astérix)"
+}
