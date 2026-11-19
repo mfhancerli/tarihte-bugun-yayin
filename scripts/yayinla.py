@@ -60,6 +60,33 @@ def anahtar_hazirla(ig, page):
     istek(page, {"fields": "name"}, "GET", sayfa=True)
     return hesap.get("username")
 
+UYARI_GUN = 14  # Anahtarın bitişine bu kadar gün kala akşam kontrolü hata verir (GitHub e-posta gönderir)
+
+def anahtar_suresi():
+    """Meta anahtarının bitiş tarihlerini (expires_at, data_access_expires_at) debug_token ile okur.
+    Bitişe UYARI_GUN gün ya da daha az kaldıysa SystemExit ile iş başarısız olur. Tarih okunamazsa yalnızca uyarı yazar."""
+    tok = os.environ["META_TOKEN"]
+    try:
+        d = istek("debug_token", {"input_token": tok}, "GET", kota_bekle=False).get("data", {})
+    except SystemExit as e:
+        print(f"::warning::Anahtarın bitiş tarihi okunamadı (debug_token): {e}", flush=True); return
+    simdi = dt.datetime.now(TZ); sorunlar = []
+    for alan, ad in (("expires_at", "Anahtar"), ("data_access_expires_at", "Veri erişimi")):
+        ts = d.get(alan)
+        if not ts:
+            log(f"{ad} süresi: süresiz (Never)"); continue
+        bitis = dt.datetime.fromtimestamp(int(ts), TZ); kalan = (bitis - simdi).days
+        log(f"{ad} bitiş tarihi: {bitis:%d.%m.%Y %H:%M} ({kalan} gün kaldı)")
+        if kalan <= UYARI_GUN:
+            sorunlar.append(f"{ad} {bitis:%d.%m.%Y} tarihinde sona eriyor ({kalan} gün kaldı)")
+        elif kalan <= 30:
+            print(f"::warning::{ad} {bitis:%d.%m.%Y} tarihinde sona eriyor ({kalan} gün kaldı).", flush=True)
+    if d.get("is_valid") is False:
+        sorunlar.append("Meta anahtarı geçersiz görünüyor (is_valid=false)")
+    if sorunlar:
+        raise SystemExit("META ANAHTARI UYARISI: " + "; ".join(sorunlar) +
+                         ". Yeni bir sistem kullanıcısı anahtarı üretip GitHub Secrets'taki META_TOKEN'ı güncelleyin.")
+
 def gorsel_url(tarih, dosya):
     return f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/yayin/{tarih}/{urllib.parse.quote(dosya)}"
 
@@ -146,6 +173,7 @@ def main():
     if a.kontrol:
         kullanici = anahtar_hazirla(os.environ["IG_USER_ID"], os.environ["FB_PAGE_ID"])
         log("Anahtar çalışıyor. Instagram hesabı:", kullanici)
+        anahtar_suresi()
         yarin = (simdi + dt.timedelta(days=1)).strftime("%Y-%m-%d"); yol = f"yayin/{yarin}/plan.json"
         if not os.path.exists(yol):
             print(f"::warning::Yarın ({yarin}) için plan yok; bu gece yayın yapılmayacak.", flush=True)
