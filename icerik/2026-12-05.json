@@ -1,0 +1,110 @@
+{
+ "tarih": "2026-12-05",
+ "ay": "Aralık",
+ "gunno": "5",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (30 Kasım-6 Aralık partisi, 19 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1791",
+   null,
+   "Besteci Wolfgang Amadeus Mozart, Viyana'da 35 yaşında hayatını kaybetti.",
+   {
+    "hook": "Mozart'ın vefatı",
+    "tipo_buyuk": "MOZART",
+    "tipo_alt": "1756-1791",
+    "tipo_not": "Viyana",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1492",
+   null,
+   "Kristof Kolomb, bugün Haiti ve Dominik Cumhuriyeti'nin bulunduğu Hispaniola adasını ilk kez gördü.",
+   {
+    "hook": "Kolomb Hispaniola'da",
+    "tipo_buyuk": "HİSPANİOLA",
+    "tipo_alt": "KOLOMB",
+    "tipo_not": "Karayipler · 1492",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1901",
+   null,
+   "Çizgi film yapımcısı Walt Disney, ABD'nin Chicago kentinde doğdu.",
+   {
+    "hook": "Walt Disney doğdu",
+    "tipo_buyuk": "WALT DISNEY",
+    "tipo_alt": "1901-1966",
+    "tipo_not": "Chicago",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-kadinhaklari",
+   "tema": "normal",
+   "yil": "1934",
+   "hicri": null,
+   "hook": "Kadınlara milletvekili seçme ve seçilme hakkı",
+   "short": "5 Aralık 1934'te Türk kadınına milletvekili seçme ve seçilme hakkı tanındı.",
+   "tipo_buyuk": "5 ARALIK",
+   "tipo_alt": "KADIN HAKLARI",
+   "tipo_not": "TBMM · 1934",
+   "kaynaklar": "Kaynaklar: Atatürk Ansiklopedisi (Kadın Temsiliyeti ve 1935 Seçimleri), YÖK Açık Bilim (Türk kadını ve seçimler 1935-1946), DergiPark (Afyon Kocatepe Üniversitesi; 1935 seçimleri), TBMM Genel Kurul tutanakları",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Adım adım",
+     "Kadınlar 1930'da belediye seçimlerine katılma, 1933'te muhtar ve ihtiyar heyetlerine seçilme hakkını kazanmıştı."
+    ],
+    [
+     "O AN",
+     "Meclis'te kabul",
+     "5 Aralık 1934'te TBMM'de kabul edilen anayasa ve seçim kanunu değişiklikleriyle kadınlara milletvekili seçme ve seçilme hakkı tanındı."
+    ],
+    [
+     "SONRASI",
+     "18 kadın milletvekili",
+     "8 Şubat 1935 seçimlerinde 17 kadın milletvekili Meclis'e girdi. Bir ara seçimle bu sayı 18'e yükseldi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "22 ve 30 yaş",
+     "Yeni düzenlemeye göre 22 yaşını dolduran her vatandaş oy kullanabilecek, 30 yaşını dolduran her vatandaş milletvekili seçilebilecekti."
+    ]
+   ],
+   "ig_metin": "5 Aralık 1934'te TBMM'de kabul edilen anayasa ve seçim kanunu değişiklikleriyle Türk kadınına milletvekili seçme ve seçilme hakkı tanındı.\n\nKadınlar 1930'da belediye seçimlerine katılma, 1933'te muhtar ve ihtiyar heyetlerine seçilme hakkını kazanmıştı. 1934'teki düzenlemeyle 22 yaşını dolduran her vatandaş milletvekili seçimlerinde oy kullanabilecek, 30 yaşını dolduran her vatandaş da milletvekili seçilebilecekti.\n\n8 Şubat 1935 seçimlerinde 17 kadın milletvekili Meclis'e girdi; bir ara seçimle bu sayı 18'e yükseldi.",
+   "fb_metin": "Tarihte bugün, 5 Aralık 1934.\n\n5 Aralık 1934'te TBMM'de kabul edilen anayasa ve seçim kanunu değişiklikleriyle Türk kadınına milletvekili seçme ve seçilme hakkı tanındı.\n\nKadınlar 1930'da belediye seçimlerine katılma, 1933'te muhtar ve ihtiyar heyetlerine seçilme hakkını kazanmıştı. 1934'teki düzenlemeyle 22 yaşını dolduran her vatandaş milletvekili seçimlerinde oy kullanabilecek, 30 yaşını dolduran her vatandaş da milletvekili seçilebilecekti.\n\n8 Şubat 1935 seçimlerinde 17 kadın milletvekili Meclis'e girdi; bir ara seçimle bu sayı 18'e yükseldi.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#türkiyetarihi",
+    "#5aralık",
+    "#kadınhakları",
+    "#tbmm"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#5Aralık",
+    "#TürkiyeTarihi"
+   ],
+   "soru": "Ailenizde ilk kez oy kullanan kadınların hikâyesini biliyor musunuz? Yorumlarda paylaşın."
+  }
+ ],
+ "diger": [
+  [
+   "1952",
+   null,
+   "Londra'da günlerce süren yoğun hava kirliliği, Büyük Duman olarak bilinen felakete dönüştü."
+  ],
+  [
+   "1945",
+   null,
+   "ABD Donanması'na ait beş uçaktan oluşan Uçuş 19, Bermuda Şeytan Üçgeni olarak anılan bölgede kayboldu."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Great Smog of London), ABD Donanması Tarih Merkezi (Flight 19)"
+}

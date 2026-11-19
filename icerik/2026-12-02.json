@@ -1,0 +1,109 @@
+{
+ "tarih": "2026-12-02",
+ "ay": "Aralık",
+ "gunno": "2",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (30 Kasım-6 Aralık partisi, 19 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1971",
+   null,
+   "Altı emirliğin birleşmesiyle Birleşik Arap Emirlikleri kuruldu.",
+   {
+    "hook": "Birleşik Arap Emirlikleri kuruldu",
+    "tipo_buyuk": "BİRLEŞİK ARAP",
+    "tipo_alt": "EMİRLİKLERİ",
+    "tipo_not": "Kuruluş · 1971",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1942",
+   null,
+   "Enrico Fermi'nin ekibi Chicago'da ilk kontrollü nükleer zincirleme tepkimeyi gerçekleştirdi.",
+   {
+    "hook": "İlk kontrollü zincirleme tepkime",
+    "tipo_buyuk": "CHICAGO PILE-1",
+    "tipo_alt": "ZİNCİRLEME TEPKİME",
+    "tipo_not": "Enrico Fermi · 1942",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1805",
+   null,
+   "Napolyon, Austerlitz Muharebesi'nde Rus ve Avusturya ordularını yendi.",
+   {
+    "hook": "Austerlitz Muharebesi",
+    "tipo_buyuk": "AUSTERLITZ",
+    "tipo_alt": "MUHAREBESİ",
+    "tipo_not": "Napolyon · 1805",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-namikkemal",
+   "tema": "normal",
+   "yil": "1888",
+   "hicri": null,
+   "hook": "Vatan Şairi Namık Kemal'in vefatı",
+   "short": "2 Aralık 1888'de Vatan Şairi olarak anılan Namık Kemal, Sakız Adası'nda hayatını kaybetti.",
+   "tipo_buyuk": "NAMIK KEMAL",
+   "tipo_alt": "VATAN ŞAİRİ",
+   "tipo_not": "1840-1888",
+   "kaynaklar": "Kaynaklar: TDV İslâm Ansiklopedisi (Nâmık Kemal), Britannica (Namık Kemal), NTV, DergiPark (Namık Kemal'in Bolayır'daki mezarı)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Kalemiyle tanındı",
+     "1840'ta Tekirdağ'da doğan Namık Kemal, şiirleri, makaleleri ve oyunlarıyla vatan ve hürriyet kavramlarını geniş kitlelere ulaştırdı."
+    ],
+    [
+     "O AN",
+     "Sakız'da vefat",
+     "Sakız Adası'nda yönetici olarak görev yaparken zatürreye yakalanan Namık Kemal, 2 Aralık 1888'de hayatını kaybetti."
+    ],
+    [
+     "SONRASI",
+     "Bolayır'a defnedildi",
+     "İlk olarak adada toprağa verilen Namık Kemal'in naaşı daha sonra Gelibolu'nun Bolayır köyüne nakledildi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Bir oyun, bir sürgün",
+     "1873'te sahnelenen Vatan yahut Silistre oyunu büyük ilgi gördü. Bunun ardından Namık Kemal, Magosa'ya sürgün edildi."
+    ]
+   ],
+   "ig_metin": "2 Aralık 1888'de \"Vatan Şairi\" olarak anılan Namık Kemal, Sakız Adası'nda hayatını kaybetti.\n\n1840'ta Tekirdağ'da doğan Namık Kemal, şiirleri, makaleleri ve oyunlarıyla vatan ve hürriyet kavramlarını geniş kitlelere ulaştırdı. 1873'te sahnelenen Vatan yahut Silistre oyunu büyük ilgi gördü; ardından Magosa'ya sürgün edildi.\n\nDaha sonra Midilli, Rodos ve Sakız'da yöneticilik yaptı. Sakız'da zatürreye yakalanarak vefat etti. Naaşı daha sonra Gelibolu'nun Bolayır köyüne nakledildi.\n\nNamık Kemal'i rahmetle anıyoruz.",
+   "fb_metin": "Tarihte bugün, 2 Aralık 1888.\n\n2 Aralık 1888'de \"Vatan Şairi\" olarak anılan Namık Kemal, Sakız Adası'nda hayatını kaybetti.\n\n1840'ta Tekirdağ'da doğan Namık Kemal, şiirleri, makaleleri ve oyunlarıyla vatan ve hürriyet kavramlarını geniş kitlelere ulaştırdı. 1873'te sahnelenen Vatan yahut Silistre oyunu büyük ilgi gördü; ardından Magosa'ya sürgün edildi.\n\nDaha sonra Midilli, Rodos ve Sakız'da yöneticilik yaptı. Sakız'da zatürreye yakalanarak vefat etti. Naaşı daha sonra Gelibolu'nun Bolayır köyüne nakledildi.\n\nNamık Kemal'i rahmetle anıyoruz.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#türkedebiyatı",
+    "#namıkkemal",
+    "#vatanşairi",
+    "#2aralık"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#NamıkKemal",
+    "#TürkEdebiyatı"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1409",
+   null,
+   "Almanya'daki Leipzig Üniversitesi açıldı."
+  ],
+  [
+   "1804",
+   null,
+   "Napolyon Bonapart, Paris'teki Notre Dame Katedrali'nde taç giyerek Fransız imparatoru oldu."
+  ]
+ ],
+ "diger_kaynaklar": "Leipzig Üniversitesi, Britannica (Napoleon I)"
+}

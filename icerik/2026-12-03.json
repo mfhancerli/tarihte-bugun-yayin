@@ -1,0 +1,109 @@
+{
+ "tarih": "2026-12-03",
+ "ay": "Aralık",
+ "gunno": "3",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (30 Kasım-6 Aralık partisi, 19 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1912",
+   "1330",
+   "Osmanlı Devleti ile Bulgaristan, Sırbistan ve Karadağ arasında Balkan Savaşı'nı geçici olarak durduran Çatalca ateşkesi imzalandı.",
+   {
+    "hook": "Çatalca ateşkesi",
+    "tipo_buyuk": "ÇATALCA",
+    "tipo_alt": "ATEŞKESİ",
+    "tipo_not": "Balkan Savaşı · 1912",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1967",
+   null,
+   "Christiaan Barnard, Cape Town'da insandan insana ilk kalp naklini gerçekleştirdi.",
+   {
+    "hook": "Dünyada ilk kalp nakli",
+    "tipo_buyuk": "İLK KALP",
+    "tipo_alt": "NAKLİ",
+    "tipo_not": "Cape Town · 1967",
+    "tema": "normal"
+   }
+  ],
+  [
+   "2014",
+   null,
+   "Japonya, bir asteroitten örnek toplayıp Dünya'ya getirecek Hayabusa2 uzay aracını fırlattı.",
+   {
+    "hook": "Hayabusa2 yola çıktı",
+    "tipo_buyuk": "HAYABUSA2",
+    "tipo_alt": "ASTEROİT GÖREVİ",
+    "tipo_not": "JAXA · 2014",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-gumru",
+   "tema": "normal",
+   "yil": "1920",
+   "hicri": null,
+   "hook": "Gümrü Antlaşması imzalandı",
+   "short": "2'yi 3 Aralık'a bağlayan gece, 1920'de TBMM Hükümeti ile Ermenistan arasında Gümrü Antlaşması imzalandı.",
+   "tipo_buyuk": "GÜMRÜ",
+   "tipo_alt": "ANTLAŞMASI",
+   "tipo_not": "2-3 Aralık 1920",
+   "kaynaklar": "Kaynaklar: Atatürk Ansiklopedisi (Atatürk Döneminde Türkiye-Ermenistan İlişkileri), MSB Askerî Tarih Belgeleri Dergisi, DergiPark (Gümrü müzakereleri; Türk-Ermeni ilişkileri)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Doğu Cephesi",
+     "Kâzım Karabekir Paşa komutasındaki Doğu Cephesi harekâtında Kars 30 Ekim, Gümrü 7 Kasım 1920'de alındı."
+    ],
+    [
+     "O AN",
+     "Gece imzalandı",
+     "Gümrü'de yürütülen görüşmelerin ardından antlaşma, 2'yi 3 Aralık 1920'ye bağlayan gece imzalandı."
+    ],
+    [
+     "SONRASI",
+     "Onaylanmadı",
+     "Kısa süre sonra Ermenistan'da yönetimin Bolşeviklere geçmesiyle antlaşma Ermeni tarafında onaylanmadı. Sınır, 1921'de Moskova ve Kars antlaşmalarıyla yeniden belirlendi."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "İlk antlaşma",
+     "Atatürk, Nutuk'ta Gümrü Antlaşması'nı Millî Hükümet'in imzaladığı ilk antlaşma olarak anar."
+    ]
+   ],
+   "ig_metin": "2'yi 3 Aralık'a bağlayan gece, 1920'de TBMM Hükümeti ile Ermenistan arasında Gümrü Antlaşması imzalandı.\n\nKâzım Karabekir Paşa komutasındaki Doğu Cephesi harekâtında Kars 30 Ekim'de, Gümrü 7 Kasım 1920'de alınmıştı. Ardından başlayan barış görüşmeleri antlaşmayla sonuçlandı.\n\nAtatürk, Nutuk'ta Gümrü Antlaşması'nı Millî Hükümet'in imzaladığı ilk antlaşma olarak anar. Ermenistan'da kısa süre sonra yönetimin Bolşeviklere geçmesiyle antlaşma Ermeni tarafında onaylanmadı; sınır düzenlemeleri 1921'deki Moskova ve Kars antlaşmalarıyla yeniden belirlendi.",
+   "fb_metin": "Tarihte bugün, 3 Aralık 1920.\n\n2'yi 3 Aralık'a bağlayan gece, 1920'de TBMM Hükümeti ile Ermenistan arasında Gümrü Antlaşması imzalandı.\n\nKâzım Karabekir Paşa komutasındaki Doğu Cephesi harekâtında Kars 30 Ekim'de, Gümrü 7 Kasım 1920'de alınmıştı. Ardından başlayan barış görüşmeleri antlaşmayla sonuçlandı.\n\nAtatürk, Nutuk'ta Gümrü Antlaşması'nı Millî Hükümet'in imzaladığı ilk antlaşma olarak anar. Ermenistan'da kısa süre sonra yönetimin Bolşeviklere geçmesiyle antlaşma Ermeni tarafında onaylanmadı; sınır düzenlemeleri 1921'deki Moskova ve Kars antlaşmalarıyla yeniden belirlendi.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#türkiyetarihi",
+    "#gümrüantlaşması",
+    "#millimücadele",
+    "#3aralık"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#TürkiyeTarihi",
+    "#MilliMücadele"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1984",
+   null,
+   "Hindistan'ın Bhopal kentindeki bir tarım ilacı fabrikasından sızan zehirli gaz binlerce kişinin ölümüne yol açtı."
+  ],
+  [
+   "1818",
+   null,
+   "Illinois, ABD'nin 21. eyaleti oldu."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Bhopal disaster; Illinois)"
+}

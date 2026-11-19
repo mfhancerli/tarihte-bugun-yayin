@@ -1,0 +1,158 @@
+{
+ "tarih": "2026-12-06",
+ "ay": "Aralık",
+ "gunno": "6",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (30 Kasım-6 Aralık partisi, 19 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1917",
+   null,
+   "Finlandiya, Rusya'dan bağımsızlığını ilan etti.",
+   {
+    "hook": "Finlandiya bağımsızlığını ilan etti",
+    "tipo_buyuk": "FİNLANDİYA",
+    "tipo_alt": "BAĞIMSIZLIK",
+    "tipo_not": "Helsinki · 1917",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1240",
+   null,
+   "Batu Han komutasındaki Moğol ordusu Kiev'i ele geçirdi.",
+   {
+    "hook": "Kiev Moğolların eline geçti",
+    "tipo_buyuk": "KİEV",
+    "tipo_alt": "BATU HAN",
+    "tipo_not": "Altın Orda · 1240",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1959",
+   null,
+   "ABD Başkanı Dwight D. Eisenhower Türkiye'yi ziyaret etti ve Ankara'da Cumhurbaşkanı Celal Bayar ile görüştü.",
+   {
+    "hook": "Eisenhower Türkiye'de",
+    "tipo_buyuk": "EISENHOWER",
+    "tipo_alt": "ANKARA ZİYARETİ",
+    "tipo_not": "1959",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-zekimuren",
+   "tema": "normal",
+   "yil": "1931",
+   "hicri": null,
+   "hook": "Sanat Güneşi Zeki Müren'in doğum günü",
+   "short": "6 Aralık 1931'de Türk sanat müziğinin Sanat Güneşi olarak anılan Zeki Müren, Bursa'da doğdu.",
+   "tipo_buyuk": "ZEKİ MÜREN",
+   "tipo_alt": "SANAT GÜNEŞİ",
+   "tipo_not": "1931-1996",
+   "kaynaklar": "Kaynaklar: Anadolu Ajansı (CNN Türk), TRT Haber, NTV, Hürriyet",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Bursa'da doğdu",
+     "Zeki Müren, 6 Aralık 1931'de Üsküp'ten göç eden bir ailenin tek çocuğu olarak Bursa'da doğdu."
+    ],
+    [
+     "O AN",
+     "İlk Altın Plak",
+     "Türk sanat müziğinin en sevilen seslerinden biri olan Müren, Türkiye'de ilk Altın Plak ödülünü alan sanatçı oldu. 1991'de Devlet Sanatçısı unvanı aldı."
+    ],
+    [
+     "SONRASI",
+     "Vakıflara vasiyet",
+     "24 Eylül 1996'da vefat eden Müren, mal varlığını vasiyetle Türk Eğitim Vakfı ve Mehmetçik Vakfı'na bıraktı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "Royal Albert Hall",
+     "Zeki Müren, 1976'da Londra'daki Royal Albert Hall'da sahneye çıkan ilk Türk sanatçı oldu. Doğum günü 2012'den beri Türk Sanat Müziği Günü olarak kutlanıyor."
+    ]
+   ],
+   "ig_metin": "6 Aralık 1931'de Türk sanat müziğinin \"Sanat Güneşi\" olarak anılan Zeki Müren, Bursa'da doğdu.\n\nÜsküp'ten göç eden bir ailenin tek çocuğu olan Müren, Türkiye'de ilk Altın Plak ödülünü alan sanatçı oldu. 1976'da Londra'daki Royal Albert Hall'da sahneye çıkan ilk Türk sanatçı oldu; 1991'de Devlet Sanatçısı unvanı aldı.\n\n24 Eylül 1996'da vefat eden Müren, mal varlığını vasiyetle Türk Eğitim Vakfı ve Mehmetçik Vakfı'na bıraktı. Doğum günü olan 6 Aralık, 2012'den beri Türk Sanat Müziği Günü olarak kutlanıyor.",
+   "fb_metin": "Tarihte bugün, 6 Aralık 1931.\n\n6 Aralık 1931'de Türk sanat müziğinin \"Sanat Güneşi\" olarak anılan Zeki Müren, Bursa'da doğdu.\n\nÜsküp'ten göç eden bir ailenin tek çocuğu olan Müren, Türkiye'de ilk Altın Plak ödülünü alan sanatçı oldu. 1976'da Londra'daki Royal Albert Hall'da sahneye çıkan ilk Türk sanatçı oldu; 1991'de Devlet Sanatçısı unvanı aldı.\n\n24 Eylül 1996'da vefat eden Müren, mal varlığını vasiyetle Türk Eğitim Vakfı ve Mehmetçik Vakfı'na bıraktı. Doğum günü olan 6 Aralık, 2012'den beri Türk Sanat Müziği Günü olarak kutlanıyor.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#zekimüren",
+    "#türksanatmüziği",
+    "#sanatgüneşi",
+    "#6aralık"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#ZekiMüren",
+    "#TürkSanatMüziği"
+   ],
+   "soru": "Zeki Müren'in en sevdiğiniz şarkısı hangisi? Yorumlarda paylaşın."
+  },
+  {
+   "kod": "g2-babri",
+   "tema": "normal",
+   "yil": "1992",
+   "hicri": null,
+   "hook": "Babür Camii yıkıldı",
+   "short": "6 Aralık 1992'de Hindistan'ın Ayodhya kentindeki Babür Camii, bir mitingde toplanan kalabalık tarafından yıkıldı.",
+   "tipo_buyuk": "BABÜR CAMİİ",
+   "tipo_alt": "AYODHYA",
+   "tipo_not": "Hindistan · 1992",
+   "kaynaklar": "Kaynaklar: Britannica (Babri Masjid), Al Jazeera (The dispute over the Babri mosque), BBC",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Hicri 935'te inşa",
+     "Kitabelerine göre cami, Hicri 935'te (1528-1529) Babür'ün hizmetinde olduğu düşünülen Mir Baki tarafından inşa edilmişti."
+    ],
+    [
+     "O AN",
+     "Kalabalık camiyi yıktı",
+     "6 Aralık 1992'de Ayodhya'da düzenlenen mitinge katılan kalabalık camiyi yıktı. Britannica'ya göre güvenlik güçleri müdahale etmedi."
+    ],
+    [
+     "SONRASI",
+     "Ülke çapında olaylar",
+     "Yıkımın ardından Hindistan'ın farklı bölgelerinde çıkan olaylarda yaklaşık 2 bin kişi hayatını kaybetti."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "2019 kararı",
+     "Hindistan Yüksek Mahkemesi 2019'da tartışmalı arazinin bir tapınak için kullanılmasına, Müslümanlara cami için başka bir arsa verilmesine hükmetti."
+    ]
+   ],
+   "ig_metin": "6 Aralık 1992'de Hindistan'ın Ayodhya kentindeki Babür Camii (Babri Mescidi), bir mitingde toplanan kalabalık tarafından yıkıldı.\n\nCaminin üzerindeki kitabelere göre yapı, Hicri 935'te (1528-1529) Babür'ün hizmetinde olduğu düşünülen Mir Baki tarafından inşa edilmişti. Caminin bulunduğu alan, Hindular tarafından tanrı Rama'nın doğum yeri olarak kabul ediliyordu.\n\nYıkımın ardından Hindistan'ın farklı bölgelerinde çıkan olaylarda yaklaşık 2 bin kişi hayatını kaybetti. Hindistan Yüksek Mahkemesi 2019'da tartışmalı arazinin bir tapınak için kullanılmasına, Müslümanlara cami için başka bir arsa verilmesine hükmetti.",
+   "fb_metin": "Tarihte bugün, 6 Aralık 1992.\n\n6 Aralık 1992'de Hindistan'ın Ayodhya kentindeki Babür Camii (Babri Mescidi), bir mitingde toplanan kalabalık tarafından yıkıldı.\n\nCaminin üzerindeki kitabelere göre yapı, Hicri 935'te (1528-1529) Babür'ün hizmetinde olduğu düşünülen Mir Baki tarafından inşa edilmişti. Caminin bulunduğu alan, Hindular tarafından tanrı Rama'nın doğum yeri olarak kabul ediliyordu.\n\nYıkımın ardından Hindistan'ın farklı bölgelerinde çıkan olaylarda yaklaşık 2 bin kişi hayatını kaybetti. Hindistan Yüksek Mahkemesi 2019'da tartışmalı arazinin bir tapınak için kullanılmasına, Müslümanlara cami için başka bir arsa verilmesine hükmetti.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#islamdünyası",
+    "#babürcamii",
+    "#hindistan",
+    "#6aralık"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#İslamDünyası",
+    "#Hindistan"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1921",
+   null,
+   "İngiltere ile İrlandalı temsilciler arasında İrlanda Özgür Devleti'nin kurulmasını öngören antlaşma Londra'da imzalandı."
+  ],
+  [
+   "1877",
+   null,
+   "ABD'de The Washington Post gazetesinin ilk sayısı yayımlandı."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Anglo-Irish Treaty; The Washington Post)"
+}
