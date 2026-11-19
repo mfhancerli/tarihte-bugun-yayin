@@ -1,0 +1,109 @@
+{
+ "tarih": "2026-12-04",
+ "ay": "Aralık",
+ "gunno": "4",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (30 Kasım-6 Aralık partisi, 19 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1859",
+   null,
+   "Bugün kuruluş yıl dönümü olarak kutlanan Mekteb-i Mülkiye, 1859'da açıldı.",
+   {
+    "hook": "Mekteb-i Mülkiye'nin kuruluşu",
+    "tipo_buyuk": "MEKTEB-İ",
+    "tipo_alt": "MÜLKİYE",
+    "tipo_not": "İstanbul · 1859",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1791",
+   null,
+   "Britanya'nın ilk pazar gazetesi The Observer'ın ilk sayısı Londra'da yayımlandı.",
+   {
+    "hook": "The Observer'ın ilk sayısı",
+    "tipo_buyuk": "THE OBSERVER",
+    "tipo_alt": "İLK SAYI",
+    "tipo_not": "Londra · 1791",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1918",
+   null,
+   "ABD Başkanı Woodrow Wilson, Paris Barış Konferansı'na katılmak için gemiyle Avrupa'ya doğru yola çıktı.",
+   {
+    "hook": "Wilson Avrupa yolunda",
+    "tipo_buyuk": "WOODROW WILSON",
+    "tipo_alt": "PARİS YOLUNDA",
+    "tipo_not": "ABD · 1918",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-kahire",
+   "tema": "normal",
+   "yil": "1943",
+   "hicri": null,
+   "hook": "İnönü, Roosevelt ve Churchill Kahire'de",
+   "short": "4 Aralık 1943'te İsmet İnönü, Roosevelt ve Churchill ile Kahire'de bir araya geldi.",
+   "tipo_buyuk": "KAHİRE",
+   "tipo_alt": "KONFERANSI",
+   "tipo_not": "4-6 Aralık 1943",
+   "kaynaklar": "Kaynaklar: Atatürk Ansiklopedisi (Kahire Konferansları), Yuluğ Tekin Kurat, Belleten (Kahire Konferansı Tutanakları), Britannica (Cairo Conference), Roosevelt-İnönü-Churchill ortak bildirisi (UCSB American Presidency Project)",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "Savaşın dışında",
+     "İkinci Dünya Savaşı sürerken Türkiye savaşın dışında kalmıştı. Müttefikler ise Türkiye'nin kendi yanlarında savaşa girmesini istiyordu."
+    ],
+    [
+     "O AN",
+     "Kahire'de üçlü zirve",
+     "Cumhurbaşkanı İsmet İnönü, 4 Aralık 1943'te Kahire'de ABD Başkanı Roosevelt ve İngiltere Başbakanı Churchill ile görüşmeye başladı. Görüşmeler 6 Aralık'a kadar sürdü."
+    ],
+    [
+     "SONRASI",
+     "Tarafsızlık korundu",
+     "Müttefikler İnönü'yü savaşa girmeye ikna edemedi. Türkiye, Almanya ile diplomatik ilişkilerini 2 Ağustos 1944'te kesti."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "En çetin müzakere",
+     "Tarihçi Yuluğ Tekin Kurat, Kahire görüşmelerini İnönü'nün belki de Lozan'dan sonra karşılaştığı en çetin müzakereler olarak değerlendirir."
+    ]
+   ],
+   "ig_metin": "4 Aralık 1943'te Cumhurbaşkanı İsmet İnönü, ABD Başkanı Roosevelt ve İngiltere Başbakanı Churchill ile Kahire'de bir araya geldi.\n\nİkinci Dünya Savaşı sürerken Müttefikler, Türkiye'nin kendi yanlarında savaşa girmesini istiyordu. 4-6 Aralık'ta süren görüşmelerde İnönü, Türkiye'yi savaşın dışında tutma politikasını sürdürdü.\n\nTarihçi Yuluğ Tekin Kurat, bu görüşmeleri İnönü'nün belki de Lozan'dan sonra karşılaştığı en çetin müzakereler olarak değerlendirir. Türkiye, Almanya ile diplomatik ilişkilerini 2 Ağustos 1944'te kesti.",
+   "fb_metin": "Tarihte bugün, 4 Aralık 1943.\n\n4 Aralık 1943'te Cumhurbaşkanı İsmet İnönü, ABD Başkanı Roosevelt ve İngiltere Başbakanı Churchill ile Kahire'de bir araya geldi.\n\nİkinci Dünya Savaşı sürerken Müttefikler, Türkiye'nin kendi yanlarında savaşa girmesini istiyordu. 4-6 Aralık'ta süren görüşmelerde İnönü, Türkiye'yi savaşın dışında tutma politikasını sürdürdü.\n\nTarihçi Yuluğ Tekin Kurat, bu görüşmeleri İnönü'nün belki de Lozan'dan sonra karşılaştığı en çetin müzakereler olarak değerlendirir. Türkiye, Almanya ile diplomatik ilişkilerini 2 Ağustos 1944'te kesti.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#türkiyetarihi",
+    "#ikincidünyasavaşı",
+    "#inönü",
+    "#4aralık"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#TürkiyeTarihi",
+    "#İkinciDünyaSavaşı"
+   ]
+  }
+ ],
+ "diger": [
+  [
+   "1829",
+   null,
+   "Hindistan'daki İngiliz yönetimi, Bengal'de sati geleneğini yasaklayan düzenlemeyi çıkardı."
+  ],
+  [
+   "1991",
+   null,
+   "ABD'nin köklü havayolu şirketi Pan Am faaliyetlerine son verdi."
+  ]
+ ],
+ "diger_kaynaklar": "Britannica (Sati; Pan American World Airways)"
+}

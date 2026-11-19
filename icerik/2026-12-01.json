@@ -1,0 +1,110 @@
+{
+ "tarih": "2026-12-01",
+ "ay": "Aralık",
+ "gunno": "1",
+ "onaylandi": false,
+ "facebook": true,
+ "not": "Onay bekliyor (30 Kasım-6 Aralık partisi, 19 Kasım gecesi üretildi).",
+ "liste": [
+  [
+   "1955",
+   null,
+   "Rosa Parks, ABD'nin Montgomery kentinde otobüsteki yerini beyaz bir yolcuya vermeyi reddettiği için tutuklandı.",
+   {
+    "hook": "Rosa Parks yerini vermedi",
+    "tipo_buyuk": "ROSA PARKS",
+    "tipo_alt": "MONTGOMERY",
+    "tipo_not": "ABD · 1955",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1640",
+   null,
+   "Portekiz, İspanya'ya karşı ayaklanarak bağımsızlığını yeniden ilan etti.",
+   {
+    "hook": "Portekiz bağımsızlığını ilan etti",
+    "tipo_buyuk": "PORTEKİZ",
+    "tipo_alt": "BAĞIMSIZLIK",
+    "tipo_not": "Lizbon · 1640",
+    "tema": "normal"
+   }
+  ],
+  [
+   "1918",
+   null,
+   "İzlanda, Danimarka kralıyla şahıs birliği içinde egemen bir devlet oldu.",
+   {
+    "hook": "İzlanda egemen devlet oldu",
+    "tipo_buyuk": "İZLANDA",
+    "tipo_alt": "EGEMENLİK",
+    "tipo_not": "1918",
+    "tema": "normal"
+   }
+  ]
+ ],
+ "gonderiler": [
+  {
+   "kod": "g1-manstuneli",
+   "tema": "normal",
+   "yil": "1990",
+   "hicri": null,
+   "hook": "Denizin altında el sıkıştılar",
+   "short": "1 Aralık 1990'da Manş Tüneli'ni iki yandan kazan İngiliz ve Fransız işçiler denizin altında buluştu.",
+   "tipo_buyuk": "MANŞ TÜNELİ",
+   "tipo_alt": "BULUŞMA",
+   "tipo_not": "1 Aralık 1990",
+   "kaynaklar": "Kaynaklar: BBC On This Day (1 December 1990), Britannica (Channel Tunnel), Eurotunnel / Getlink",
+   "slaytlar": [
+    [
+     "ARKA PLAN",
+     "İki yönden kazı",
+     "Manş Tüneli'nin kazısı 1987 sonunda İngiltere, 1988'de Fransa kıyısından başladı."
+    ],
+    [
+     "O AN",
+     "Son geçiş açıldı",
+     "1 Aralık 1990'da iki ekip arasındaki son geçiş açıldı. İngiliz işçi Graham Fagg ile Fransız işçi Philippe Cozette denizin altında el sıkıştı."
+    ],
+    [
+     "SONRASI",
+     "1994'te hizmette",
+     "Tünel 1994'te hizmete açıldı ve Britanya'yı ana karaya demir yoluyla bağladı."
+    ],
+    [
+     "AZ BİLİNEN DETAY",
+     "37 kilometre deniz altı",
+     "Yaklaşık 50 kilometrelik tünelin yaklaşık 37 kilometrelik bölümü denizin altından geçiyor."
+    ]
+   ],
+   "ig_metin": "1 Aralık 1990'da Manş Tüneli'ni iki yandan kazan İngiliz ve Fransız işçiler, denizin altında buluştu.\n\nTünelin yapımı 1987'de başlamıştı. İki ekip arasındaki son geçiş açıldığında İngiliz işçi Graham Fagg ile Fransız işçi Philippe Cozette el sıkıştı.\n\nTünel 1994'te hizmete açıldı. Yaklaşık 50 kilometrelik tünelin yaklaşık 37 kilometrelik bölümü denizin altından geçiyor.",
+   "fb_metin": "Tarihte bugün, 1 Aralık 1990.\n\n1 Aralık 1990'da Manş Tüneli'ni iki yandan kazan İngiliz ve Fransız işçiler, denizin altında buluştu.\n\nTünelin yapımı 1987'de başlamıştı. İki ekip arasındaki son geçiş açıldığında İngiliz işçi Graham Fagg ile Fransız işçi Philippe Cozette el sıkıştı.\n\nTünel 1994'te hizmete açıldı. Yaklaşık 50 kilometrelik tünelin yaklaşık 37 kilometrelik bölümü denizin altından geçiyor.",
+   "ig_etiketler": [
+    "#tarihtebugün",
+    "#dünyatarihi",
+    "#manştüneli",
+    "#mühendislik",
+    "#1aralık"
+   ],
+   "fb_etiketler": [
+    "#tarihtebugün",
+    "#DünyaTarihi",
+    "#ManşTüneli"
+   ],
+   "soru": "Manş Tüneli'nden geçtiniz mi? Yorumlarda paylaşın."
+  }
+ ],
+ "diger": [
+  [
+   "1988",
+   null,
+   "Dünya Sağlık Örgütü'nün başlattığı ilk Dünya AIDS Günü düzenlendi."
+  ],
+  [
+   "1925",
+   null,
+   "Locarno Antlaşmaları Londra'da resmen imzalandı."
+  ]
+ ],
+ "diger_kaynaklar": "Dünya Sağlık Örgütü (World AIDS Day), Britannica (Locarno Pact)"
+}
